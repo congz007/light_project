@@ -1,0 +1,94 @@
+---
+title: "Leaf-light-project"
+author: "cong"
+date: "2021/12/23"
+output: 
+  html_document:
+    toc: true
+    number_section: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Background
+  The big light project puts a LED light into old-growth, secondary and man made forest(rubber tree forest) separetely, which shines at night. We rekon it as a long term disturbance to forest which has continued more than one year. Now we want to know whether this disturbance would effect the understory or not.
+  
+### Our hypothesis 
+   1) Prolong the light time may effect the nutrition circulation of understory
+   2) LED light attracts insects and insects dead may increase soil nitrogen, then effect the nutrition circulation of understory.
+
+### Place and species I choosed 
+We choose man made forest, for simulating the street tree
+and species Colocasia_gigantea and Melastoma_candidum
+
+### method
+we punch leaf using leaf-disc to measure leaf nutrition.
+
+## Data Exploration
+the pacakges we'll use:
+```{r}
+library(kableExtra)
+library(tidyverse)
+library(lme4)
+```
+
+input our data
+```{r}
+llp <- read.csv("leaf_light_project.csv")
+llp[1:5,] %>% kbl() %>% kable_styling()
+```
+
+Then we calculate LMA and show our samples location away from the light.
+```{r}
+llp1 <- llp |>mutate(LMA = dry_weight/(disc*pi*0.0001))
+llp1 |> 
+  mutate(x_loc = Distance*cos(angel*pi/180))|>
+  mutate(y_loc = Distance*sin(angel*pi/180))|>
+  ggplot(aes(x_loc, y_loc, size = LMA))+
+  geom_point(shape =17)+
+  facet_grid(cols = vars(species))+
+  theme_bw()
+
+```
+(Notation: coordinate (0,0) is where the light is.)
+
+
+Next, because we want to know whether light give an effect to understory, so we consider a graph between LMA and Distance away from the light which is on behalf of the gradient of light strength.
+```{r}
+llp1 |> 
+  filter(Plot == 2) |>
+ggplot(aes(x = Distance, y = LMA))+
+  geom_point()+
+  labs(title = "LMA_Colocasia_gigantea")+
+  theme_bw()
+```
+
+
+```{r}
+llp1 |>
+  filter(Plot == 5) |>
+ggplot(aes(x = Distance, y = LMA))+
+  geom_point()+
+   labs(title = "LMA_Colocasia_gigantea")+
+  theme_bw()
+```
+
+(We see there can be a negative correlation between LMA and Distance, while we can't simply draw the conclusion based on that, instead we add canopy openness into our consideration. )
+
+
+```{r}
+llp1|> 
+  ggplot(aes(x = LMA))+
+  facet_grid(cols = vars(species))+
+  geom_histogram()
+```
+
+## Data Mining
+```{r}
+mod <- lmer(data = llp1, formula = LMA ~ log(Distance)*log(canopy_openness)+(1|species))
+summary(mod)
+```
+
