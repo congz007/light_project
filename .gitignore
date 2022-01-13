@@ -63,3 +63,6 @@ vignettes/*.pdf
 *.xlsx
 100*
 test_photo
+
+*.html
+*.rds
