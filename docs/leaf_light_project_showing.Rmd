@@ -50,7 +50,7 @@ llp[1:5,] %>% kbl() %>% kable_styling()
 
 Then we calculate LMA and show our samples location away from the light.
 ```{r}
-llp1 <- llp |>mutate(LMA = dry_weight/(disc*pi*0.0001))
+llp1 <- llp |>mutate(LMA = dry_weight/(disc*pi*(0.005)^2))
 llp1 |> 
   mutate(x_loc = Distance*cos(angel*pi/180))|>
   mutate(y_loc = Distance*sin(angel*pi/180))|>
@@ -79,7 +79,7 @@ llp1 |>
   filter(Plot == 5) |>
 ggplot(aes(x = Distance, y = LMA))+
   geom_point()+
-   labs(title = "LMA_Colocasia_gigantea")+
+   labs(title = "LMA_Melastoma_candidum")+
   theme_bw()
 ```
 
