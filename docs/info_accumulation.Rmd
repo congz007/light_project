@@ -1,0 +1,17 @@
+---
+title: "leaf_light_project_manual"
+author: "cong"
+date: "2022/1/17"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## info accumulation
+ there are a bunch of research showing that man-made light could cast negative effects to human, animals and environment. But few focus have been noticed to the effect of globally strengthening artificial night lighting to plants. 
+ 
+ 
+
+
