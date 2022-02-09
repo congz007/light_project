@@ -1,0 +1,63 @@
+---
+title: "manuscript"
+author: "cong"
+date: "2022/2/9"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## ABSTRACT
+
+
+## Introduction
+   light plays a vital role in plants life history, both physiology and ecology.On the one hand, light as a resource for plants to do photosynthesis; on the other hand, as a circadian information to adjust plant regulation. Light as a traditional ecological factor had catched the attention of Ecologists from antient time (terrestrial habitats, photoinhibition at high intensities; in aquatic habitats; terrestrial plants fits light into sun species and shade species)
+   
+   However, still not enough focus to the artificial light at night(ALAN), which can impact the fitness of plants and animals demonstrated by a bunch of research.(Ecological light pollution refers to a type of light pollution that alters natural light regimes in terrestrial and aquatic ecosystems [44]. For example Verheijen (1985) [45] have proposed the term “photopollution” to mean “artificial light having diverse effects on wildlife”, but as this literally means “light pollution” more describing term like “ecological light pollution” is needed to describe the impact of light to ecosystems.)
+( ALAN drives insects decline.....  ), sky glow is sufficient to drive plant photosynthesis.
+(To understand
+fully the extent of these impacts requires conceptual models that can (i) characterize the highly
+heterogeneous nature of the night-time light environment at a scale relevant to plant physiology; and
+(ii) scale physiological responses to predict impacts at the level of the whole plant, population, community
+and ecosystem.)
+
+In this study, we choose two species in two different plots which has continued artificial light experiment for more than one year from 2019 November. measure and analysis . to find the pattern how ALAN effects understory and it also as a simulation to the effect of street light to urban plants at night.
+
+
+
+
+
+
+
+
+
+##MATERIALS AND METHODS
+
+
+
+
+##RESULTS
+
+
+
+##DISCUSSION
+
+
+
+
+
+##ACKNOWLEDGEMENTS
+
+
+
+##AUTHORSHIP
+
+
+
+##REFERRENCE
+
+
+
+
