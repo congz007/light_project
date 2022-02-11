@@ -236,3 +236,37 @@ mcmc_areas(fit,
 ```
 
 **NO EFECT!**
+
+
+Do the same analysis for Colocasia_gigantea
+```{r}
+sp2 <- llp1 |>
+  filter(species == "Colocasia_gigantea")
+
+x <- cbind(1,
+            log(sp2$Distance) |> scale(),
+            scale(sp2$canopy_openness))
+
+x <- cbind(x, x[,2] * x[,3])
+
+list_d <- list(
+  N = nrow(sp1),
+  J = sp2$individual |> unique() |> length(),
+  K = 4,
+  ind = sp2$individual,
+  x = x,
+  y = log(sp2$LMA))
+```
+
+
+```{r, eval=TRUE}
+fit <- rstan::sampling(model,
+            data = list_d,
+            verbose = TRUE,
+            iter = 2000,
+            warmup = 1000,
+            thin = 1,
+            chains = 4,
+            refresh = 200,
+            seed = 2020)
+```
