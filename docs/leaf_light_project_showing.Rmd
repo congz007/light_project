@@ -291,3 +291,82 @@ mcmc_areas(fit1,
 
 
 So we can see for species Colocasia_gigantea the regression coefficients of distance and canopy openness are significant.
+
+# Table the results
+For species one "Melastoma_candidum", coefficients table.
+```{r}
+beta <- c(1,2,3,4)
+SE_sp1 <- c()
+for (i in 1:4) {
+  beta[i] <- summary(fit)$summary[i,1]
+  SE_sp1[i] <- summary(fit)$summary[i,2]
+}
+beta_l <- round(beta-SE_sp1,4)
+beta_r <- round(beta+SE_sp1,4)
+beta_SE <- paste0(paste0(paste0(paste0("[",beta_l),", "),beta_r),"]")
+table_sp1 <- data.frame(
+  "Parameters" = c("intercept",
+                   "Distance",
+                   "Canopy_opennss",
+                   "interaction"),
+  "mean_value" = round(beta,4),
+  beta_SE
+)
+```
+
+
+```{r}
+table_sp1 %>%
+  kbl(caption = "Coefficients table species one") %>%
+  kable_classic(full_width = F, html_font = "Cambria")
+
+```
+
+For species one "Melastoma_candidum", coefficients table.
+```{r}
+beta1 <- c(1,2,3,4)
+SE_sp2 <- c()
+i <- 1
+for (i in 1:4) {
+  beta1[i] <- summary(fit1)$summary[i,1]
+  SE_sp2[i] <- summary(fit1)$summary[i,2]
+}
+beta_l <- round(beta-SE_sp2,4)
+beta_r <- round(beta+SE_sp2,4)
+beta_SE <- paste0(paste0(paste0(paste0("[",beta_l),", "),beta_r),"]")
+table_sp2 <- data.frame(
+  "Parameters" = c("intercept",
+                   "Distance",
+                   "Canopy_opennss",
+                   "interaction"),
+  "mean_value" = round(beta1,4),
+  beta_SE
+)
+```
+
+
+```{r}
+table_sp2 %>%
+  kbl(caption = "Coefficients table species two") %>%
+  kable_classic(full_width = F, html_font = "Cambria")
+
+```
+
+#Put together
+
+```{r}
+rbind(table_sp1,table_sp2)|>
+  kbl( caption = "Coefficients table") %>%
+  kable_paper("striped", full_width = F) %>%
+  pack_rows("Melastoma_candidum", 1, 4) %>%
+  pack_rows("Colocasia_gigantea", 5, 8)
+
+```
+
+
+
+
+
+
+
+
