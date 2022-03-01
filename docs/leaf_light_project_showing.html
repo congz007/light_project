@@ -1138,6 +1138,304 @@ mcmc_areas(fit1,
 </div>
 </div>
 </div>
+<div id="table-the-results" class="section level1" number="5">
+<h1 number="5"><span class="header-section-number">5</span> Table the results</h1>
+<p>For species one “Melastoma_candidum”, coefficients table.</p>
+<pre class="r"><code>beta &lt;- c(1,2,3,4)
+SE_sp1 &lt;- c()
+for (i in 1:4) {
+  beta[i] &lt;- summary(fit)$summary[i,1]
+  SE_sp1[i] &lt;- summary(fit)$summary[i,2]
+}
+beta_l &lt;- round(beta-SE_sp1,4)
+beta_r &lt;- round(beta+SE_sp1,4)
+beta_SE &lt;- paste0(paste0(paste0(paste0(&quot;[&quot;,beta_l),&quot;, &quot;),beta_r),&quot;]&quot;)
+table_sp1 &lt;- data.frame(
+  &quot;Parameters&quot; = c(&quot;intercept&quot;,
+                   &quot;Distance&quot;,
+                   &quot;Canopy_opennss&quot;,
+                   &quot;interaction&quot;),
+  &quot;mean_value&quot; = round(beta,4),
+  beta_SE
+)</code></pre>
+<pre class="r"><code>table_sp1 %&gt;%
+  kbl(caption = &quot;Coefficients table species one&quot;) %&gt;%
+  kable_classic(full_width = F, html_font = &quot;Cambria&quot;)</code></pre>
+<table class=" lightable-classic" style="font-family: Cambria; width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+Coefficients table species one
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+Parameters
+</th>
+<th style="text-align:right;">
+mean_value
+</th>
+<th style="text-align:left;">
+beta_SE
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+intercept
+</td>
+<td style="text-align:right;">
+3.4596
+</td>
+<td style="text-align:left;">
+[3.4587, 3.4605]
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Distance
+</td>
+<td style="text-align:right;">
+0.0428
+</td>
+<td style="text-align:left;">
+[0.0417, 0.0438]
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Canopy_opennss
+</td>
+<td style="text-align:right;">
+-0.0012
+</td>
+<td style="text-align:left;">
+[-0.0021, -2e-04]
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+interaction
+</td>
+<td style="text-align:right;">
+0.0308
+</td>
+<td style="text-align:left;">
+[0.0301, 0.0315]
+</td>
+</tr>
+</tbody>
+</table>
+<p>For species one “Melastoma_candidum”, coefficients table.</p>
+<pre class="r"><code>beta1 &lt;- c(1,2,3,4)
+SE_sp2 &lt;- c()
+i &lt;- 1
+for (i in 1:4) {
+  beta1[i] &lt;- summary(fit1)$summary[i,1]
+  SE_sp2[i] &lt;- summary(fit1)$summary[i,2]
+}
+beta_l &lt;- round(beta-SE_sp2,4)
+beta_r &lt;- round(beta+SE_sp2,4)
+beta_SE &lt;- paste0(paste0(paste0(paste0(&quot;[&quot;,beta_l),&quot;, &quot;),beta_r),&quot;]&quot;)
+table_sp2 &lt;- data.frame(
+  &quot;Parameters&quot; = c(&quot;intercept&quot;,
+                   &quot;Distance&quot;,
+                   &quot;Canopy_opennss&quot;,
+                   &quot;interaction&quot;),
+  &quot;mean_value&quot; = round(beta1,4),
+  beta_SE
+)</code></pre>
+<pre class="r"><code>table_sp2 %&gt;%
+  kbl(caption = &quot;Coefficients table species two&quot;) %&gt;%
+  kable_classic(full_width = F, html_font = &quot;Cambria&quot;)</code></pre>
+<table class=" lightable-classic" style="font-family: Cambria; width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+Coefficients table species two
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+Parameters
+</th>
+<th style="text-align:right;">
+mean_value
+</th>
+<th style="text-align:left;">
+beta_SE
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+intercept
+</td>
+<td style="text-align:right;">
+3.5512
+</td>
+<td style="text-align:left;">
+[3.459, 3.4601]
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Distance
+</td>
+<td style="text-align:right;">
+0.1051
+</td>
+<td style="text-align:left;">
+[0.0421, 0.0434]
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Canopy_opennss
+</td>
+<td style="text-align:right;">
+0.0504
+</td>
+<td style="text-align:left;">
+[-0.0018, -6e-04]
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+interaction
+</td>
+<td style="text-align:right;">
+0.0118
+</td>
+<td style="text-align:left;">
+[0.0304, 0.0313]
+</td>
+</tr>
+</tbody>
+</table>
+<p>#Put together</p>
+<pre class="r"><code>rbind(table_sp1,table_sp2)|&gt;
+  kbl( caption = &quot;Coefficients table&quot;) %&gt;%
+  kable_paper(&quot;striped&quot;, full_width = F) %&gt;%
+  pack_rows(&quot;Melastoma_candidum&quot;, 1, 4) %&gt;%
+  pack_rows(&quot;Colocasia_gigantea&quot;, 5, 8)</code></pre>
+<table class=" lightable-paper lightable-striped" style="font-family: &quot;Arial Narrow&quot;, arial, helvetica, sans-serif; width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+Coefficients table
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+Parameters
+</th>
+<th style="text-align:right;">
+mean_value
+</th>
+<th style="text-align:left;">
+beta_SE
+</th>
+</tr>
+</thead>
+<tbody>
+<tr grouplength="4">
+<td colspan="3" style="border-bottom: 1px solid;">
+<strong>Melastoma_candidum</strong>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;padding-left: 2em;" indentlevel="1">
+intercept
+</td>
+<td style="text-align:right;">
+3.4596
+</td>
+<td style="text-align:left;">
+[3.4587, 3.4605]
+</td>
+</tr>
+<tr>
+<td style="text-align:left;padding-left: 2em;" indentlevel="1">
+Distance
+</td>
+<td style="text-align:right;">
+0.0428
+</td>
+<td style="text-align:left;">
+[0.0417, 0.0438]
+</td>
+</tr>
+<tr>
+<td style="text-align:left;padding-left: 2em;" indentlevel="1">
+Canopy_opennss
+</td>
+<td style="text-align:right;">
+-0.0012
+</td>
+<td style="text-align:left;">
+[-0.0021, -2e-04]
+</td>
+</tr>
+<tr>
+<td style="text-align:left;padding-left: 2em;" indentlevel="1">
+interaction
+</td>
+<td style="text-align:right;">
+0.0308
+</td>
+<td style="text-align:left;">
+[0.0301, 0.0315]
+</td>
+</tr>
+<tr grouplength="4">
+<td colspan="3" style="border-bottom: 1px solid;">
+<strong>Colocasia_gigantea</strong>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;padding-left: 2em;" indentlevel="1">
+intercept
+</td>
+<td style="text-align:right;">
+3.5512
+</td>
+<td style="text-align:left;">
+[3.459, 3.4601]
+</td>
+</tr>
+<tr>
+<td style="text-align:left;padding-left: 2em;" indentlevel="1">
+Distance
+</td>
+<td style="text-align:right;">
+0.1051
+</td>
+<td style="text-align:left;">
+[0.0421, 0.0434]
+</td>
+</tr>
+<tr>
+<td style="text-align:left;padding-left: 2em;" indentlevel="1">
+Canopy_opennss
+</td>
+<td style="text-align:right;">
+0.0504
+</td>
+<td style="text-align:left;">
+[-0.0018, -6e-04]
+</td>
+</tr>
+<tr>
+<td style="text-align:left;padding-left: 2em;" indentlevel="1">
+interaction
+</td>
+<td style="text-align:right;">
+0.0118
+</td>
+<td style="text-align:left;">
+[0.0304, 0.0313]
+</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 
 
