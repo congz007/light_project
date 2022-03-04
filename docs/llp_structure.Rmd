@@ -1,0 +1,107 @@
+---
+title: "llp_structure"
+author: "Cong"
+date: "2022/3/2"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# INTRODUCTION
+
+1.light is important to plants, as resource and information.
+
+light plays a vital role in plants life history, both physiologically and ecologically.
+On the one hand, light as a resource for plants to do photosynthesis; on the other hand, as a circadian information to adjust plant regulation.
+
+
+2.there are a lot of research on natural light, but few on ALAN.
+
+Light as a traditional ecological factor had catched the attention of Ecologists from antient time, such as terrestrial plants fits light into sun species and shade species and shows photoinhibition at high intensities.
+With the development of modern technology, light sources and lamp types abound which lightening the night far more bright both in city ecolosystem and suburb regime.
+However, not enough attention had been paid to the artificial light at night(ALAN), which had been demonstrated suffices to impact the fitness of plants and animals.(Rich and Longcore, 2006;Singhal et al., 2019)
+
+
+3.until now research on the effect of ALAN to plants and insects
+Such as, ALAN is an important bringer to drive insects population decline  (Boyes et al., 2021;Owens et al., 2020).
+Biomass responses of widely and less‐widely naturalized alien plants to artificial light at night
+(Speißer et al., 2021)
+
+
+4.the general pattern ALAN to plants still unknown and the importance konwing it.
+
+fully the extent of these impacts requires conceptual models that can (i) characterize the highly
+heterogeneous nature of the night-time light environment at a scale relevant to plant physiology; and
+(ii) scale physiological responses to predict impacts at the level of the whole plant, population, community
+and ecosystem.)
+The Matthew effect: Common species become more common and rare ones become more rare in response to artificial light at night
+(Bennie et al., 2016;Liu et al. 2022)
+
+based on 3&4 comes our Hypothesis 
+1)ALAN directly effect plants biomass
+2)ALAN indirectly gathering insects increase the soil nutrients(N,P) so that LMA
+
+5.So in this study we set a wild light experiment and choose two species representing sun species and shade species respectively on understory.
+
+
+
+# MATERIALS AND METHODS
+
+*Plot location*
+
+XTBG 
+RP2 NEW 0M	592M	N21°54'36.05''	E101°16'29.23''
+RP5 0M	601M	N21°54'26.02''	E101°16'22.66''
+
+*Species*
+
+Melastoma candidum D. Don
+Colocasia gigantea (Blume) Hook. f.
+(avoiding the nitrogen fix plants like Leguminosae; evergreen)
+
+*Light information*
+
+LED (10w, BiWeiZhaoMing)
+1.2 m from the ground. 
+battery (12v/30Ah)
+
+*experiment time*
+
+start from 2019 November until 2021 November.
+
+*measurement*
+
+Canopy openness 
+equipment: Nikon COOLPIX4500 with a fish-eye lens(Nikon FC-E8)
+picture manipulation: R package(LeafArea Katabuchi,2015)
+
+Distance 
+tape measure
+
+LMA
+punch leaf disc
+leaf disc method
+
+*data analysis*
+
+Bayesian Linear Mixed Model 
+rstan 
+
+
+# RESULT
+(table)
+Distance is used as the ALAN effect to plants both light and insects.
+No effect on one species;
+negetive effect on the other species
+
+# DISCUSSION
+specific species should add to the consider of ALAN effects.
+Different type of plants may have different responses.
+
+more experiment and modeling are needed to further research.
+
+(quantify the full-time plant light intercepts can be considered in the future study)
+
+
