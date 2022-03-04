@@ -9,54 +9,88 @@ output: word_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## ABSTRACT
+# ABSTRACT
 
 
-## Introduction
-   light plays a vital role in plants life history, both physiology and ecology.On the one hand, light as a resource for plants to do photosynthesis; on the other hand, as a circadian information to adjust plant regulation. Light as a traditional ecological factor had catched the attention of Ecologists from antient time (terrestrial habitats, photoinhibition at high intensities; in aquatic habitats; terrestrial plants fits light into sun species and shade species)
-   
-   However, still not enough focus to the artificial light at night(ALAN), which can impact the fitness of plants and animals demonstrated by a bunch of research.(Ecological light pollution refers to a type of light pollution that alters natural light regimes in terrestrial and aquatic ecosystems [44]. For example Verheijen (1985) [45] have proposed the term “photopollution” to mean “artificial light having diverse effects on wildlife”, but as this literally means “light pollution” more describing term like “ecological light pollution” is needed to describe the impact of light to ecosystems.)
-( ALAN drives insects decline.....  ), sky glow is sufficient to drive plant photosynthesis.
-(To understand
+# Introduction
+
+light plays a vital role in plants life history, both physiologically and ecologically.
+On the one hand, light as a resource for plants to do photosynthesis; on the other hand, as a circadian information to adjust plant regulation.
+
+Light as a traditional ecological factor had catched the attention of Ecologists from antient time, such as terrestrial plants fits light into sun species and shade species and shows photoinhibition at high intensities.
+With the development of modern technology, light sources and lamp types abound which lightening the night far more bright both in city ecolosystem and suburb regime.
+However, not enough attention had been paid to the artificial light at night(ALAN), which had been demonstrated suffices to impact the fitness of plants and animals.(Rich and Longcore, 2006;Singhal et al., 2019)
+
+Such as, ALAN is an important bringer to drive insects population decline  (Boyes et al., 2021;Owens et al., 2020).
+Biomass responses of widely and less‐widely naturalized alien plants to artificial light at night
+(Speißer et al., 2021)
+
 fully the extent of these impacts requires conceptual models that can (i) characterize the highly
 heterogeneous nature of the night-time light environment at a scale relevant to plant physiology; and
 (ii) scale physiological responses to predict impacts at the level of the whole plant, population, community
 and ecosystem.)
-
-In this study, we choose two species in two different plots which has continued artificial light experiment for more than one year from 2019 November. measure and analysis . to find the pattern how ALAN effects understory and it also as a simulation to the effect of street light to urban plants at night.
-
-
+The Matthew effect: Common species become more common and rare ones become more rare in response to artificial light at night
+(Bennie et al., 2016;Liu et al. 2022)
 
 
+# MATERIALS AND METHODS
+
+*experimental setup*
+
+The field experiment is located within the Xishuangbanna Tropical Botanical Garden(XTBG),China in rubber tree forest(N21°54' E101°16') where we totally set 5 plots.
+LED (10w) is used to create an artificial light environment in all plots at night. The LED system includes 6 components. 
+A metal box with an opening is used as a rainproof protector which is attached to a tree at around 1.2 m from the ground. 
+A rechargeable lithium battery (12v/30Ah) and an electric timer controls the timing and duration of the LED light operation at night.
+An electric wire was used to connect battery and LED which was hanging from a tree branch with a lampshade at approximately 2 m from the ground. 
+
+Considering the understory condition (individual numbers, distribution of individuals) and specific species(it should be evergreen species,also avoiding the nitrogen fix plants like Leguminosae) of each plot, finally two species respectively in two plots were chosen for our study , Gigantea (Blume) Hook. f. representing shade species and (Melastoma candidum D. Don) for sun species.
+This experiment started from 2019 November, and samples were catched on 2021 November.
+
+*Measurements*
+
+We measured the horizontal distance and geographic orientation of each individual away from the LED using tape measure representing the relative light strength.
+Canopy openness was selected to be on behalf of day light, which photographed by Nikon COOLPIX4500 with fish-eye lens(Nikon FC-e8) then measured using R package "LeafArea"(Katabuchi, 2015).
+For leaf mass per area(LMA), we use leaf disc(10mm^2) punched from leaf avoiding vein and leaf margin instead of whole-leaf to calculate LMA value.
 
 
+*Data Analysis*
 
-
-
-##MATERIALS AND METHODS
-
-
-
-
-##RESULTS
-
-
-
-##DISCUSSION
-
-
-
-
-
-##ACKNOWLEDGEMENTS
-
-
-
-##AUTHORSHIP
+Bayesian linear mixed model
+individual as random effect
 
 
 
-##REFERRENCE
+
+
+
+
+
+
+LED (10w, BiWeiZhaoMing, www. bevictors.cn) is used to create an artificial light environment in all plots at night. The LED system includes 6 components (see Figure 3). A metal box with an opening is used as a rainproof protector which is attached to a tree at around 1.2 m from the ground. A rechargeable lithium battery (12v/30Ah, Shanghai QiYi New Energy company) and an electric timer controls the timing and duration of the LED light operation at night. An electric wire was used to connect battery and LED which was hanging from a tree branch with a lampshade at approximately 2 m from the ground.
+
+
+#RESULTS
+
+
+
+#DISCUSSION
+当我们在对光污染对植物影响时，需要考虑植物种类的特异性
+总有反例  不同习性的植物响应不同
+发现光污染对植物影响的适用性更广的规律或者模型仍然需要更进一步的研究
+canopy openness also matters 
+
+野牡丹没有明显影响 原因：林冠开度、实验时间
+
+
+#ACKNOWLEDGEMENTS
+
+
+
+#AUTHORSHIP
+
+
+
+#REFERRENCE
 
 
 
