@@ -595,7 +595,7 @@ options(mc.cores = parallel::detectCores()) # Run on multiple cores</code></pre>
   filter(species == &quot;Melastoma_candidum&quot;)
 
 x &lt;- cbind(1,
-            log(sp1$Distance) |&gt; scale(),
+            log(1/(sp1$Distance)^2) |&gt; scale(),
             scale(sp1$canopy_openness))
 
 x &lt;- cbind(x, x[,2] * x[,3])
@@ -810,7 +810,7 @@ mcmc_areas(fit,
   filter(species == &quot;Colocasia_gigantea&quot;)
 
 x1 &lt;- cbind(1,
-           log(sp2$Distance) |&gt; scale(),
+           log(1/(sp2$Distance) ^2)|&gt; scale(),
            scale(sp2$canopy_openness))
 
 x1 &lt;- cbind(x1, x1[,2] * x1[,3])
@@ -1141,25 +1141,22 @@ mcmc_areas(fit1,
 <div id="table-the-results" class="section level1" number="5">
 <h1 number="5"><span class="header-section-number">5</span> Table the results</h1>
 <p>For species one “Melastoma_candidum”, coefficients table.</p>
-<pre class="r"><code>beta &lt;- c(1,2,3,4)
-SE_sp1 &lt;- c()
-for (i in 1:4) {
-  beta[i] &lt;- summary(fit)$summary[i,1]
-  SE_sp1[i] &lt;- summary(fit)$summary[i,2]
-}
-beta_l &lt;- round(beta-SE_sp1,4)
-beta_r &lt;- round(beta+SE_sp1,4)
-beta_SE &lt;- paste0(paste0(paste0(paste0(&quot;[&quot;,beta_l),&quot;, &quot;),beta_r),&quot;]&quot;)
+<pre class="r"><code>
+test &lt;- summary(fit)$summary[2:4,] |&gt; as_tibble()
+
+quantile_interval &lt;-  paste0(&quot;[&quot;,round(test$`2.5%`,4),&quot;, &quot;,  round(test$`97.5%`,4),&quot;]&quot;)
+
 table_sp1 &lt;- data.frame(
-  &quot;Parameters&quot; = c(&quot;intercept&quot;,
-                   &quot;Distance&quot;,
-                   &quot;Canopy_opennss&quot;,
+  &quot;Parameters&quot; = c(
+                   &quot;ALAN&#39;s effect&quot;,
+                   &quot;Daylight&#39;s effect&quot;,
                    &quot;interaction&quot;),
-  &quot;mean_value&quot; = round(beta,4),
-  beta_SE
-)</code></pre>
-<pre class="r"><code>table_sp1 %&gt;%
-  kbl(caption = &quot;Coefficients table species one&quot;) %&gt;%
+  &quot;mean_value&quot; = round(test$mean,4),
+ quantile_interval 
+)
+
+table_sp1 %&gt;%
+  kbl(caption = &quot;Coefficients table species one&quot;) %&gt;%column_spec(3,bold =  ifelse(test$`2.5%`*test$`97.5%`&gt;0, &quot;T&quot;,&quot;F&quot;))%&gt;% 
   kable_classic(full_width = F, html_font = &quot;Cambria&quot;)</code></pre>
 <table class=" lightable-classic" style="font-family: Cambria; width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
@@ -1174,42 +1171,31 @@ Parameters
 mean_value
 </th>
 <th style="text-align:left;">
-beta_SE
+quantile_interval
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:left;">
-intercept
-</td>
-<td style="text-align:right;">
-3.4596
-</td>
-<td style="text-align:left;">
-[3.4587, 3.4605]
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Distance
+ALAN’s effect
 </td>
 <td style="text-align:right;">
 0.0428
 </td>
 <td style="text-align:left;">
-[0.0417, 0.0438]
+[-0.0343, 0.118]
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Canopy_opennss
+Daylight’s effect
 </td>
 <td style="text-align:right;">
 -0.0012
 </td>
 <td style="text-align:left;">
-[-0.0021, -2e-04]
+[-0.0782, 0.0718]
 </td>
 </tr>
 <tr>
@@ -1220,36 +1206,31 @@ interaction
 0.0308
 </td>
 <td style="text-align:left;">
-[0.0301, 0.0315]
+[-0.0228, 0.0862]
 </td>
 </tr>
 </tbody>
 </table>
 <p>For species one “Melastoma_candidum”, coefficients table.</p>
-<pre class="r"><code>beta1 &lt;- c(1,2,3,4)
-SE_sp2 &lt;- c()
-i &lt;- 1
-for (i in 1:4) {
-  beta1[i] &lt;- summary(fit1)$summary[i,1]
-  SE_sp2[i] &lt;- summary(fit1)$summary[i,2]
-}
-beta_l &lt;- round(beta-SE_sp2,4)
-beta_r &lt;- round(beta+SE_sp2,4)
-beta_SE &lt;- paste0(paste0(paste0(paste0(&quot;[&quot;,beta_l),&quot;, &quot;),beta_r),&quot;]&quot;)
+<pre class="r"><code>test1 &lt;- summary(fit1)$summary[2:4,] |&gt; as_tibble()
+
+quantile_interval &lt;-  paste0(&quot;[&quot;,round(test1$`2.5%`,4),&quot;, &quot;,  round(test1$`97.5%`,4),&quot;]&quot;)
+
 table_sp2 &lt;- data.frame(
-  &quot;Parameters&quot; = c(&quot;intercept&quot;,
-                   &quot;Distance&quot;,
-                   &quot;Canopy_opennss&quot;,
+  &quot;Parameters&quot; = c(
+                   &quot;ALAN&#39;s effect&quot;,
+                   &quot;Daylight&#39;s effect&quot;,
                    &quot;interaction&quot;),
-  &quot;mean_value&quot; = round(beta1,4),
-  beta_SE
-)</code></pre>
-<pre class="r"><code>table_sp2 %&gt;%
-  kbl(caption = &quot;Coefficients table species two&quot;) %&gt;%
+  &quot;mean_value&quot; = round(test$mean,4),
+ quantile_interval 
+)
+
+table_sp2 %&gt;%
+  kbl(caption = &quot;Coefficients table species one&quot;) %&gt;%column_spec(3,bold =  ifelse(test1$`2.5%`*test1$`97.5%`&gt;0, &quot;T&quot;,&quot;F&quot;))%&gt;% 
   kable_classic(full_width = F, html_font = &quot;Cambria&quot;)</code></pre>
 <table class=" lightable-classic" style="font-family: Cambria; width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
-Coefficients table species two
+Coefficients table species one
 </caption>
 <thead>
 <tr>
@@ -1260,42 +1241,31 @@ Parameters
 mean_value
 </th>
 <th style="text-align:left;">
-beta_SE
+quantile_interval
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:left;">
-intercept
+ALAN’s effect
 </td>
 <td style="text-align:right;">
-3.5512
+0.0428
 </td>
-<td style="text-align:left;">
-[3.459, 3.4601]
+<td style="text-align:left;font-weight: bold;">
+[0.0615, 0.1486]
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Distance
+Daylight’s effect
 </td>
 <td style="text-align:right;">
-0.1051
+-0.0012
 </td>
-<td style="text-align:left;">
-[0.0421, 0.0434]
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Canopy_opennss
-</td>
-<td style="text-align:right;">
-0.0504
-</td>
-<td style="text-align:left;">
-[-0.0018, -6e-04]
+<td style="text-align:left;font-weight: bold;">
+[0.0058, 0.0939]
 </td>
 </tr>
 <tr>
@@ -1303,10 +1273,10 @@ Canopy_opennss
 interaction
 </td>
 <td style="text-align:right;">
-0.0118
+0.0308
 </td>
 <td style="text-align:left;">
-[0.0304, 0.0313]
+[-0.0209, 0.0445]
 </td>
 </tr>
 </tbody>
@@ -1315,8 +1285,9 @@ interaction
 <pre class="r"><code>rbind(table_sp1,table_sp2)|&gt;
   kbl( caption = &quot;Coefficients table&quot;) %&gt;%
   kable_paper(&quot;striped&quot;, full_width = F) %&gt;%
-  pack_rows(&quot;Melastoma_candidum&quot;, 1, 4) %&gt;%
-  pack_rows(&quot;Colocasia_gigantea&quot;, 5, 8)</code></pre>
+  column_spec(3,bold =c(ifelse(test$`2.5%`*test$`97.5%`&gt;0, &quot;T&quot;,&quot;F&quot;),       ifelse(test1$`2.5%`*test1$`97.5%`&gt;0, &quot;T&quot;,&quot;F&quot;))) %&gt;% 
+  pack_rows(&quot;Melastoma_candidum&quot;, 1, 3) %&gt;%
+  pack_rows(&quot;Colocasia_gigantea&quot;, 4, 6)</code></pre>
 <table class=" lightable-paper lightable-striped" style="font-family: &quot;Arial Narrow&quot;, arial, helvetica, sans-serif; width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
 Coefficients table
@@ -1330,47 +1301,36 @@ Parameters
 mean_value
 </th>
 <th style="text-align:left;">
-beta_SE
+quantile_interval
 </th>
 </tr>
 </thead>
 <tbody>
-<tr grouplength="4">
+<tr grouplength="3">
 <td colspan="3" style="border-bottom: 1px solid;">
 <strong>Melastoma_candidum</strong>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;padding-left: 2em;" indentlevel="1">
-intercept
-</td>
-<td style="text-align:right;">
-3.4596
-</td>
-<td style="text-align:left;">
-[3.4587, 3.4605]
-</td>
-</tr>
-<tr>
-<td style="text-align:left;padding-left: 2em;" indentlevel="1">
-Distance
+ALAN’s effect
 </td>
 <td style="text-align:right;">
 0.0428
 </td>
 <td style="text-align:left;">
-[0.0417, 0.0438]
+[-0.0343, 0.118]
 </td>
 </tr>
 <tr>
 <td style="text-align:left;padding-left: 2em;" indentlevel="1">
-Canopy_opennss
+Daylight’s effect
 </td>
 <td style="text-align:right;">
 -0.0012
 </td>
 <td style="text-align:left;">
-[-0.0021, -2e-04]
+[-0.0782, 0.0718]
 </td>
 </tr>
 <tr>
@@ -1381,45 +1341,34 @@ interaction
 0.0308
 </td>
 <td style="text-align:left;">
-[0.0301, 0.0315]
+[-0.0228, 0.0862]
 </td>
 </tr>
-<tr grouplength="4">
+<tr grouplength="3">
 <td colspan="3" style="border-bottom: 1px solid;">
 <strong>Colocasia_gigantea</strong>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;padding-left: 2em;" indentlevel="1">
-intercept
+ALAN’s effect
 </td>
 <td style="text-align:right;">
-3.5512
+0.0428
 </td>
-<td style="text-align:left;">
-[3.459, 3.4601]
+<td style="text-align:left;font-weight: bold;">
+[0.0615, 0.1486]
 </td>
 </tr>
 <tr>
 <td style="text-align:left;padding-left: 2em;" indentlevel="1">
-Distance
+Daylight’s effect
 </td>
 <td style="text-align:right;">
-0.1051
+-0.0012
 </td>
-<td style="text-align:left;">
-[0.0421, 0.0434]
-</td>
-</tr>
-<tr>
-<td style="text-align:left;padding-left: 2em;" indentlevel="1">
-Canopy_opennss
-</td>
-<td style="text-align:right;">
-0.0504
-</td>
-<td style="text-align:left;">
-[-0.0018, -6e-04]
+<td style="text-align:left;font-weight: bold;">
+[0.0058, 0.0939]
 </td>
 </tr>
 <tr>
@@ -1427,10 +1376,10 @@ Canopy_opennss
 interaction
 </td>
 <td style="text-align:right;">
-0.0118
+0.0308
 </td>
 <td style="text-align:left;">
-[0.0304, 0.0313]
+[-0.0209, 0.0445]
 </td>
 </tr>
 </tbody>

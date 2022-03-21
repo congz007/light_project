@@ -1,7 +1,7 @@
 ---
 title: "Leaf-light-project"
 author: "cong"
-date: "2021/12/23"
+date: "2022/03/10"
 output:
   html_document:
     toc: yes
@@ -101,8 +101,6 @@ llp1|>
 mod <- lmer(data = llp1, formula = LMA ~ log(Distance)*log(canopy_openness)+(1|species))
 summary(mod)
 ```
-
-
 # stan
 
 ## example
