@@ -9,14 +9,26 @@ output: word_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+Should we mention insect hypothesis or say the nutrients hypothesis.
+
 1.light is important to plants, as resource and information.
+light plays a vital role in plants life history, both physiology and ecology.
+On the one hand, light as a resource for plants to do photosynthesis; on the other hand, as a circadian information to adjust plant regulation.
+
 2.there are a lot of research on natural light, but few on ALAN.
+Light as a traditional ecological factor had catched the attention of Ecologists from antient time (terrestrial habitats, photoinhibition at high intensities; in aquatic habitats; terrestrial plants fits light into sun species and shade species)
+
 3.the fact of negative effect of ALAN to insects.
+
+Hypothesis 
+gathering insects increase the soil nutrients(N,P) so that LMA
+
 4.kowning the effect of ALAN to plants is important.(why)
+
+
 5.what this study does
 
-
-
+之前有了一些控制实验 但野外自然条件下的灯光影响还less studied。
 
 
 ## info accumulation
@@ -53,7 +65,8 @@ ALAN is ennough to motivate plants physiological changes.
  #the relationship between plant and light 
 ## light is important for plant 
 light is one kind of necessary resource and signal which  affecting plants physiologically and ecologically. Plants use light as a resource to do photosynthesis, and also light cycle is one of the key factors to induce many plant behaviors like growing, flowering, hibernation or dormancy.
- 
+
+(light plays a vital role in plants life history, both physiology and ecology.On the one hand, light as a resource for plants to do photosynthesis; on the other hand, as a circadian information to adjust plant regulation.)
  
  
 ## the ecological impacts of nighttime light pollution : a mechanistic appraisal

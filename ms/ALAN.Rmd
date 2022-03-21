@@ -1,0 +1,81 @@
+---
+output: pdf_document
+---
+
+Rubber tree forest understory response to artificial light at night
+
+$$ $$
+
+Cong Zhou^1,2^,
+Masatoshi Katabuchi^1^,
+Akihiro Nakamura^1^,
+
+$$ $$
+
+^1^ CAS Key Laboratory of Tropical Forest Ecology, Xishuangbanna Tropical Botanical Garden, Chinese Academy of Sciences, Menglun, Yunnan 666303, China
+
+^2^ University of Chinese Academy of Sciences, Beijing 100049, China
+
+$$ $$ 
+
+**Corresponding Authors**:
+
+Masatoshi Katabuchi
+
+E-mail: mattocci27@gmail.com
+
+$$ $$
+
+Manuscript received _______; revision accepted _______.
+
+**Running title**: 
+
+\newpage
+
+# ABSTRACT
+
+
+
+**KEY WORDS**
+light pollution,
+LMA
+
+
+# INTRODUCTION
+
+
+
+
+
+
+
+# MATERIALS AND METHODS
+
+
+
+# RESULTS
+
+
+# DISCUSSION
+
+
+# ACKONWLEGEMENTS
+
+
+# AUTHOR CONTRIBUTIONS
+
+ and
+all authors contributed to revisions.
+
+
+# DATA AVAILABILITY STATEMENT
+
+
+# SUPPORTING INFORMATION
+
+
+#LITERATURE CITED
+
+
+
+
