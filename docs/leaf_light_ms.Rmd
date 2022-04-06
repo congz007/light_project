@@ -13,24 +13,19 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # INTRODUCTION
 
-先写它则个
 What is ALAN? Introduction of ALAN.
 
-With the development of technology, the night sky is brighter than ever before both at city and in natural place, which known as light pollution.
-Habitats could be effected directly near artificial light at night(ALAN) and indirectly by sky glow scattered from ALAN.
-
-Light as a traditional ecological factor had catched the attention of Ecologists from antient time, such as terrestrial plants fits light into sun species and shade species and shows photoinhibition at high intensities.
-However, not enough attention had been paid to the artificial light at night(ALAN), which had been demonstrated suffices to impact the fitness of plants and animals.(Rich and Longcore, 2006;Singhal et al., 2019)
-
-*What is ALAN? Introduction of ALAN.*
-Light as a traditional ecological factor had caught the attention of Ecologists since ancient time, while nowadays artificial light at night as one kind of emerging man-made factor should also link up to our consideration.
-Artificial light at night(ALAN), comprises artificial light sources emission and diffuse sky glow, had disturbed natural daily and seasonal cycles of light since the start of 20th century.( Cinzano, Falchi & Elvidge 2001)
+Night sky is brighter than ever before both at city and in natural place caused by light pollution which main sources are artificial light.
+Artificial light at night(ALAN), comprises artificial light sources emission and diffuse sky glow, had disturbed natural daily and seasonal cycles of light since the start of 20th century.
+( Cinzano, Falchi & Elvidge 2001)()
 So far, artificial light at night extends both intensity covered a large illuminance range from very little to almost daylight and extent covered 23% of the World's terrestrial surfaces between
 75°N and 60°S.(Bennie et al. 2016,Falchi et al. 2016)
+Habitats could be effected directly near artificial light at night(ALAN) and indirectly by sky glow scattered from city ALAN.
 Ignoring the effect of artificial light at night to multilevel ecological processes doesn't make sense any more, hence came a series of study on ALAN.
 
 
 *ALAN studies (effects of ALAN)*
+
 Artificial light at night calls effects among wild taxonomic groups both zoology and botany, from mammals, birds, reptiles and amphibians, fishes, invertebrates and plants etc.(Rich and Longcore, 2006)
 Typically, lighted towers and glow of city lights confuse migrating birds, and streetlight attracting sea turtle hatchlings which dead parched. 
 Recently study shows ALAN is an important bringer to drive insects population decline.(Boyes et al., 2021;Owens et al., 2020).
@@ -42,12 +37,14 @@ Biomass responses of widely and less‐widely naturalized alien plants to artifi
 A lack of clear evidence for such effects, however, should not lead one to conclude that no effects exist or that any particular effects that may be noticed are either beneficial, deleterious, or of no consequence to the plant.)
 
 *Effects of ALAN on leaf traits* (including your expectation) (soil N up -> LMA decrease) (nutrient and LMA)
+
+Light as a traditional ecological factor had catched the attention of Ecologists from antient time, such as terrestrial plants fits light into sun species and shade species and shows photoinhibition at high intensities.
+However, not enough attention had been paid to the artificial light at night(ALAN), which had been demonstrated suffices to impact the fitness of plants and animals.(Rich and Longcore, 2006;Singhal et al., 2019)
 Photoreceptors familys
 ALAN prolong the light time to plants, so comes with more photosynthesis time and more products)
 ALAN disturb plants photoperiod so LMA will decrease)
 Most of LMA consists of carbon and water, 
 We expect that ...
-
 
 
 Effect of (day)light (LMA increase) *light and LMA*
@@ -58,54 +55,6 @@ b) ALAN directly increases LMA (same as daylight
 
 
 In this study we set light experiment and choose two species representing sun species and shade species respectively on understory in man-made rubber tree forest.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1.light is important to plants, as resource and information.
-
-light plays a vital role in plants life history, both physiologically and ecologically.
-On the one hand, light as a resource for plants to do photosynthesis; on the other hand, as a circadian information to adjust plant regulation.
-
-
-2.there are a lot of research on natural light, but few on ALAN.
-
-Light as a traditional ecological factor had catched the attention of Ecologists from antient time, such as terrestrial plants fits light into sun species and shade species and shows photoinhibition at high intensities.
-With the development of modern technology, light sources and lamp types abound which lightening the night far more bright both in city ecolosystem and suburb regime.
-However, not enough attention had been paid to the artificial light at night(ALAN), which had been demonstrated suffices to impact the fitness of plants and animals.(Rich and Longcore, 2006;Singhal et al., 2019)
-
-
-3.until now research on the effect of ALAN to plants and insects
-Such as, ALAN is an important bringer to drive insects population decline  (Boyes et al., 2021;Owens et al., 2020).
-Biomass responses of widely and less‐widely naturalized alien plants to artificial light at night
-(Speißer et al., 2021)
-
-
-4.the general pattern ALAN to plants still unknown and the importance konwing it.
-
-fully the extent of these impacts requires conceptual models that can (i) characterize the highly
-heterogeneous nature of the night-time light environment at a scale relevant to plant physiology; and
-(ii) scale physiological responses to predict impacts at the level of the whole plant, population, community
-and ecosystem.)
-The Matthew effect: Common species become more common and rare ones become more rare in response to artificial light at night
-(Bennie et al., 2016;Liu et al. 2022)
-
-based on 3&4 comes our Hypothesis 
-1)ALAN directly effect plants biomass
-2)ALAN indirectly gathering insects increase the soil nutrients(N,P) so that LMA
-
-5.So in this study we set a wild light experiment and choose two species representing sun species and shade species respectively on understory.
 
 
 
