@@ -202,7 +202,7 @@ $$
 $$
 
 
-```{r, eval=TRUE}
+```{r, eval=TRUE }
 model <- rstan::stan_model("../stan/model.stan")
 ```
 
@@ -312,12 +312,12 @@ table_sp1 <- data.frame(
 )
 
 table_sp1 %>%
-  kbl(caption = "Coefficients table species one") %>%column_spec(3,bold =  ifelse(test$`2.5%`*test$`97.5%`>0, "T","F"))%>% 
+  kbl(caption = "Coefficients table of species Melastoma_candidum") %>%column_spec(3,bold =  ifelse(test$`2.5%`*test$`97.5%`>0, "T","F"))%>% 
   kable_classic(full_width = F, html_font = "Cambria")
 
 ```
 
-For species one "Melastoma_candidum", coefficients table.
+For species "Colocasia_gigantea", coefficients table.
 ```{r}
 test1 <- summary(fit1)$summary[2:4,] |> as_tibble()
 
@@ -328,12 +328,12 @@ table_sp2 <- data.frame(
                    "ALAN's effect",
                    "Daylight's effect",
                    "interaction"),
-  "mean_value" = round(test$mean,4),
+  "mean_value" = round(test1$mean,4),
  quantile_interval 
 )
 
 table_sp2 %>%
-  kbl(caption = "Coefficients table species one") %>%column_spec(3,bold =  ifelse(test1$`2.5%`*test1$`97.5%`>0, "T","F"))%>% 
+  kbl(caption = "Coefficients table of species Colocasia_gigantea") %>%column_spec(3,bold =  ifelse(test1$`2.5%`*test1$`97.5%`>0, "T","F"))%>% 
   kable_classic(full_width = F, html_font = "Cambria")
 
 
