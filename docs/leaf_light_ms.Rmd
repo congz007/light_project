@@ -32,14 +32,14 @@ What is ALAN? Introduction of ALAN.
 Artificial light at night(ALAN), consists of artificial light sources emission and the light reflected back from the sky(skyglow), had disturbed ecological processes since the start of 20th century [@Bennie2016; @Longcore2004; @Gaston2013]. 
 So far, artificial light at night extends both in intensity covered a large illuminance range from the degree hard to detect to almost daylight and in extent covered more and more World's terrestrial surfaces [@Bennie2016; @Falchi2016].
 Oganisms as well as habitats could be effected directly near artificial light at night(ALAN) such as streetlight and indirectly by sky glow scattered from city ALAN at rural-urban continuum.
-Ignoring the effect of artificial light at night to multilevel ecological processes doesn't make sense any more, hence came a series of studies on the effect of ALAN. 
+Ignoring the effect of artificial light at night to multilevel ecological processes is self-deception, hence more and more research would be carried through about this important topic[@Davies2018]. 
 
 ## *ALAN studies (effects of ALAN)*
 
-Artificial light at night calls effects among wild taxonomic groups both zoology and botany, from mammals, birds, reptiles and amphibians, fishes, invertebrates and plants etc.[@Rich2006]
-Typically, lighted towers and glow of city lights confuse migrating birds, and streetlight attracting sea turtle hatchlings which dead parched. 
+Artificial light at night calls effects among wild taxonomic groups both zoology and botany, from mammals, birds, reptiles and amphibians, fishes, invertebrates and plants etc[@Rich2006].
+Typically, lighted towers and glow of city lights confuse migrating birds[@Loss2014], and streetlight attracting sea turtle hatchlings which dead parched[Brei2016]. 
 Recently study shows ALAN is an important bringer to drive insects population decline [@Boyes2021; @Owens2020].
-And to plants, biomass would increase responsing to ALAN and show difference between widely and less‐widely naturalized alien plants[@Speißer2021].
+And to plants, biomass would increase responsing to ALAN and show different ratio between widely and less‐widely naturalized alien plants[@Speißer2021].
 Generally, artificial light at night could cause ecological effects spanning trophic levels, and the impacts depends on the wavelengths[@Bennie2018].
 However, no rigorous studies have examined effects of artificial light at night on plants in conditions close to their natural environment.
 
@@ -59,13 +59,8 @@ Acually, plants could sense light through photorecpetors which allows the plant 
 For individual species, LMA was proportional with species distributions along the insolation gradient, and was significantly higher in evergreen versus deciduous species[@Ackerly2002; @Onoda2008; @Niinemets2004].
 Here, ALAN could be considered as a conduct of prolonging light duration to plants so LMA could increase with that.
 
-
-
-## Objectives 
-a) ALAN indirectly gathering insects increase the soil nutrients(N,P) so that LMA
-b) ALAN directly increases LMA (same as daylight)
-c) interaction 
-In this study we set light experiment and choose two species representing sun species and shade species respectively on understory in man-made rubber tree forest.
+To know the effets of artificial light at night on perfomance of understory species, we conducted a forest artificial light experiment.
+Two species were chosen in this experiment representing sun species and shade species respectively to test whether different responds would show between them.
 
 
 
