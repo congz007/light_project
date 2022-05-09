@@ -336,7 +336,6 @@ table_sp2 %>%
   kbl(caption = "Coefficients table of species Colocasia_gigantea") %>%column_spec(3,bold =  ifelse(test1$`2.5%`*test1$`97.5%`>0, "T","F"))%>% 
   kable_classic(full_width = F, html_font = "Cambria")
 
-
 ```
 
 #Put together
@@ -349,4 +348,13 @@ rbind(table_sp1,table_sp2)|>
   pack_rows("Melastoma_candidum", 1, 3) %>%
   pack_rows("Colocasia_gigantea", 4, 6)
 
+```
+
+```{r}
+table|>
+  kbl( caption = "Coefficients table") %>%
+  kable_paper("striped", full_width = F) %>%
+  column_spec(4,bold =c(ifelse(test$`2.5%`*test$`97.5%`>0, "T","F"),       ifelse(test1$`2.5%`*test1$`97.5%`>0, "T","F"))) %>% 
+  pack_rows("Melastoma_candidum", 1, 3) %>%
+  pack_rows("Colocasia_gigantea", 4, 6)
 ```

@@ -82,7 +82,7 @@ However, no rigorous studies have examined effects of artificial light at night 
 
 In previous study, it has been demonstrated that nitrogen contents per unit leaf area $N_a$ increased with environmental nitrogen contents, while LMA shows different correlation decreasing with N supply [@Jullien2009; @An2008].
 @Wright2019 shows nutrients clearly limit tropical forest plants, and especially the limitation of N and P in both lowland and montane forests. 
-Hence, besides the direct effect from ALAN nutrients condition of the plants should also jump into our sight.
+Hence, besides the direct effect from ALAN the nutrients condition of the plants should also jump into our sight.
 By the light compass theory [@Baker1978; @Sotthibandhu1979] that insects orient themselves by maintaining a constant angle to light rays, artificial light at night plays a role of sink attracting insects which replaces the role of the moon and stars to a great extent.
 Further more, it's been showed that about 30%–40% of insects die soon thereafter approaching street lamps for collision, overheating, dehydration, or predation [@Minnaar2015; @Owens2018].
 Then comes our research hypothesis that ALAN would decrease LMA of plants around it indirectly as a side-effect of gathering phototaxis insects which chagnes the nutrients condition by distance.
@@ -107,11 +107,12 @@ The LED system includes 6 components.
 A metal box with an opening is used as a rainproof protector which is attached to a tree at around 1.2 m from the ground. 
 A rechargeable lithium battery (12v/30Ah) and an electric timer controls the timing and duration of the LED light operation at night.
 An electric wire was used to connect battery and LED which was hanging from a tree branch with a lampshade at approximately 2 m from the ground. 
+Then the LED would work automatically from 8 pm to 5 am every day.
 This experiment started from 2019 November, and samples were collected on 2021 November.
 
 *Species Selection*
 
-Considering the understory condition (enough mature individual numbers, distribution of individuals) and species specificity(it should be evergreen species, and not be the nitrogen fix plants like Leguminosae) of each plot, finally two species respectively in two plots were chosen for our study, Gigantea (Blume) Hook. f. representing shade species and (Melastoma candidum D. Don) for sun species.
+Considering the understory condition (enough mature individual numbers, distribution of individuals) and species specificity(it should be evergreen species, and not be the nitrogen fix plants like Leguminosae) of each plot, finally two species respectively in two plots were chosen for our study, *Colocasia gigantea (Blume) Hook. f.* representing shade species and *Melastoma candidum D. Don*  for sun species.
 
 *Measurements*
 
@@ -129,8 +130,30 @@ All statistical analyses were conducted in R version 4.1.2 [@RCoreTeam2021]. ** 
 
 # RESULTS
 
+For species *Colocasia gigantea (Blume) Hook. f.*, both the effcts of ALAN and daylight were significant, while species *Melastoma candidum D. Don* showed no significance.
+Artificial light at night drove the averaged individual LMA value decrease for species *Colocasia gigantea (Blume) Hook. f.* (mean: -0.1043) and for species *Melastoma candidum D. Don* (mean: -0.0422) although not significant.
+Both species showed no significance on the interaction of the effects of ALAN and daylight.
+(Table 1.)
 
 # DISCUSSION
+
+Although it has been demonstrated that LMA increase with insolation, while our research shows the artificial light situation could make differences.
+Actually, artificial light at night exerts an influence on the physiological processes of understory by multi-approach both aboveground and undergound.
+For aboveground part, artificial light at night change the light environments of plants including light duration, light intensity and light spectral quality.
+For underground part, artificial light at night indirectly changed the soil nutrients conditions especially as an important nitrogen supplementary.
+So the response results of understory could vary according to the species specificity and artificial light resource.
+species specificity sun species, shade species and more CAM species 
+ALAN's variation in light intensity and light spectral quality.
+
+more species should add to the experiment although it's always difficult for wild experiment.
+environment heterogeneity
+controlling experiment
+multilevel ALAN to simulate multi-situation
+
+the general pattern remains unknown 
+field experiment in natural growth situation
+long term experiment 
+combine the controlling experiment
 
 
 # ACKONWLEGEMENTS
@@ -142,7 +165,6 @@ MK and CZ conceived the study;
 CZ collected data and performed the analysis with MK together;
 all authors contributed to revisions.
 
-
 # DATA AVAILABILITY STATEMENT
 
 
@@ -151,6 +173,30 @@ all authors contributed to revisions.
 
 # LITERATURE CITED
 
+<div id="refs"></div>
 
+\newpage
 
+**Fig. 1.**
+The distribution of individuals around the ALAN and the illustration of the experiment setup.
+(a). The locations of the artificial-light-at-night plots and relative locations of each individual, each triangle represents one individual and the size of it represents the averaged LMA value.
+(b) and (c). Photographs of the experiment during the day and night.
 
+![](../figs/LMA_distribution)
+
+\newpage
+
+```{r table, echo=FALSE}
+table <- read.csv("../data/table.csv")%>%
+  kbl( caption = "Coefficients table") %>%
+  kable_paper("striped", full_width = F) %>%
+  column_spec(4,bold =c(ifelse(test$`2.5%`*test$`97.5%`>0, "T","F"),       ifelse(test1$`2.5%`*test1$`97.5%`>0, "T","F"))) %>% 
+  pack_rows("Melastoma_candidum", 1, 3) %>%
+  pack_rows("Colocasia_gigantea", 4, 6)
+```
+
+**Table. 1.**        
+Results of Bayesian general linear mixed-effect models testing the effects of artificial light at night, daylight and interaction on experimental species.
+Significant effects (p < 0.05) are in bold.
+
+\newpage
