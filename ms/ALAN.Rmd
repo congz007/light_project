@@ -25,6 +25,15 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+```{r caching, include=FALSE}
+library(knitr)
+library(tidyverse)
+library(methods)
+library(kableExtra)
+```
+
+\newpage
+
 LMA responses of understory plants to artificial light at night
 
 $$ $$
@@ -137,24 +146,23 @@ Both species showed no significance on the interaction of the effects of ALAN an
 
 # DISCUSSION
 
-Although it has been demonstrated that LMA increase with insolation, while our research shows the artificial light situation could make differences.
+Although it has been demonstrated that LMA increase with insolation[], our research shows the artificial light situation could make differences.
 Actually, artificial light at night exerts an influence on the physiological processes of understory by multi-approach both aboveground and undergound.
 For aboveground part, artificial light at night change the light environments of plants including light duration, light intensity and light spectral quality.
 For underground part, artificial light at night indirectly changed the soil nutrients conditions especially as an important nitrogen supplementary.
-So the response results of understory could vary according to the species specificity and artificial light resource.
-species specificity sun species, shade species and more CAM species 
-ALAN's variation in light intensity and light spectral quality.
+So the response results of understory could vary according to the species specificity[] and artificial light resource[].
 
-more species should add to the experiment although it's always difficult for wild experiment.
-environment heterogeneity
-controlling experiment
-multilevel ALAN to simulate multi-situation
+There was research showed that plants' biomass would increase under artificial light[], our study showed the change part of biomass could be channelled into mixed results.
+Further more, adequate tests of the influence of artificial light at night on understory will entail more experimental work under field conditions.
+Controlling experiment probably tend to underestimate the environmental heterogeneity and species interaction, because many irreplaceable features of field conditions, such as subtle nutrients change, herbivores and competitors are usually absent.
+Hence the general pattern how understory species responds to artificial light at night remains unknown. 
+In future work, diverse artificial light resource in light spectral quality and light intensity is need to simulate multi-situation of artificial light.
+And if possible, long term field experiment combining with controlling experiment approaching to plants natural growth situation will figure out the generalized patterns.
 
-the general pattern remains unknown 
-field experiment in natural growth situation
-long term experiment 
-combine the controlling experiment
-
+In conclusion, our study showed the LMA of some understory species would decrease with artificial light at night.
+The effects of artificial light at night consists of aboveground part directly as light resource and undergound part indirectly as soil nutrients.
+Still, more studies are needed to reveal the comprehensive effcts, from plant physiology to plant community.
+Nevertheless, the negative effct of artificial light at night on understory species indicates that increments of artificial light at night might bring about a physiological suppression to those understory plants.
 
 # ACKONWLEGEMENTS
 
