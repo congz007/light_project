@@ -42,6 +42,7 @@ the pacakges we'll use:
 library(kableExtra)
 library(tidyverse)
 library(lme4)
+library(ggspatial)
 ```
 
 input our data
@@ -53,21 +54,23 @@ llp[1:5,] %>% kbl() %>% kable_styling()
 Then we calculate LMA and show our samples location away from the light.
 ```{r}
 llp1 <- llp |>mutate(LMA = dry_weight/(disc*pi*(0.005)^2))
-llp1$species[llp1$species =="Melastoma_candidum"] <-  'Melastoma candidum D. Don'
-llp1$species[llp1$species =="Colocasia_gigantea"] <- 'Colocasia gigantea (Blume) Hook. f.'
+llp1$species[llp1$species =="Melastoma_candidum"] <-  'Melastoma candidum'
+llp1$species[llp1$species =="Colocasia_gigantea"] <- 'Colocasia gigantea'
 llp1 |> 
   mutate(x_loc = Distance*cos(angel*pi/180))|>
   mutate(y_loc = Distance*sin(angel*pi/180))|>
-  ggplot(aes(x_loc, y_loc, size = LMA,color = LMA))+
-  scale_color_gradient(low = "#56B1F7",
-  high = "#132B43")+
+  ggplot(aes(x_loc, y_loc, color = LMA, size = 7))+
+  guides(size = "none")+
+  scale_color_gradient(low = "#43ff2a",
+  high = "#105cff")+
   coord_fixed()+
   geom_hline(yintercept = 0,linetype="dotted")+
   geom_vline(xintercept = 0,linetype="dotted")+
   geom_point(shape =16)+
-  facet_grid(rows = vars(species))+
+  facet_wrap(vars(species),nrow = 2,strip.position = "top")+
   labs(x = "", y = "")+
-  theme_bw()
+  annotation_north_arrow(location = "tl",style = north_arrow_fancy_orienteering)+
+  theme(strip.text = element_text(face = "italic",size = 14))
 
 ```
 (Notation: coordinate (0,0) is where the light is.)
