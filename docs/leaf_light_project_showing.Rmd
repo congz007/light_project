@@ -46,19 +46,27 @@ library(lme4)
 
 input our data
 ```{r}
-llp <- read_csv("../data-raw/leaf_light_project.csv")
+llp <- read_csv("../light_project/data-raw/leaf_light_project.csv")
 llp[1:5,] %>% kbl() %>% kable_styling()
 ```
 
 Then we calculate LMA and show our samples location away from the light.
 ```{r}
 llp1 <- llp |>mutate(LMA = dry_weight/(disc*pi*(0.005)^2))
+llp1$species[llp1$species =="Melastoma_candidum"] <-  'Melastoma candidum D. Don'
+llp1$species[llp1$species =="Colocasia_gigantea"] <- 'Colocasia gigantea (Blume) Hook. f.'
 llp1 |> 
   mutate(x_loc = Distance*cos(angel*pi/180))|>
   mutate(y_loc = Distance*sin(angel*pi/180))|>
-  ggplot(aes(x_loc, y_loc, size = LMA))+
-  geom_point(shape =17)+
-  facet_grid(cols = vars(species))+
+  ggplot(aes(x_loc, y_loc, size = LMA,color = LMA))+
+  scale_color_gradient(low = "#56B1F7",
+  high = "#132B43")+
+  coord_fixed()+
+  geom_hline(yintercept = 0,linetype="dotted")+
+  geom_vline(xintercept = 0,linetype="dotted")+
+  geom_point(shape =16)+
+  facet_grid(rows = vars(species))+
+  labs(x = "", y = "")+
   theme_bw()
 
 ```
