@@ -1,7 +1,7 @@
 ---
 geometry: margin=1in
 link-citations: yes
-bibliography: "My Library.bib"
+bibliography: "light_project.bib"
 output:
   pdf_document:
     fig_width: 6
@@ -29,6 +29,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(knitr)
 library(tidyverse)
 library(methods)
+options(kableExtra.auto_format = FALSE)
 library(kableExtra)
 ```
 
@@ -67,8 +68,7 @@ Manuscript received _______; revision accepted _______.
 # ABSTRACT
 
 **PREMISE:**
-
-
+Artificial light at night (ALAN), 
 
 **METHODS:**
 
@@ -81,24 +81,33 @@ Manuscript received _______; revision accepted _______.
 
 **KEY WORDS**
 light pollution,
-leaf mass per area(LMA),
+leaf mass per area (LMA),
 leaf punch,
-Artificial light at night(ALAN),
-
+Artificial light at night (ALAN)
 
 # INTRODUCTION
 
-Artificial light at night(ALAN), consists of artificial light sources emission and the light reflected back from the sky(skyglow), had disturbed ecological processes since the start of 20th century [@Bennie2016; @Longcore2004; @Gaston2013]. 
-So far, artificial light at night extends both in intensity covered a large illuminance range from the degree hard to detect to almost daylight and in extent covered more and more World's terrestrial surfaces [@Bennie2016; @Falchi2016].
-Oganisms as well as habitats could be effected directly near artificial light at night(ALAN) such as streetlight and indirectly by sky glow scattered from city ALAN at rural-urban continuum.
-Ignoring the effect of artificial light at night to multilevel ecological processes is self-deception, hence more and more research would be carried through about this important topic[@Davies2018]. 
+ALAN is a kind of pollution
+ALAN change the behavior of animals
+Typically, ALAN attracts insects
+As a result, ALAN affects environmental conditions (reference?)
 
-Artificial light at night calls effects among wild taxonomic groups both zoology and botany, from mammals, birds, reptiles and amphibians, fishes, invertebrates and plants etc[@Rich2006].
-Typically, lighted towers and glow of city lights confuse migrating birds[@Loss2014], and streetlight attracting sea turtle hatchlings which dead parched[@Brei2016]. 
-Recently study shows ALAN is an important bringer to drive insects population decline [@Boyes2021; @Owens2020].
+Artificial light at night (ALAN), consists of artificial light sources emission and the light reflected back from the sky(skyglow), had disturbed ecological processes since the start of 20th century [@Bennie2016; @Longcore2004; @Gaston2013]. 
+Like other kinds of pollution, the presence of unwanted, inappropriate, or excessive artificial lighting konwn as light pollution [@Wikipedia2022], was also termed 'photopollution' proposed for its adverse effects on wildlife [@Fj1985]. 
+So far, artificial light at night extends both in intensity covered a large illuminance range from the degree hard to detect to almost daylight and in extent covered more and more World's terrestrial surfaces [@Bennie2016; @Falchi2016].
+Ignoring the effect of artificial light at night to multilevel ecological processes is self-deception, hence more and more research would be carried through about this important topic [@Davies2018]. 
+Artificial light at night calls effects among wild taxonomic groups both zoology and botany, from mammals, birds, reptiles and amphibians, fishes, invertebrates and plants etc [@Rich2006].
+Recent studies show ALAN is an important bringer to drive insects population decline [@Boyes2021; @Owens2020].
+
+
 And to plants, biomass would increase responsing to ALAN and show different ratio between widely and less‐widely naturalized alien plants[@Speißer2021].
 Generally, artificial light at night could cause ecological effects spanning trophic levels, and the impacts depends on the wavelengths[@Bennie2018].
 However, no rigorous studies have examined effects of artificial light at night on plants in conditions close to their natural environment.
+Oganisms as well as habitats could be effected directly near artificial light at night (ALAN) such as streetlight and indirectly by sky glow scattered from city ALAN at rural-urban continuum.
+
+
+What is the topic sentence here? I think we should start with something like "ALAN might indirectly affect plant leaf functional traits, because XXXX".
+It's better to explain the relationship between soil nutrients and LMA (or leaf traits) more in this paragraph.
 
 In previous study, it has been demonstrated that nitrogen contents per unit leaf area $N_a$ increased with environmental nitrogen contents, while LMA shows different correlation decreasing with N supply [@Jullien2009; @An2008].
 @Wright2019 shows nutrients clearly limit tropical forest plants, and especially the limitation of N and P in both lowland and montane forests. 
@@ -106,6 +115,12 @@ Hence, besides the direct effect from ALAN the nutrients condition of the plants
 By the light compass theory [@Baker1978; @Sotthibandhu1979] that insects orient themselves by maintaining a constant angle to light rays, artificial light at night plays a role of sink attracting insects which replaces the role of the moon and stars to a great extent.
 Further more, it's been showed that about 30%–40% of insects die soon thereafter approaching street lamps for collision, overheating, dehydration, or predation [@Minnaar2015; @Owens2018].
 Then comes our research hypothesis that ALAN would decrease LMA of plants around it indirectly as a side-effect of gathering phototaxis insects which chagnes the nutrients condition by distance.
+
+
+topic sentence
+physiological response to light (e.g., Terashima et al.)
+the relationship between LMA distribution and the strength of light in a local community (e.g. Ackerly)
+It's also better to highlight that we are talking about a direct effect of ALAN on leaf traits here.
 
 Although LMA driven by inherent genetic mechanisms[@Asner2011], environmental stresses (temperature, water and light) also shapes LMA.
 Acually, plants could sense light through photorecpetors which allows the plant to respond to four parameters of their light environment: light spectral quality, light intensity, light direction, and light duration[@Paik2019; @Rich2006].
@@ -121,8 +136,8 @@ And we also predicted that canopy-openness and its interaction with artificial l
 
 *experimental setup*
 
-The field experiment was located within the Xishuangbanna Tropical Botanical Garden(XTBG),China in rubber tree forest(N21°54' E101°16') where we totally set 5 plots and selected 2 plots for this this after field investiation.
-LED (10w) is used to create an artificial light environment in all plots at night.
+The field experiment was located within the Xishuangbanna Tropical Botanical Garden (XTBG),China in rubber tree forest (N21°54' E101°16') where we totally set 5 plots and selected 2 plots for this this after field investiation.
+LED (10w) is used to create an artificial light environment in all plots at night.(fig. )
 The LED system includes 6 components. 
 A metal box with an opening is used as a rainproof protector which is attached to a tree at around 1.2 m from the ground. 
 A rechargeable lithium battery (12v/30Ah) and an electric timer controls the timing and duration of the LED light operation at night.
@@ -137,13 +152,13 @@ Considering the understory condition (enough mature individual numbers, distribu
 *Measurements*
 
 We measured the horizontal distance and geographic orientation of each individual away from the LED using tape measure representing the relative effects of ALAN.
-Canopy openness was selected to be on behalf of day light, which photographed by Nikon COOLPIX4500 with fish-eye lens(Nikon FC-e8) then measured using  R package *LeafArea*[@Katabuchi2015].
-For leaf mass per area(LMA), we use leaf disc(10mm^2) punched from leaf avoiding vein and leaf margin instead of whole-leaf to calculate LMA value.
+Canopy openness was selected to be on behalf of day light, which photographed by Nikon COOLPIX4500 with fish-eye lens (Nikon FC-e8) then measured using  R package *LeafArea*[@Katabuchi2015].
+For leaf mass per area (LMA), we use leaf disc (10mm^2) punched from leaf avoiding vein and leaf margin instead of whole-leaf to calculate LMA value.(fig. )
 
 *Data Analysis*
 
 To analyze the effects of ALAN, daylight's effect, and their interaction on both *Melastoma candidum D. Don* and *Colocasia gigantea (Blume) Hook. f.*, We fitted a Bayesian linear mixed-effets model for each species using 'rstan' package in R.
-Leaf mass per area(LMA) of each leaf of each individual was the response variable.
+Leaf mass per area (LMA) of each leaf of each individual was the response variable.
 Distance from the ALAN of each individual was transformed by log and reciprocal for both the accumulation of insects and the intensity of ALAN fade away from distance.
 We conducted individual as a random effect for each species on our model, for the non-independence of individuals of the same species.
 All statistical analyses were conducted in R version 4.1.2 [@RCoreTeam2021]. ** how to cite R? **
@@ -178,6 +193,7 @@ Nevertheless, the negative effct of artificial light at night on understory spec
 # ACKONWLEGEMENTS
 
 
+
 # AUTHOR CONTRIBUTIONS
 
 MK and CZ conceived the study;
@@ -198,10 +214,12 @@ all authors contributed to revisions.
 
 **Fig. 1.**
 The distribution of individuals around the ALAN and the illustration of the experiment setup.
-(a). The locations of the artificial-light-at-night plots and relative locations of each individual, each triangle represents one individual and the size of it represents the averaged LMA value.
-(b) and (c). Photographs of the experiment during the day and night.
+(). The locations of the artificial-light-at-night plots and relative locations of each individual, each triangle represents one individual and the size of it represents the averaged LMA value.
+() and (). Photographs of the experiment during the day and night.
 
-![](../figs/LMA_distribution)
+![](..light_project/figs/sp1-dis)
+
+![](..light_project/figs/sp2-dis)
 
 \newpage
 
