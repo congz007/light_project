@@ -69,7 +69,6 @@ llp1 |>
   geom_point(shape =16)+
   facet_wrap(vars(species),nrow = 2,strip.position = "top")+
   labs(x = "", y = "")+
-  annotation_north_arrow(location = "tl",style = north_arrow_fancy_orienteering)+
   theme(strip.text = element_text(face = "italic",size = 14))
 
 ```
