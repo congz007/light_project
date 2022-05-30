@@ -87,45 +87,31 @@ Artificial light at night (ALAN)
 
 # INTRODUCTION
 
-ALAN is a kind of pollution
-ALAN change the behavior of animals
-Typically, ALAN attracts insects
-As a result, ALAN affects environmental conditions (reference?)
-
 Artificial light at night (ALAN), consists of artificial light sources emission and the light reflected back from the sky(skyglow), had disturbed ecological processes since the start of 20th century [@Bennie2016; @Longcore2004; @Gaston2013]. 
-Like other kinds of pollution, the presence of unwanted, inappropriate, or excessive artificial lighting konwn as light pollution [@Wikipedia2022], was also termed 'photopollution' proposed for its adverse effects on wildlife [@Fj1985]. 
+Like other kinds of pollution, the presence of unwanted, inappropriate, or excessive artificial lighting konwn as light pollution [@Wikipedia2022], had given rise to a certain impact on human beings, society and ecological environment [@Falchi2011].
 So far, artificial light at night extends both in intensity covered a large illuminance range from the degree hard to detect to almost daylight and in extent covered more and more World's terrestrial surfaces [@Bennie2016; @Falchi2016].
-Ignoring the effect of artificial light at night to multilevel ecological processes is self-deception, hence more and more research would be carried through about this important topic [@Davies2018]. 
-Artificial light at night calls effects among wild taxonomic groups both zoology and botany, from mammals, birds, reptiles and amphibians, fishes, invertebrates and plants etc [@Rich2006].
-Recent studies show ALAN is an important bringer to drive insects population decline [@Boyes2021; @Owens2020].
+It casts effects among wild taxonomic groups both zoology and botany, from mammals, birds, reptiles and amphibians, fishes, invertebrates and plants etc [@Rich2006].
+ALAN modulates the behavior of animals typically attracting insects so as an important bringer to drive insects population decline [@Boyes2021; @Owens2020].
+To plants, biomass would increase responsing to ALAN and show different ratio between widely and less‐widely naturalized alien plants [@Speißer2021].
+Generally, artificial light at night could cause ecological effects spanning trophic levels, and the impacts depends on the wavelengths [@Bennie2018].
+However, no rigorous studies have examined the effects of artificial light at night on plants in conditions close to their natural environment.
 
+ALAN might directly affect plant leaf functional traits by changing plant light environments.
+Although LMA is driven by inherent genetic mechanisms [@Asner2011], environmental stresses (temperature, water and light) also shapes LMA.
+Actually, plants could sense light through photorecpetors which allows the plant to respond to four parameters of their light environment: light spectral quality, light intensity, light direction, and light duration [@Paik2019; @Rich2006].
+@Terashima2006 showed that the light-saturated rate of leaf photosynthesis per unit area ($P_max$) is highly correlated with leaf structural parameters such as leaf thickness, leaf mass per area, mesophyll surface area($S_mes$), and chloroplast surface area ($S_c$), and sun leaves are thicker than shade leaves exactly as the height of the palisade tissue in sun leaves is greater than that in shade leaves.
+For individual species, LMA was proportional with species distributions along the insolation gradient, and was significantly higher in evergreen versus deciduous species [@Ackerly2002; @Onoda2008; @Niinemets2004].
+And among a local community, @Ackerly2002 demonstrated the average values of LMA significantly increased with increasing potential diurnal insolation(PDI).
+Here, ALAN could be considered as a conduct of prolonging light duration to plants so plants LMA could increase with that.
 
-And to plants, biomass would increase responsing to ALAN and show different ratio between widely and less‐widely naturalized alien plants[@Speißer2021].
-Generally, artificial light at night could cause ecological effects spanning trophic levels, and the impacts depends on the wavelengths[@Bennie2018].
-However, no rigorous studies have examined effects of artificial light at night on plants in conditions close to their natural environment.
-Oganisms as well as habitats could be effected directly near artificial light at night (ALAN) such as streetlight and indirectly by sky glow scattered from city ALAN at rural-urban continuum.
-
-
-What is the topic sentence here? I think we should start with something like "ALAN might indirectly affect plant leaf functional traits, because XXXX".
-It's better to explain the relationship between soil nutrients and LMA (or leaf traits) more in this paragraph.
-
-In previous study, it has been demonstrated that nitrogen contents per unit leaf area $N_a$ increased with environmental nitrogen contents, while LMA shows different correlation decreasing with N supply [@Jullien2009; @An2008].
+ALAN might indirectly affect plant leaf functional traits as a potential factor to drive soil environmental conditions.
+In previous study, it has been demonstrated that leaf functional traits (LFTs) such as leaf area, leaf thickness, leaf density, leaf C and leaf N:P change with soil properties like soil pH, P, Ca, Mg, K, C:N [@Hernandez-Vargas2019]. 
+And nitrogen contents per unit leaf area $N_a$ increased with environmental nitrogen contents, while LMA shows different correlation decreasing with N supply [@Jullien2009; @An2008].
 @Wright2019 shows nutrients clearly limit tropical forest plants, and especially the limitation of N and P in both lowland and montane forests. 
-Hence, besides the direct effect from ALAN the nutrients condition of the plants should also jump into our sight.
+Hence, besides the direct effect from ALAN the nutrients condition of the plants should also cause our attention.
 By the light compass theory [@Baker1978; @Sotthibandhu1979] that insects orient themselves by maintaining a constant angle to light rays, artificial light at night plays a role of sink attracting insects which replaces the role of the moon and stars to a great extent.
 Further more, it's been showed that about 30%–40% of insects die soon thereafter approaching street lamps for collision, overheating, dehydration, or predation [@Minnaar2015; @Owens2018].
-Then comes our research hypothesis that ALAN would decrease LMA of plants around it indirectly as a side-effect of gathering phototaxis insects which chagnes the nutrients condition by distance.
-
-
-topic sentence
-physiological response to light (e.g., Terashima et al.)
-the relationship between LMA distribution and the strength of light in a local community (e.g. Ackerly)
-It's also better to highlight that we are talking about a direct effect of ALAN on leaf traits here.
-
-Although LMA driven by inherent genetic mechanisms[@Asner2011], environmental stresses (temperature, water and light) also shapes LMA.
-Acually, plants could sense light through photorecpetors which allows the plant to respond to four parameters of their light environment: light spectral quality, light intensity, light direction, and light duration[@Paik2019; @Rich2006].
-For individual species, LMA was proportional with species distributions along the insolation gradient, and was significantly higher in evergreen versus deciduous species[@Ackerly2002; @Onoda2008; @Niinemets2004].
-Here, ALAN could be considered as a conduct of prolonging light duration to plants so plants LMA could increase with that.
+Then comes our another research hypothesis that ALAN would decrease LMA of plants around it indirectly as a side-effect of gathering phototaxis insects which chagnes the nutrients condition by distance.
 
 To know the effets of artificial light at night on perfomance of understory species so as a simulation to the city street shrubs, we conducted a forest artificial light experiment.
 Two species were chosen in this experiment representing sun species and shade species respectively to test whether different responds would show between them.
@@ -172,6 +158,7 @@ Both species showed no significance on the interaction of the effects of ALAN an
 
 # DISCUSSION
 
+
 Although it has been demonstrated that LMA increase with insolation[], our research shows the artificial light situation could make differences.
 Actually, artificial light at night exerts an influence on the physiological processes of understory by multi-approach both aboveground and undergound.
 For aboveground part, artificial light at night change the light environments of plants including light duration, light intensity and light spectral quality.
@@ -189,6 +176,8 @@ In conclusion, our study showed the LMA of some understory species would decreas
 The effects of artificial light at night consists of aboveground part directly as light resource and undergound part indirectly as soil nutrients.
 Still, more studies are needed to reveal the comprehensive effcts, from plant physiology to plant community.
 Nevertheless, the negative effct of artificial light at night on understory species indicates that increments of artificial light at night might bring about a physiological suppression to those understory plants.
+
+Ignoring the effect of artificial light at night to multilevel ecological processes is self-deception, hence more and more research would be carried through about this important topic [@Davies2018]. 
 
 # ACKONWLEGEMENTS
 
