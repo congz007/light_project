@@ -49,7 +49,7 @@ $$ $$
 
 ^2^ University of Chinese Academy of Sciences, Beijing 100049, China
 
-$$ $$ 
+$$ $$
 
 **Corresponding Authors**:
 
@@ -61,14 +61,14 @@ $$ $$
 
 Manuscript received _______; revision accepted _______.
 
-**Running title**: 
+**Running title**:
 
 \newpage
 
 # ABSTRACT
 
 **PREMISE:**
-Artificial light at night (ALAN), 
+Artificial light at night (ALAN),
 
 **METHODS:**
 
@@ -87,14 +87,13 @@ Artificial light at night (ALAN)
 
 # INTRODUCTION
 
-Artificial light at night (ALAN), consists of artificial light sources emission and the light reflected back from the sky(skyglow), had disturbed ecological processes since the start of 20th century [@Bennie2016; @Longcore2004; @Gaston2013]. 
-Like other kinds of pollution, the presence of unwanted, inappropriate, or excessive artificial lighting konwn as light pollution [@Wikipedia2022], had given rise to a certain impact on human beings, society and ecological environment [@Falchi2011].
+Light pollution caused by artificial light at night (ALAN) has disturbed ecological processes since the start of 20th century [@Bennie2016; @Longcore2004; @Gaston2013].
 So far, artificial light at night extends both in intensity covered a large illuminance range from the degree hard to detect to almost daylight and in extent covered more and more World's terrestrial surfaces [@Bennie2016; @Falchi2016].
-It casts effects among wild taxonomic groups both zoology and botany, from mammals, birds, reptiles and amphibians, fishes, invertebrates and plants etc [@Rich2006].
-ALAN modulates the behavior of animals typically attracting insects so as an important bringer to drive insects population decline [@Boyes2021; @Owens2020].
-To plants, biomass would increase responsing to ALAN and show different ratio between widely and less‐widely naturalized alien plants [@Speißer2021].
-Generally, artificial light at night could cause ecological effects spanning trophic levels, and the impacts depends on the wavelengths [@Bennie2018].
-However, no rigorous studies have examined the effects of artificial light at night on plants in conditions close to their natural environment.
+ALAN influences behavior or physiology broad ranges of taxonomic groups including mammals, birds, reptiles, amphibians, fishes, invertebrates, and plants [@Rich2006].
+For example, ALAN attracts insects .... so as an important bringer to drive insects population decline [@Boyes2021; @Owens2020].
+Although many studies have focused on how ALAN change the behavior of animals (ref), its influence on plants has also received attentions [@Speisser2021a; Liu2022 Matthew effect].
+A recent studies experimentally showed that ALAN increases biomass of herbaceous plants, which suggests ALAN can work as the light resources for plant growth [@Speisser2021a].
+However, few studies have examined the effects of ALAN on plants in conditions close to their natural environment.
 
 ALAN might directly affect plant leaf functional traits by changing plant light environments.
 Although LMA is driven by inherent genetic mechanisms [@Asner2011], environmental stresses (temperature, water and light) also shapes LMA.
@@ -105,9 +104,9 @@ And among a local community, @Ackerly2002 demonstrated the average values of LMA
 Here, ALAN could be considered as a conduct of prolonging light duration to plants so plants LMA could increase with that.
 
 ALAN might indirectly affect plant leaf functional traits as a potential factor to drive soil environmental conditions.
-In previous study, it has been demonstrated that leaf functional traits (LFTs) such as leaf area, leaf thickness, leaf density, leaf C and leaf N:P change with soil properties like soil pH, P, Ca, Mg, K, C:N [@Hernandez-Vargas2019]. 
+In previous study, it has been demonstrated that leaf functional traits (LFTs) such as leaf area, leaf thickness, leaf density, leaf C and leaf N:P change with soil properties like soil pH, P, Ca, Mg, K, C:N [@Hernandez-Vargas2019].
 And nitrogen contents per unit leaf area $N_a$ increased with environmental nitrogen contents, while LMA shows different correlation decreasing with N supply [@Jullien2009; @An2008].
-@Wright2019 shows nutrients clearly limit tropical forest plants, and especially the limitation of N and P in both lowland and montane forests. 
+@Wright2019 shows nutrients clearly limit tropical forest plants, and especially the limitation of N and P in both lowland and montane forests.
 Hence, besides the direct effect from ALAN the nutrients condition of the plants should also cause our attention.
 By the light compass theory [@Baker1978; @Sotthibandhu1979] that insects orient themselves by maintaining a constant angle to light rays, artificial light at night plays a role of sink attracting insects which replaces the role of the moon and stars to a great extent.
 Further more, it's been showed that about 30%–40% of insects die soon thereafter approaching street lamps for collision, overheating, dehydration, or predation [@Minnaar2015; @Owens2018].
@@ -116,7 +115,7 @@ Then comes our another research hypothesis that ALAN would decrease LMA of plant
 To know the effets of artificial light at night on perfomance of understory species so as a simulation to the city street shrubs, we conducted a forest artificial light experiment.
 Two species were chosen in this experiment representing sun species and shade species respectively to test whether different responds would show between them.
 We predicted that artificial light at night would bring effect to understory both aboveground as direct light supplementary and undergound as indirect soil nutrients supplementary.
-And we also predicted that canopy-openness and its interaction with artificial light at night would show weaker impaction in this experiment. 
+And we also predicted that canopy-openness and its interaction with artificial light at night would show weaker impaction in this experiment.
 
 # MATERIALS AND METHODS
 
@@ -124,10 +123,10 @@ And we also predicted that canopy-openness and its interaction with artificial l
 
 The field experiment was located within the Xishuangbanna Tropical Botanical Garden (XTBG),China in rubber tree forest (N21°54' E101°16') where we totally set 5 plots and selected 2 plots for this this after field investiation.
 LED (10w) is used to create an artificial light environment in all plots at night.(fig. )
-The LED system includes 6 components. 
-A metal box with an opening is used as a rainproof protector which is attached to a tree at around 1.2 m from the ground. 
+The LED system includes 6 components.
+A metal box with an opening is used as a rainproof protector which is attached to a tree at around 1.2 m from the ground.
 A rechargeable lithium battery (12v/30Ah) and an electric timer controls the timing and duration of the LED light operation at night.
-An electric wire was used to connect battery and LED which was hanging from a tree branch with a lampshade at approximately 2 m from the ground. 
+An electric wire was used to connect battery and LED which was hanging from a tree branch with a lampshade at approximately 2 m from the ground.
 Then the LED would work automatically from 8 pm to 5 am every day.
 This experiment started from 2019 November, and samples were collected on 2021 November.
 
@@ -168,7 +167,7 @@ So the response results of understory could vary according to the species specif
 There was research showed that plants' biomass would increase under artificial light[], our study showed the change part of biomass could be channelled into mixed results.
 Further more, adequate tests of the influence of artificial light at night on understory will entail more experimental work under field conditions.
 Controlling experiment probably tend to underestimate the environmental heterogeneity and species interaction, because many irreplaceable features of field conditions, such as subtle nutrients change, herbivores and competitors are usually absent.
-Hence the general pattern how understory species responds to artificial light at night remains unknown. 
+Hence the general pattern how understory species responds to artificial light at night remains unknown.
 In future work, diverse artificial light resource in light spectral quality and light intensity is need to simulate multi-situation of artificial light.
 And if possible, long term field experiment combining with controlling experiment approaching to plants natural growth situation will figure out the generalized patterns.
 
@@ -177,7 +176,7 @@ The effects of artificial light at night consists of aboveground part directly a
 Still, more studies are needed to reveal the comprehensive effcts, from plant physiology to plant community.
 Nevertheless, the negative effct of artificial light at night on understory species indicates that increments of artificial light at night might bring about a physiological suppression to those understory plants.
 
-Ignoring the effect of artificial light at night to multilevel ecological processes is self-deception, hence more and more research would be carried through about this important topic [@Davies2018]. 
+Ignoring the effect of artificial light at night to multilevel ecological processes is self-deception, hence more and more research would be carried through about this important topic [@Davies2018].
 
 # ACKONWLEGEMENTS
 
@@ -216,13 +215,13 @@ The distribution of individuals around the ALAN and the illustration of the expe
 table <- read.csv("../light_project/data-raw/table.csv")%>%
   kbl( caption = "Coefficients table") %>%
   kable_paper("striped", full_width = F) %>%
-  column_spec(4,bold = c(F,F,F,T,T,F)) %>% 
+  column_spec(4,bold = c(F,F,F,T,T,F)) %>%
   pack_rows("Melastoma_candidum", 1, 3) %>%
   pack_rows("Colocasia_gigantea", 4, 6)
 table
 ```
 
-**Table. 1.**        
+**Table. 1.**
 Results of Bayesian general linear mixed-effect models testing the effects of artificial light at night, daylight and interaction on experimental species.
 Significant effects (p < 0.05) are in bold.
 
