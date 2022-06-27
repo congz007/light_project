@@ -202,17 +202,14 @@ The distribution of individuals around the ALAN and the illustration of the expe
 (). The locations of the artificial-light-at-night plots and relative locations of each individual, each triangle represents one individual and the size of it represents the averaged LMA value.
 () and (). Photographs of the experiment during the day and night.
 
-![](..light_project/figs/sp1-dis)
-
-![](..light_project/figs/sp2-dis)
 
 \newpage
 
 ```{r table, echo=FALSE}
-table <- read.csv("../light_project/data-raw/table.csv")%>%
-  kbl( caption = "Coefficients table") %>%
+table <- read.csv("data-raw/table.csv")%>%
+  kbl(caption = "Coefficients table") %>%
   kable_paper("striped", full_width = F) %>%
-  column_spec(4,bold = c(F,F,F,T,T,F)) %>%
+  column_spec(4, bold = c(F,F,F,T,T,F)) %>%
   pack_rows("Melastoma_candidum", 1, 3) %>%
   pack_rows("Colocasia_gigantea", 4, 6)
 table

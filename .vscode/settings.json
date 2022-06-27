@@ -1,4 +1,5 @@
 {
     "files.encoding": "utf8",
-    "terminal.integrated.gpuAcceleration": "auto"
+    "terminal.integrated.gpuAcceleration": "auto",
+    "files.autoGuessEncoding": true
 }
