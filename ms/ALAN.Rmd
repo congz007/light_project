@@ -90,8 +90,8 @@ Artificial light at night (ALAN)
 Light pollution caused by artificial light at night (ALAN) has disturbed ecological processes since the start of 20th century [@Bennie2016; @Longcore2004; @Gaston2013].
 So far, artificial light at night extends both in intensity covered a large illuminance range from the degree hard to detect to almost daylight and in extent covered more and more World's terrestrial surfaces [@Bennie2016; @Falchi2016].
 ALAN influences behavior or physiology broad ranges of taxonomic groups including mammals, birds, reptiles, amphibians, fishes, invertebrates, and plants [@Rich2006].
-For example, ALAN attracts insects .... so as an important bringer to drive insects population decline [@Boyes2021; @Owens2020].
-Although many studies have focused on how ALAN change the behavior of animals (ref), its influence on plants has also received attentions [@Speisser2021a; Liu2022 Matthew effect].
+For example, ALAN attracts insects interfering in movement, foraging, reproduction, development so as an important bringer to drive insects population decline [@Boyes2021; @Owens2020].
+Although many studies have focused on how ALAN change the behavior of animals [@Russart2018], its influence on plants has also received attentions [@Speisser2021a; Liu2022 Matthew effect].
 A recent studies experimentally showed that ALAN increases biomass of herbaceous plants, which suggests ALAN can work as the light resources for plant growth [@Speisser2021a].
 However, few studies have examined the effects of ALAN on plant functional traits in conditions close to their natural environment.
 
@@ -106,7 +106,7 @@ Here, ALAN could be considered as a conduct of prolonging light duration to plan
 On the other hand, ALAN might indirectly affect plant leaf functional traits because ALAN has a potential to change soil environmental conditions by attracting insects.
 Many kinds of insects orient themselves by maintaining a constant angle to light rays and are attracted by light [positive phototaxis? [@Baker1978; @Sotthibandhu1979]].
 Previous studies showed that 30–40% of insects die soon after approaching street lamps for collision, overheating, dehydration, or predation [@Minnaar2015; @Owens2018].
-Since nitrogen (N) and phosphorus (P) are the nutrients most frequently limiting primary productivity in forest ecosystems (refs), dead insects killed by ALAN could be important nutrient input for soil nutrient.
+Since nitrogen (N) and phosphorus (P) are the nutrients most frequently limiting primary productivity in forest ecosystems [@Wright2019], dead insects killed by ALAN could be important nutrient input for soil nutrient [@Behie2013].
 Soil resources, especially N and P availability, are known to affect leaf mass per area (LAM) and leaf N and P contents (refs), and those effects are known to be opposite to the effects of light (refs) (e.g., strong light increase LMA but high N availability decrease LMA).
 
 Here we report the results of a 2-year ALAN experiment in forest understory to simulate light pollution.
