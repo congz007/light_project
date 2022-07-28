@@ -137,6 +137,10 @@ We measured the horizontal distance and geographic orientation of each individua
 Canopy openness was selected to be on behalf of day light, which photographed by Nikon COOLPIX4500 with fish-eye lens (Nikon FC-e8) then measured using  R package *LeafArea*[@Katabuchi2015].
 For leaf mass per area (LMA), we use leaf disc (10mm^2) punched from leaf avoiding vein and leaf margin instead of whole-leaf to calculate LMA value.(fig. )
 
+For soil nutrient (N,C,P), we took the depth-10cm soil samples in five plots both in 2019.06 and 2022.06.
+Each plot we took three soil samples at the place 0m away from ALAN and the place 10m away from ALAN seperately.
+
+
 *Data Analysis*
 
 To analyze the effects of ALAN, daylight's effect, and their interaction on both *Melastoma candidum D. Don* and *Colocasia gigantea (Blume) Hook. f.*, We fitted a Bayesian linear mixed-effets model for each species using 'rstan' package in R.
@@ -173,7 +177,6 @@ The effects of artificial light at night consists of aboveground part directly a
 Still, more studies are needed to reveal the comprehensive effcts, from plant physiology to plant community.
 Nevertheless, the negative effct of artificial light at night on understory species indicates that increments of artificial light at night might bring about a physiological suppression to those understory plants.
 
-Ignoring the effect of artificial light at night to multilevel ecological processes is self-deception, hence more and more research would be carried through about this important topic [@Davies2018].
 
 # ACKONWLEGEMENTS
 
