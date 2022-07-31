@@ -1,0 +1,96 @@
+---
+title: Light project soil analysis 
+author: Cong
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+#rmdformats::material
+  html_document:
+    fig_caption: yes
+    theme: spacelab #readable #sandstone #spacelab #flatly
+    highlight: pygments #tango #kate
+    toc: TRUE
+    toc_depth: 2
+    number_sections: TRUE
+    toc_float:
+      collapsed: TRUE
+      smooth_scroll: TRUE
+      toc: true
+---
+
+```{r}
+library(tidyverse)
+library(ggpubr)
+```
+
+```{r}
+soil <- read.csv("../data-raw/soil_nutrients.csv")
+soil
+```
+
+Here are the funcitons we'll use to calculate the ratio and mean value.
+```{r}
+ratio <- function(data) {
+     t <- data[2,]/data[1,]
+     names(t) <- c("ratio_C","ratio_N","ratio_P","noyear")
+     t
+}
+
+ave <- function(data) {
+  tt <- map(data,mean)
+  names(tt) <- c("ave_C","ave_N", "ave_P")
+  as_tibble(tt)
+}
+```
+
+Here data clean thing:
+```{r}
+t <- as_tibble(soil) %>% select(-Tag) %>%
+      group_by(Plot,Distance) %>% nest() %>% 
+      mutate(Ratio = map(data, ratio))%>%
+      unnest(cols = c(data,Ratio)) %>% 
+      select(-noyear)%>%ungroup%>%
+      mutate(Plot = as.character(Plot))%>%
+      mutate(Distance = as.character(Distance))
+t
+```
+
+For example, showing the total carbon change between 2019 and 2022 under ALAN among 5 plots:
+```{r}
+t %>%filter(Distance == 0) %>% 
+    ggplot(., aes(x = Year, y = T.C, color = Plot))+
+    geom_point(size = 4)+geom_line(size = 1.5)+ ggtitle("Under ALAN")
+```
+
+Here shows all the change of total carbon among 5 plots:
+```{r}
+t %>%ggplot(., aes(x = Year, y = T.C, color = Plot, linetype = Distance))+
+       geom_line(size = 1.5) +
+       geom_point(size = 4, shape = 17) 
+```
+
+Here is total soil Nitrogen comparison bewteen 2019 and 2022.
+```{r}
+t %>% mutate(Year = as.character(Year)) %>%ggplot(., aes(x = Year,y = T.N, group  = Year))+
+      geom_boxplot()
+```
+
+Here list total C,N,P changing rate under ALAN and 10m away from light.
+```{r}
+p1 <- t %>% ggplot(.,aes(x = Distance, y = ratio_C, shape = Plot))+ geom_point(size = 8)
+p2 <- t %>% ggplot(.,aes(x = Distance, y = ratio_N, shape = Plot))+ geom_point(size = 8)
+p3 <- t %>% ggplot(.,aes(x = Distance, y = ratio_P, shape = Plot))+ geom_point(size = 8)
+ggarrange(p1,p2,p3, nrow = 1, common.legend = T, legend = "right")
+```
+
+Here list total C,N,P changing rate under ALAN and 10m away from light of my experiments plots.
+```{r}
+p1 <- t %>% filter(Plot == c(2,5))%>% ggplot(.,aes(x = Distance, y = ratio_C, shape = Plot))+ geom_point(size = 8)
+p2 <- t %>% filter(Plot == c(2,5))%>% ggplot(.,aes(x = Distance, y = ratio_N, shape = Plot))+ geom_point(size = 8)
+p3 <- t %>% filter(Plot == c(2,5))%>% ggplot(.,aes(x = Distance, y = ratio_P, shape = Plot))+ geom_point(size = 8)
+ggarrange(p1,p2,p3,nrow = 1, common.legend = T,heights = 0.8)
+```
+
+
+
+
+
