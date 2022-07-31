@@ -1,17 +1,6 @@
-#After we get soil NCP draw a picture
-soil <- expand.grid("site" = c(paste0("site",1:5)),
-               "year" = c("2019", "2022"),
-               "distance" = c("0","10")) %>% mutate("N" = rbeta(20,2,2))%>% mutate("C" = rbeta(20,3,3))
-
-
-p <- ggplot(soil, aes(x= year, y = N, fill= distance)) + 
-  geom_boxplot()
-#the distance and year must be character type?
-
-
 library(GGally)
 library(tidyverse)
-
+library(ggpubr)
 
 soil <- read.csv("data-raw/soil_nutrients.csv")
 soil
@@ -41,7 +30,7 @@ w <- v%>%unnest%>%ungroup()
 #forget the distance oops
 
 t %>%filter(Distance == 0) %>% ggplot(., aes(x = Year, y = T.C, color = Plot))+
-      geom_point(size = 4)+geom_line(size = 1.5)
+      geom_point(size = 4)+geom_line(size = 1.5)+ ggtitle("Under ALAN")
 
 t %>%ggplot(., aes(x = Year, y = T.C, color = Plot, linetype = Distance))+
        geom_line(size = 1.5) +
@@ -57,3 +46,19 @@ t %>%ggplot(., aes(x = Year, y = T.P, color = Plot, linetype = Distance))+
 
 t %>% mutate(Year = as.character(Year)) %>%ggplot(., aes(x = Year,y = T.N, group  = Year))+
       geom_boxplot()
+
+t %>% ggplot(.,aes(x = Distance, y = ratio_N))+ geom_boxplot()
+
+t %>% filter(Plot == c(2,5)) %>% ggplot(.,aes(x = Distance, y = ratio_N, shape = Plot))+ geom_point(size = 10)
+
+p1 <- t %>% ggplot(.,aes(x = Distance, y = ratio_C, shape = Plot))+ geom_point(size = 8)
+p2 <- t %>% ggplot(.,aes(x = Distance, y = ratio_N, shape = Plot))+ geom_point(size = 8)
+p3 <- t %>% ggplot(.,aes(x = Distance, y = ratio_P, shape = Plot))+ geom_point(size = 8)
+
+ggarrange(p1,p2,p3,nrow = 1, common.legend = T,heights = 0.8)
+
+
+p1 <- t %>% filter(Plot == c(2,5))%>% ggplot(.,aes(x = Distance, y = ratio_C, shape = Plot))+ geom_point(size = 8)
+p2 <- t %>% filter(Plot == c(2,5))%>% ggplot(.,aes(x = Distance, y = ratio_N, shape = Plot))+ geom_point(size = 8)
+p3 <- t %>% filter(Plot == c(2,5))%>% ggplot(.,aes(x = Distance, y = ratio_P, shape = Plot))+ geom_point(size = 8)
+ggarrange(p1,p2,p3,nrow = 1, common.legend = T,heights = 0.8)
