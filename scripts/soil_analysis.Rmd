@@ -8,13 +8,6 @@ output:
     fig_caption: yes
     theme: spacelab #readable #sandstone #spacelab #flatly
     highlight: pygments #tango #kate
-    toc: TRUE
-    toc_depth: 2
-    number_sections: TRUE
-    toc_float:
-      collapsed: TRUE
-      smooth_scroll: TRUE
-      toc: true
 ---
 
 ```{r}
@@ -42,7 +35,7 @@ ave <- function(data) {
 }
 ```
 
-Here data clean thing:
+Here tidy data:
 ```{r}
 t <- as_tibble(soil) %>% select(-Tag) %>%
       group_by(Plot,Distance) %>% nest() %>% 
@@ -61,20 +54,41 @@ t %>%filter(Distance == 0) %>%
     geom_point(size = 4)+geom_line(size = 1.5)+ ggtitle("Under ALAN")
 ```
 
-Here shows all the change of total carbon among 5 plots:
+Here shows both the location under ALAN and the location 10m away from ALAN change between years.
 ```{r}
 t %>%ggplot(., aes(x = Year, y = T.C, color = Plot, linetype = Distance))+
        geom_line(size = 1.5) +
        geom_point(size = 4, shape = 17) 
 ```
 
-Here is total soil Nitrogen comparison bewteen 2019 and 2022.
+
 ```{r}
-t %>% mutate(Year = as.character(Year)) %>%ggplot(., aes(x = Year,y = T.N, group  = Year))+
-      geom_boxplot()
+p_C <-  t %>%ggplot(., aes(x = Year, y = T.C, color = Plot, linetype = Distance))+
+       geom_line(size = 1.5) +
+       geom_point(size = 4, shape = 17) 
+p_N <-  t %>%ggplot(., aes(x = Year, y = T.N, color = Plot, linetype = Distance))+
+       geom_line(size = 1.5) +
+       geom_point(size = 4, shape = 17) 
+p_P <-  t %>%ggplot(., aes(x = Year, y = T.P, color = Plot, linetype = Distance))+
+       geom_line(size = 1.5) +
+       geom_point(size = 4, shape = 17) 
+ggarrange(p_C,p_N,p_P,nrow = 1,common.legend = TRUE)
 ```
 
-Here list total C,N,P changing rate under ALAN and 10m away from light.
+Here is total soil Nitrogen comparison bewteen 2019 and 2022.
+```{r}
+t  %>%filter(Distance == 0)%>% mutate(Year = as.character(Year)) %>%ggplot(., aes(x = Year,y = T.N, group  = Year))+
+      geom_boxplot()+geom_point()
+t  %>%filter(Distance == 10)%>% mutate(Year = as.character(Year)) %>%ggplot(., aes(x = Year,y = T.N, group  = Year))+
+      geom_boxplot()+geom_point()
+```
+Fig under ALAN (left), 10m away from ALAN (right)
+
+
+Here list total C,N,P percentage change under ALAN and 10m away from light.
+$$
+X_{2022}/X_{2019}, \ \ \ (X = C,N,P) 
+$$
 ```{r}
 p1 <- t %>% ggplot(.,aes(x = Distance, y = ratio_C, shape = Plot))+ geom_point(size = 8)
 p2 <- t %>% ggplot(.,aes(x = Distance, y = ratio_N, shape = Plot))+ geom_point(size = 8)
@@ -82,7 +96,8 @@ p3 <- t %>% ggplot(.,aes(x = Distance, y = ratio_P, shape = Plot))+ geom_point(s
 ggarrange(p1,p2,p3, nrow = 1, common.legend = T, legend = "right")
 ```
 
-Here list total C,N,P changing rate under ALAN and 10m away from light of my experiments plots.
+Here list total C,N,P percentage change under ALAN and 10m away from light of my experiments plots.
+
 ```{r}
 p1 <- t %>% filter(Plot == c(2,5))%>% ggplot(.,aes(x = Distance, y = ratio_C, shape = Plot))+ geom_point(size = 8)
 p2 <- t %>% filter(Plot == c(2,5))%>% ggplot(.,aes(x = Distance, y = ratio_N, shape = Plot))+ geom_point(size = 8)
