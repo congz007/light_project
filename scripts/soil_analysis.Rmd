@@ -16,7 +16,7 @@ library(ggpubr)
 ```
 
 ```{r}
-soil <- read.csv("../data-raw/soil_nutrients.csv")
+soil <- read.csv("data-raw/soil_nutrients.csv")
 soil
 ```
 
@@ -82,6 +82,7 @@ t  %>%filter(Distance == 0)%>% mutate(Year = as.character(Year)) %>%ggplot(., ae
 t  %>%filter(Distance == 10)%>% mutate(Year = as.character(Year)) %>%ggplot(., aes(x = Year,y = T.N, group  = Year))+
       geom_boxplot()+geom_point()
 ```
+
 Fig under ALAN (left), 10m away from ALAN (right)
 
 
@@ -90,9 +91,16 @@ $$
 X_{2022}/X_{2019}, \ \ \ (X = C,N,P) 
 $$
 ```{r}
-p1 <- t %>% ggplot(.,aes(x = Distance, y = ratio_C, shape = Plot))+ geom_point(size = 8)
-p2 <- t %>% ggplot(.,aes(x = Distance, y = ratio_N, shape = Plot))+ geom_point(size = 8)
-p3 <- t %>% ggplot(.,aes(x = Distance, y = ratio_P, shape = Plot))+ geom_point(size = 8)
+t <- as_tibble(soil) %>% select(-Tag) %>%
+      group_by(Plot,Distance) %>% nest() %>% 
+      mutate(Ratio = map(data, ratio))%>%
+      unnest(cols = c(data,Ratio)) %>% 
+      select(-noyear)%>%ungroup%>%
+      mutate(Plot = as.character(Plot))
+
+p1 <- t %>% ggplot(.,aes(x = Distance, y = ratio_C,color = Plot))+geom_line() + geom_point(size = 8)
+p2 <- t %>% ggplot(.,aes(x = Distance, y = ratio_N, color = Plot))+ geom_point(size = 8)+geom_line()
+p3 <- t %>% ggplot(.,aes(x = Distance, y = ratio_P, color = Plot))+ geom_point(size = 8)+geom_line()
 ggarrange(p1,p2,p3, nrow = 1, common.legend = T, legend = "right")
 ```
 
@@ -104,7 +112,6 @@ p2 <- t %>% filter(Plot == c(2,5))%>% ggplot(.,aes(x = Distance, y = ratio_N, sh
 p3 <- t %>% filter(Plot == c(2,5))%>% ggplot(.,aes(x = Distance, y = ratio_P, shape = Plot))+ geom_point(size = 8)
 ggarrange(p1,p2,p3,nrow = 1, common.legend = T,heights = 0.8)
 ```
-
 
 
 
