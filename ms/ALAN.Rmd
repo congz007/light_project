@@ -103,7 +103,7 @@ Although many studies have focused on how ALAN change the behavior of animals [@
 A recent studies experimentally showed that ALAN increases biomass of herbaceous plants, which suggests ALAN can work as the light resources for plant growth [@Speisser2021a].
 However, few studies have examined the effects of ALAN on plant functional traits in conditions close to their natural environment.
 
-ALAN might directly affect plant leaf functional traits because ALAN could work as the light resources.
+ALAN might directly affect plant leaf functional traits because ALAN could work as light resources.
 Although LMA is driven by inherent genetic mechanisms [@Asner2011], environmental stresses (temperature, water and light) also shapes LMA.
 Actually, plants could sense light through photorecpetors which allows the plant to respond to four parameters of their light environment: light spectral quality, light intensity, light direction, and light duration [@Rich2006; @Paik2019].
 @Terashima2006 showed that the light-saturated rate of leaf photosynthesis per unit area ($P_max$) is highly correlated with leaf structural parameters such as leaf thickness, leaf mass per area, mesophyll surface area($S_mes$), and chloroplast surface area ($S_c$), and sun leaves are thicker than shade leaves exactly as the height of the palisade tissue in sun leaves is greater than that in shade leaves.
@@ -120,7 +120,7 @@ Soil resources, especially N and P availability, are known to affect leaf mass p
 Here we report the results of a 2-year ALAN experiment in rubber plant forest understory to simulate light pollution.
 Two species were chosen in this experiment representing sun species and shade species respectively to test whether different responds would show between them.
 We predicted that ALAN would bring effect to understory both aboveground as direct light supplementary and undergound as indirect soil nutrients supplementary.
-We also predicted that canopy-openness and its interaction with artificial light at night would show weaker impaction in this experiment.
+We also predicted that canopy-openness and its interaction with artificial light at night would show weak impaction in this experiment.
 
 
 # MATERIALS AND METHODS
@@ -130,7 +130,7 @@ We also predicted that canopy-openness and its interaction with artificial light
 The field experiment was located within the Xishuangbanna Tropical Botanical Garden (XTBG),China in rubber tree forest (N21°54' E101°16') where we totally set 5 plots and selected 2 plots for this experiment after field investiation.
 LED (10w) is used to create an artificial light environment in all plots at night.(fig.1)
 The LED system includes 6 components.
-A metal box with an opening is used as a rainproof protector which is attached to a tree at around 1.2 m from the ground.
+A metal box with an opening is used as a rainproof protector which is attached to a tree at around 1.2m from the ground.
 A rechargeable lithium battery (12v/30Ah) and an electric timer controls the timing and duration of the LED light operation at night.
 An electric wire was used to connect battery and LED which was hanging from a tree branch with a lampshade at approximately 2 m from the ground.
 Then the LED would work automatically from 8 pm to 5 am every day.
@@ -144,23 +144,22 @@ Considering the understory condition (enough mature individual numbers and distr
 
 We measured the horizontal distance and geographic orientation of each individual away from the LED using tape measure representing the relative effects of ALAN.
 Canopy openness was selected to be on behalf of day light, which photographed by Nikon COOLPIX4500 with fish-eye lens (Nikon FC-e8) then measured using  R package *LeafArea*[@Katabuchi2015].
-For leaf mass per area (LMA), we use leaf disc (10mm^2) punched from leaf avoiding vein and leaf margin instead of whole-leaf to calculate LMA value [@].
+For leaf mass per area (LMA), we use leaf disc (10mm^2) punched from leaf avoiding vein and leaf margin instead of whole-leaf to calculate LMA value [@Maenpuen2022].
 
 For soil nutrients (N,C,P), we collected surface soil samples (0-10 cm depths) in five plots both in June 2019 and June 2022.
 We took three replicates at the place under ALAN and the place 10m away from ALAN seperately each plot. 
-After sampling, the soils were air-dried at room temperature for one week then sieved through 0.85mm and 0.15mm mesh finally used for total N,C measurements by combustion using a 
-elemental analyzer (Vario MAX CN, Elementar Analysensysteme GmbH (Germany)) and total P measurement by inductively coupled plasma atomic-emission spectrometer (iCAP7400, Thermo Fisher Scientific U.S.A).
-And we calculated the relative percentage change of each nutrient between the value in 2019 and in 2022 to compare the soil nutrient change with ALAN's effect (sampled under ALAN) and without ALAN's effect (sampled 10m away from ALAN).  
+After sampling, the soils were air-dried at room temperature for one week then sieved through 0.85mm and 0.15mm mesh finally used for total N,C measurements by combustion using a elemental analyzer (Vario MAX CN, Elementar Analysensysteme GmbH (Germany)) and total P measurement by inductively coupled plasma atomic-emission spectrometer (iCAP7400, Thermo Fisher Scientific U.S.A).
+Then we calculated the relative percentage change of each nutrient between the value in 2019 and in 2022 to compare the soil nutrient change with ALAN's effect (sampled under ALAN) and without ALAN's effect (sampled 10m away from ALAN).  
 $$
 X_{2022}/X_{2019}, \ \ \ (X = C,N,P) 
 $$
 
 *Data Analysis*
 
-To analyze the effects of ALAN, daylight's effect, and their interaction on both *Melastoma candidum D. Don* and *Colocasia gigantea (Blume) Hook. f.*, We fitted a Bayesian linear mixed-effets model for each species using 'rstan' package in R.
+To analyze the effects of ALAN, daylight's effect, and their interaction on both *Melastoma candidum D. Don* and *Colocasia gigantea (Blume) Hook. f.*, we fitted a Bayesian linear mixed-effets model for each species implemented in Stan [@Carpenter2017].
 The Stan code used to fit the models is available from Github at https://github.com/Congon/light_project.
 Leaf mass per area (LMA) of each leaf of each individual was the response variable.
-Distance from the ALAN of each individual was transformed by log and reciprocal for both the accumulation of insects and the intensity of ALAN fade away from distance.
+Distance from the ALAN of each individual was transformed by log and reciprocal because the accumulation of insects and the intensity of ALAN fade away from distance nonlinearly.
 We conducted individual as a random effect for each species on our model because individuals of the same species were non-independent.
 All statistical analyses were conducted in R version 4.1.2 [@RCoreTeam2022]. 
 
@@ -169,34 +168,30 @@ All statistical analyses were conducted in R version 4.1.2 [@RCoreTeam2022].
 The effects of ALAN and daylight were significant for species *Colocasia gigantea (Blume) Hook. f.*, while species *Melastoma candidum D. Don* showed no significance.
 Artificial light at night drove the averaged individual LMA value decrease for species *Colocasia gigantea (Blume) Hook. f.* (Table 1, slope: -0.1043 [95% CI: -0.1458, -0.0621]), and for species *Melastoma candidum D. Don* (Table 1, slope: -0.0422) although not significant.
 Both species showed no significance on the interaction of the effects of ALAN and daylight (Table 1).
-
 Loss of soil nutrients ($X_{2022}/X_{2019} < 1,\ (X = C,N,P)$) were observed in general among five plots from 2019 to 2022. 
-The relative percentage change of each soil nutrient showed clear difference between the place under ALAN ($C_{2022}/C_{2019} = 0.919, N_{2022}/N_{2019} = 0.948, P_{2022}/P_{2019} = 0.537$) and the place 10m away from ALAN ($C_{2022}/C_{2019} = 0.663, N_{2022}/N_{2019} = 0.695, P_{2022}/P_{2019} = 0.492$) at the plot where *Colocasia gigantea (Blume) Hook. f.* disturbed, while showed not too much difference for the other species.
+The relative percentage change of each soil nutrient showed clear difference between the place under ALAN ($C_{2022}/C_{2019} = 0.919$, $N_{2022}/N_{2019} = 0.948$, $P_{2022}/P_{2019} = 0.537$) and the place 10m away from ALAN ($C_{2022}/C_{2019} = 0.663$, $N_{2022}/N_{2019} = 0.695$, $P_{2022}/P_{2019} = 0.492$) at the plot where *Colocasia gigantea (Blume) Hook. f.* disturbed, while showed not too much difference for the other species.
 
 # DISCUSSION
 
-Although it has been demonstrated that LMA increase with insolation[], our research shows the artificial light situation should consider as a comprehensive situation.
-Actually, artificial light at night exerts an influence on the physiological processes of understory by multi-approach both aboveground and undergound.
+Although it has been demonstrated that LMA increase with insolation [@Ackerly2002; @Niinemets2004], our research shows the effects of night artificial light to plants should be considered as a comprehensive situation.
+Artificial light at night exerts an influence on the physiological processes of understory by multi-approach both aboveground and undergound.
 For aboveground part, artificial light at night change the light environments of plants including light duration, light intensity and light spectral quality.
-For underground part, artificial light at night might indirectly changed the soil nutrients conditions especially as an important nitrogen supplementary.
-So the response results of understory could vary according to the species specificity[] and artificial light resource[].
-The relationship between LMA and soil nutrients in this study is consistent with previous studies.
-It is not clear if the difference in the soil nutrients is due to ALAN.
+For underground part, artificial light at night might indirectly changed the soil nutrients conditions by attracting insects especially as an important nitrogen supplementary.
+In this study, the LMA of understory shows a negative relationship with the composite effects of artificial light at night, thereinto the relationship between LMA and soil nutrients is consistent with previous studies.
+Nevertheless we could not confirm the difference in the soil nutrients is due to artificial light at night, for soil nutrents were lost througthout rubber plant forest because of 
+precipitation, terrain and rubber tapping although artificial light at night to some extent retarded the loss of soil nutrients in our experiment place.
+Furthermore the results of understory response could vary according to the species specificity (sun species showed no significance in our study) and artificial light resource(varying intensities of artificial light could cause different results [@Bennie2016]).
 
-There was research showed that plants' biomass would increase under artificial light[], our study showed the change part of biomass could be channelled into mixed results.
-Further more, adequate tests of the influence of artificial light at night on understory will entail more experimental work under field conditions.
-Controlling experiment probably tend to underestimate the environmental heterogeneity and species interaction, because many irreplaceable features of field conditions, such as subtle nutrients change, herbivores and competitors are usually absent.
-Hence the general pattern how understory species responds to artificial light at night remains unknown.
-In future work, diverse artificial light resource in light spectral quality and light intensity is need to simulate multi-situation of artificial light.
-And if possible, long term field experiment combining with controlling experiment approaching to plants natural growth situation will figure out the generalized patterns.
-
-In conclusion, our study showed the LMA of some understory species would decrease with artificial light at night.
-Still, more studies are needed to reveal the comprehensive effcts, from plant physiology to plant community.
-Nevertheless, the negative effct of artificial light at night on understory species indicates that increments of artificial light at night might bring about a physiological suppression to those understory plants.
+There was research showed that plants' biomass would increase under artificial light through controlling experiment [@Speisser2021a], but our study showed the allocation of the changing part of biomass could be channelled into mixed results.
+Controlling experiment probably tend to underestimate the species interaction and unpredictable environmental heterogeneity caused by natural and artificial factors, because many irreplaceable features of field conditions, such as subtle nutrients change, herbivores and competitors are usually absent.
+Thus, adequate tests of the influence of artificial light at night on understory will entail more experimental work under field conditions.
+In future work, diverse artificial light resource in light spectral quality and light intensity and more understory group are needed to simulate comprehensive effcts of artificial light from plant physiology to plant community.
+In conclusion, the general pattern how understory species responds to artificial light at night remains unknown. 
+Our study showed the LMA value of some understory species would decrease with artificial light at night.
+This negative effect could indicate that increments of artificial light at night might bring about a physiological suppression to those understory plants.
 
 
 # ACKONWLEGEMENTS
-
 
 
 # AUTHOR CONTRIBUTIONS
@@ -205,8 +200,6 @@ MK and CZ conceived the study;
 CZ collected data and performed the analysis with MK together;
 all authors contributed to revisions.
 
-
-# SUPPORTING INFORMATION
 
 
 # LITERATURE CITED
@@ -217,10 +210,10 @@ all authors contributed to revisions.
 
 **Fig. 1.**
 The distribution of individuals around the ALAN and the illustration of the experiment setup.
-(). The locations of the artificial-light-at-night plots and relative locations of each individual, each triangle represents one individual and the size of it represents the averaged LMA value.
-() and (). Photographs of the experiment during the day and night.
+The distribution of individuals LMA values around the artificial light of two experimental species (A and C). 
+Photographs of the experimental plots during the day and night (B and D).
 
-![]()
+![](figs/merge.png)
 
 \newpage
 
