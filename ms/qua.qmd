@@ -18,10 +18,6 @@ output:
      collapsed: TRUE
      smooth_scroll: TRUE
      toc: true
-  pdf_document:
-    fig_width: 6
-    fig_caption: yes
-    toc: yes
 ---
 
 
@@ -218,7 +214,7 @@ Photographs of the experimental plots during the day and night (B and D).
 \newpage
 
 ```{r table, echo=FALSE}
-table <- read.csv("../data-raw/table.csv")%>%
+table <- read.csv(file = "../data-raw/table.csv")%>%
   kbl(caption = "Coefficients table") %>%
   kable_paper("striped", full_width = F) %>%
   column_spec(4, bold = c(F,F,F,T,T,F)) %>%
