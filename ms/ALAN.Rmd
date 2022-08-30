@@ -176,32 +176,24 @@ The relative percentage change of each soil nutrient showed clear difference bet
 
 # DISCUSSION
 
-Although it has been demonstrated that LMA increase with insolation [@Ackerly2002; @Niinemets2004], our research shows the effects of night artificial light to plants should be considered as a comprehensive situation.
-Artificial light at night exerts an influence on the physiological processes of understory by multi-approach both aboveground and undergound.
+Although it had been demonstrated that LMA increase with insolation [@Ackerly2002; @Niinemets2004], our research showed the effects of night artificial light to plants should be considered as a comprehensive situation.
+Artificial light at night would exert an influence on the physiological processes of understory by multi-approach both aboveground and undergound.
 For aboveground part, artificial light at night change the light environments of plants including light duration, light intensity and light spectral quality.
-For underground part, artificial light at night might indirectly changed the soil nutrients conditions by attracting insects especially as an important nitrogen supplementary.
-In this study, the LMA of understory shows a negative relationship with the composite effects of artificial light at night, thereinto the relationship between LMA and soil nutrients is consistent with previous studies.
-Nevertheless we could not confirm the difference in the soil nutrients is due to artificial light at night, for soil nutrents were lost througthout rubber plant forest because of 
-precipitation, terrain and rubber tapping although artificial light at night to some extent retarded the loss of soil nutrients in our experiment place.
-Furthermore the results of understory response could vary according to the species specificity (sun species showed no significance in our study) and artificial light resource(varying intensities of artificial light could cause different results [@Bennie2016]).
+For underground part, artificial light at night might indirectly change soil nutrients conditions by attracting insects especially as an important nitrogen supplementary.
+In this study, the LMA value of understory showed a negative relationship with the composite effects of artificial light at night, thereinto the relationship between LMA and soil nutrients was consistent with previous studies.
+Nevertheless we could not confirm the difference in the soil nutrients was due to artificial light at night, for soil nutrents were lost througthout rubber plant forest because of precipitation, terrain and rubber tapping although artificial light at night to some extent retarded the loss of soil nutrients in our experiment place.
+Furthermore the results of understory response could vary according to the species specificity (sun species showed no significance in our study) and artificial light resource (varying intensities of artificial light could cause different results [@Bennie2016]).
 
 There was research showed that plants' biomass would increase under artificial light through controlling experiment [@Speisser2021a], but our study showed the allocation of the changing part of biomass could be channelled into mixed results.
 Controlling experiment probably tend to underestimate the species interaction and unpredictable environmental heterogeneity caused by natural and artificial factors, because many irreplaceable features of field conditions, such as subtle nutrients change, herbivores and competitors are usually absent.
 Thus, adequate tests of the influence of artificial light at night on understory will entail more experimental work under field conditions.
-In future work, diverse artificial light resource in light spectral quality and light intensity and more understory group are needed to simulate comprehensive effcts of artificial light from plant physiology to plant community.
+In future work, diverse artificial light resource in light spectral quality and light intensity and more understory group will be needed to simulate comprehensive effcts of artificial light from plant physiology to plant community.
 In conclusion, the general pattern how understory species responds to artificial light at night remains unknown. 
 Our study showed the LMA value of some understory species would decrease with artificial light at night.
-This negative effect could indicate that increments of artificial light at night might bring about a physiological suppression to those understory plants.
+This negative effect could indicate that increments of artificial light at night might bring about a physiological suppression to those understory plants with which applied implications for environmental management and urban ecological planning. 
 
+# ACKONWLEDGEMENTS
 
-# ACKONWLEGEMENTS
-
-
-# AUTHOR CONTRIBUTIONS
-
-MK and CZ conceived the study;
-CZ collected data and performed the analysis with MK together;
-all authors contributed to revisions.
 
 
 
