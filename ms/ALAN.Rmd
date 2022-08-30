@@ -18,10 +18,15 @@ output:
      collapsed: TRUE
      smooth_scroll: TRUE
      toc: true
-  pdf_document:
+  word_document:
     fig_width: 6
     fig_caption: yes
-    toc: yes
+    toc: FALSE
+    reference_docx: templates/rmd_style.docx
+    pandoc_args:
+    - "--filter"
+    - "pandoc-crossref"
+    - "--mathml"
 ---
 
 
@@ -43,7 +48,7 @@ library(kableExtra)
 
 \newpage
 
-How LMA of understory plants responses to artificial light at night
+Impacts of artificial light at night on understory
 
 $$ $$
 
@@ -75,23 +80,21 @@ Manuscript received _______; revision accepted _______.
 
 # ABSTRACT
 
-**PREMISE:**
-Artificial light at night (ALAN),
-
-**METHODS:**
-
-
-**RESULTS:**
-
-
-**CONCLUSIONS:**
-
+Artificial light at night (ALAN), demonstrated a new ecological factors influences organism through multi-approach. 
+As yet assessing impacts of artificial light at night on understory plants doesn't get much attentions.
+We evaluated whether ALAN would affect the LMA (leaf mass per area) of understory plants through a three-year field light experiment in tropical rubber plant forest, China.
+We assumed ALAN affected understory by two pathway of directly increasing light supplement aboveground and indirectly attracting insects then changing soil nutrients underground.
+Two species were chosen in this study *Colocasia gigantea (Blume) Hook. f.* representing shade species and *Melastoma candidum D. Don* representing sun species.
+Canopy openness, LMA value, soil nutrients and individual distance away from ALAN were measured.
+We found a negative relationship between LMA value of understory and effects of ALAN, which was significant to species *Colocasia gigantea (Blume) Hook. f.* while non-significant to species *Melastoma candidum D. Don*.
+Results suggests that ALAN might trigger comprehensive effects on understory.
 
 **KEY WORDS**
-light pollution,
 leaf mass per area (LMA),
-leaf punch,
-Artificial light at night (ALAN)
+understory,
+Artificial light at night (ALAN),
+*Colocasia gigantea (Blume) Hook. f.* ,
+*Melastoma candidum D. Don*
 
 # INTRODUCTION
 
