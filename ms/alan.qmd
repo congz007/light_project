@@ -1,41 +1,40 @@
 ---
-geometry: margin=1in
 fontsize: 12pt
-link-citations: yes
+geometry: margin=1in
+link-citations: true
 bibliography: "light_project.bib"
 csl: ecology.csl
-output:
-  bookdown::pdf_document2:
-    fig_width: 6
-    fig_caption: yes
-    toc: no
-    number_sections: no
-  html_document:
-    fig_caption: yes
+crossref:
+  fig-title: Fig.
+  fig-prefix: Fig.
+  eq-prefix: Equation
+format:
+  html:
     theme: spacelab #readable #sandstone #spacelab #flatly
-    highlight: pygments #tango #kate
-    toc: TRUE
-    toc_depth: 2
-    number_sections: TRUE
-    toc_float:
-     collapsed: TRUE
-     smooth_scroll: TRUE
-     toc: true
-  word_document:
-    fig_width: 6
-    fig_caption: yes
-    toc: FALSE
-    reference_docx: templates/rmd_style.docx
-    pandoc_args:
-    - "--filter"
-    - "pandoc-crossref"
-    - "--mathml"
-header-includes:
-  - \usepackage{xr}
-  - \usepackage[default]{sourcesanspro}
-  - \usepackage{sourcecodepro}
-  - \usepackage{lineno}
-  - \linenumbers
+    toc: true
+    toc-depth: 2
+    toc-title: Contents
+    self-contained: true
+    smooth-scroll: true
+    highlight-style: github
+  docx:
+    toc: false
+    number-sections: false
+    highlight-style: github
+    html-math-method: katex
+    reference-doc: my_template.docx
+  pdf:
+    toc: false
+    keep-tex: true
+    latex-clean: false
+    pdf-engine: xelatex
+    include-in-header:
+      text: |
+        \usepackage[default]{sourcesanspro}
+        \usepackage{sourcecodepro}
+        \usepackage{lineno}
+        \linenumbers
+        \linespread{1.2}
 ---
 
 ```{r setup, include=FALSE}
@@ -238,4 +237,3 @@ Results of Bayesian general linear mixed-effect models testing the effects of ar
 Significant effects (p < 0.05) are in bold.
 
 \newpage
-

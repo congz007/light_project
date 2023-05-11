@@ -90,3 +90,15 @@ test_photo
 *.synctex.gz(busy)
 *.pdfsync
 
+# binary files
+*.sif
+*.pdf
+*.eps
+*.csv
+*.png
+*.docx
+*.pptx
+*.xslx
+*.html
+*.fdb_latexmk
+
