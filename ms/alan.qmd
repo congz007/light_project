@@ -138,16 +138,17 @@ Based on our hypothesis, we anticipate two key outcomes:
 
 # MATERIALS AND METHODS
 
-*experimental setup*
+*Experimental setup*
 
-ALAN field experiments were located within the Xishuangbanna Tropical Botanical Garden (XTBG), China in rubber tree forest (N21°54' E101°16') where we totally set 5 plots and selected 2 plots for this experiment after field investiation.
-LED (10w) is used to create an artificial light environment in all plots at night (fig.1).
-The LED system included 6 components.
-A metal box with an opening was used as a rainproof protector which was attached to a tree at around 1.2m from the ground.
-A rechargeable lithium battery (12v/30Ah) and an electric timer controlled the timing and duration of the LED light operation at night.
-An electric wire was used to connect battery and LED which was hanging from a tree branch with a lampshade at approximately 2 m from the ground.
-Then the LED would work automatically from 8 pm to 5 am every day.
-This experiment started from 2019 November, and leaf disc samples were collected on 2021 November.
+ALAN field experiments were located within the Xishuangbanna Tropical Botanical Garden (XTBG), China, in a rubber tree forest (N21°54' E101°16') where we set 5 plots and selected two plots for this experiment after field investigation.
+LED lights (10w) were used to create an artificial light environment in all plots at night (Fig. 1).
+The LED system included six components.
+A metal box with an opening served as a rainproof protector.
+This box was attached to a tree around 1.2m from the ground.
+A rechargeable lithium battery (12v/30Ah) and an electric timer controlled the timing and duration of the LED operation at night.
+An electric wire connected the battery and LED, hanging from a tree branch with a lampshade approximately 2 m from the ground.
+The LED system was programmed to function automatically from 8 pm to 5 am daily.
+The experiment was set up in November 2019, and leaf disc samples were collected two years later, in November 2021.
 
 *Species Selection*
 
