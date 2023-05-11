@@ -105,35 +105,36 @@ Artificial light at night (ALAN),
 
 # INTRODUCTION
 
-Light pollution caused by artificial light at night (ALAN) has disturbed ecological processes since the start of 20th century [@Longcore2004; @Gaston2013; @Bennie2016].
-A recent study estimated that 23% of the world's land surfaces where people live and more than 80% of the world population experience light pollution [@Falchi2016].
-Although the intensity of ALAN varies several orders of magnitude from faint skyglow reflected from distant cities to direct illumination of urban and suburban vegetation [@Bennie2016], ALAN could influences behavior or physiology broad ranges of taxonomic groups including mammals, birds, reptiles, amphibians, fishes, invertebrates, and plants and could potentially alter ecosystem functions [@Rich2006].
-For example, ALAN attracts insects interfering in movement, foraging, reproduction, development so as an important bringer to drive insects population decline [@Owens2020; @Boyes2021].
-Many studies have focused on how ALAN changes the behavior of animals [@Russart2018], however only a handful studies have been published on the effect of ALAN on plants [@Bennie2016; @Speisser2021a; @Liu2022].
-@Speisser2021a conducted plant growth experiments with and without weak ALAN (28 lx: within the range of light intensities at ground level under street lights) and showed that ALAN increases biomass of herbaceous plants.
+Artificial light at night (ALAN), a leading contributor to light pollution, has disrupted ecological processes since the early 20th century [@Longcore2004; @Gaston2013; @Bennie2016].
+A recent study estimated that around 23% of the world's inhabited land surfaces, accounting for over 80% of the global population, are subject to the adverse effects of light pollution [@Falchi2016].
+Although the intensity of ALAN varies several orders of magnitude from faint skyglow reflected from distant cities to direct illumination of urban and suburban vegetation [@Bennie2016], ALAN could influence the behaviour or physiology of broad ranges of taxonomic groups, including mammals, birds, reptiles, amphibians, fishes, invertebrates, and plants.
+It could alter ecosystem functions [@ Rich2006].
+For example, ALAN attracts insects interfering in movement, foraging, reproduction, and development, as an important bringer to driving insect population decline [@Owens2020; @Boyes2021].
+Many studies have focused on how ALAN changes the behaviour of animals [@Russart2018]. However, only a handful of studies have been published on the effect of ALAN on plants [@Bennie2016; @Speisser2021a; @Liu2022].
+@Speisser2021a conducted plant growth experiments with and without weak ALAN (28 lx: within the range of light intensities at ground level under street lights) and showed that ALAN increases the biomass of herbaceous plants.
 Their results suggest that even weak ALAN acts as a light resource for plant growth.
-<!-- need to change the last sentence.  -->
 However, few studies have examined the effects of ALAN on plant functional traits in conditions close to their natural environment.
 
-ALAN might directly and indirectly affect plant leaf functional traits.
-First, ALAN might directly affect plant leaf functional traits because ALAN could work as light resources.
-Although LMA is driven by inherent genetic mechanisms [@Asner2011], environmental stresses (temperature, water and light) also shapes LMA.
-Actually, plants could sense light through photorecpetors which allows the plant to respond to four parameters of their light environment: light spectral quality, light intensity, light direction, and light duration [@Rich2006; @Paik2019].
-@Terashima2006 showed that the light-saturated rate of leaf photosynthesis per unit area ($P_{max}$) is highly correlated with leaf structural parameters such as leaf thickness, leaf mass per area, mesophyll surface area($S_{mes}$), and chloroplast surface area ($S_c$), and sun leaves are thicker than shade leaves exactly as the height of the palisade tissue in sun leaves is greater than that in shade leaves.
-For individual species, LMA was proportional with species distributions along the insolation gradient, and was significantly higher in evergreen versus deciduous species [@Ackerly2002; @Niinemets2004; @Onoda2008].
-And among a local community, @Ackerly2002 demonstrated the average values of LMA significantly increased with increasing potential diurnal insolation(PDI).
-Here, ALAN could be considered as a conduct of prolonging light duration to plants so plants LMA could increase with that.
+ALAN might, directly and indirectly, affect plant leaf functional traits.
+First, ALAN might directly affect plant leaf functional traits because ALAN could work as a light resource.
+Although LMA is driven by inherent genetic mechanisms [@Asner2011], environmental stresses (temperature, water and light) also shape LMA.
+Plants can sense light through photoreceptors, allowing them to respond to four parameters of their light environment: light spectral quality, light intensity, light direction, and light duration [@Rich2006; @Paik2019].
+@Terashima2006 showed that the light-saturated rate of leaf photosynthesis per unit area ($P_{max}$) is highly correlated with leaf structural parameters such as leaf thickness, leaf mass per area, mesophyll surface area($S_{mes}$), and chloroplast surface area ($S_c$), and sun leaves are thicker than shade leaves as the height of the palisade tissue in sun leaves is greater than that in shade leaves.
+For individual species, LMA was proportional with species distributions along the insolation gradient and was significantly higher in evergreen versus deciduous species [@Ackerly2002; @Niinemets2004; @Onoda2008].
+Moreover, among a local community, @Ackerly2002 demonstrated that the average values of LMA significantly increased with increasing potential diurnal insolation (PDI).
 
-On the other hand, ALAN might indirectly affect plant leaf functional traits because ALAN has a potential to change soil environmental conditions by attracting insects.
-Many kinds of insects orient themselves by maintaining a constant angle to light rays and are attracted by light [positive phototaxis? yes [@Baker1978; @Sotthibandhu1979]].
+On the other hand, ALAN might indirectly affect plant leaf functional traits because ALAN has the potential to change soil environmental conditions by attracting insects.
+Many insects orient themselves by maintaining a constant angle to light rays and are attracted by light [positive phototaxis? yes [@Baker1978; @Sotthibandhu1979]].
 Previous studies showed that 30–40% of insects die soon after approaching street lamps for collision, overheating, dehydration, or predation [@Minnaar2015; @Owens2018].
-Since nitrogen (N) and phosphorus (P) are the nutrients most frequently limiting primary productivity in forest ecosystems [@Wright2019], dead insects killed by ALAN could be important nutrient input for soil nutrient [@Behie2013].
-Soil resources, especially N and P availability, are known to affect leaf mass per area (LAM) and leaf N and P contents [@Wright2004; @Riva2016], and those effects are known to be opposite to the effects of light [@Ackerly2002; @Hernandez-Vargas2019] (e.g., strong light increase LMA but high N availability decrease LMA).
+Since nitrogen (N) and phosphorus (P) are the nutrients most frequently limiting primary productivity in forest ecosystems [@Wright2019], dead insects killed by ALAN could be important nutrient input for soil nutrients [@Behie2013].
+Soil resources, especially N and P availability, are known to affect leaf mass per area (LAM) and leaf N and P contents [@Wright2004; @Riva2016], and those effects are known to be opposite to the effects of light [@Ackerly2002; @Hernandez-Vargas2019] (i.e., while strong light increases LMA but high levels of N availability decrease LMA).
 
-Here, we investigated relationship between LMA of understory and the effects of ALAN through a two-year ALAN experiment in tropical rubber plant forest in south China.
-Two species were chosen in this experiment representing sun species and shade species respectively to test whether different responds would show between them.
-We assumed that ALAN would bring effect to understory in two pathway of aboveground part as direct light supplementary and undergound part as indirect soil nutrients supplementary.
-Within our research hypothesis, we predicted that (a) LMA value of understory would decrease with growing ALAN's effects and (b) canopy-openness and its interaction with artificial light at night would show weak impaction in this experiment.
+Here, we investigated the relationship between LMA values of the understory and the effects of ALAN through a two-year experiment in a tropical rubber plant forest in south China.
+We selected two species as subjects of this experiment, each representing sun and shade species, to discern differences in their responses to ALAN.
+Our hypothesis proposes that ALAN would influence the understory via two distinct pathways: one directly, as a supplementary light source for the aboveground portions of plants, and the other indirectly, improving soil nutrient availability for the belowground parts.
+Based on our hypothesis, we anticipate two key outcomes:
+(a) an increase in the influence of ALAN would correspond with a decrease in the LMA value of the understory, and
+(b) the extent of canopy openness and its interaction with ALAN would have a minor impact on the results of this experiment.
 
 # MATERIALS AND METHODS
 
