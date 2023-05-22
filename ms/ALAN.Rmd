@@ -1,12 +1,15 @@
 ---
 geometry: margin=1in
+fontsize: 12pt
 link-citations: yes
 bibliography: "light_project.bib"
+csl: ecology.csl
 output:
-  pdf_document:
+  bookdown::pdf_document2:
     fig_width: 6
     fig_caption: yes
-    toc: yes
+    toc: no
+    number_sections: no
   html_document:
     fig_caption: yes
     theme: spacelab #readable #sandstone #spacelab #flatly
@@ -27,8 +30,13 @@ output:
     - "--filter"
     - "pandoc-crossref"
     - "--mathml"
+header-includes:
+  - \usepackage{xr}
+  - \usepackage[default]{sourcesanspro}
+  - \usepackage{sourcecodepro}
+  - \usepackage{lineno}
+  - \linenumbers
 ---
-
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -48,7 +56,7 @@ library(kableExtra)
 
 \newpage
 
-Impacts of artificial light at night on understory
+**Impacts of artificial light at night on understory**
 
 $$ $$
 
@@ -80,7 +88,7 @@ Manuscript received _______; revision accepted _______.
 
 # ABSTRACT
 
-Artificial light at night (ALAN), demonstrated a new ecological factor influences organism through multi-approach. 
+Artificial light at night (ALAN), demonstrated a new ecological factor influences organism through multi-approach.
 As yet assessing impacts of artificial light at night on understory plants doesn't get much attentions.
 We evaluated whether ALAN would affect the LMA (leaf mass per area) of understory plants through a two-year field light experiment in tropical rubber plant forest in south China.
 We assumed ALAN would affect understory by two pathways of directly increasing light supplement aboveground and indirectly attracting insects then changing soil nutrients underground.
@@ -99,14 +107,17 @@ Artificial light at night (ALAN),
 # INTRODUCTION
 
 Light pollution caused by artificial light at night (ALAN) has disturbed ecological processes since the start of 20th century [@Longcore2004; @Gaston2013; @Bennie2016].
-So far, artificial light at night extends both in intensity covered a large illuminance range from the degree hard to detect to almost daylight and in extent covered more and more World's terrestrial surfaces [@Bennie2016; @Falchi2016].
-ALAN influences behavior or physiology broad ranges of taxonomic groups including mammals, birds, reptiles, amphibians, fishes, invertebrates, and plants [@Rich2006].
+A recent study estimated that 23% of the world's land surfaces where people live and more than 80% of the world population experience light pollution [@Falchi2016].
+Although the intensity of ALAN varies several orders of magnitude from faint skyglow reflected from distant cities to direct illumination of urban and suburban vegetation [@Bennie2016], ALAN could influences behavior or physiology broad ranges of taxonomic groups including mammals, birds, reptiles, amphibians, fishes, invertebrates, and plants and could potentially alter ecosystem functions [@Rich2006].
 For example, ALAN attracts insects interfering in movement, foraging, reproduction, development so as an important bringer to drive insects population decline [@Owens2020; @Boyes2021].
-Although many studies have focused on how ALAN change the behavior of animals [@Russart2018], its influence on plants has also received attentions [@Speisser2021a; Liu2022 Matthew effect].
-A recent studies experimentally showed that ALAN increases biomass of herbaceous plants, which suggests ALAN can work as the light resources for plant growth [@Speisser2021a].
+Many studies have focused on how ALAN changes the behavior of animals [@Russart2018], however only a handful studies have been published on the effect of ALAN on plants [@Bennie2016; @Speisser2021a; @Liu2022].
+@Speisser2021a conducted plant growth experiments with and without weak ALAN (28 lx: within the range of light intensities at ground level under street lights) and showed that ALAN increases biomass of herbaceous plants.
+Their results suggest that even weak ALAN acts as a light resource for plant growth.
+<!-- need to change the last sentence.  -->
 However, few studies have examined the effects of ALAN on plant functional traits in conditions close to their natural environment.
 
-ALAN might directly affect plant leaf functional traits because ALAN could work as light resources.
+ALAN might directly and indirectly affect plant leaf functional traits.
+First, ALAN might directly affect plant leaf functional traits because ALAN could work as light resources.
 Although LMA is driven by inherent genetic mechanisms [@Asner2011], environmental stresses (temperature, water and light) also shapes LMA.
 Actually, plants could sense light through photorecpetors which allows the plant to respond to four parameters of their light environment: light spectral quality, light intensity, light direction, and light duration [@Rich2006; @Paik2019].
 @Terashima2006 showed that the light-saturated rate of leaf photosynthesis per unit area ($P_{max}$) is highly correlated with leaf structural parameters such as leaf thickness, leaf mass per area, mesophyll surface area($S_{mes}$), and chloroplast surface area ($S_c$), and sun leaves are thicker than shade leaves exactly as the height of the palisade tissue in sun leaves is greater than that in shade leaves.
@@ -150,11 +161,11 @@ For leaf mass per area (LMA), we used leaf disc (10mm^2) punched from leaf avoid
 We chose five healthy leaves then five leaf discs each leaf on species *Melastoma candidum D. Don* , and round five leaves then seven leaf discs on species *Colocasia gigantea (Blume) Hook. f.*.
 
 For soil nutrients (N,C,P), we collected surface soil samples (0-10 cm depths) in five plots both in June 2019 and June 2022.
-We took three replicates at the place under ALAN and the place 10m away from ALAN seperately each plot. 
+We took three replicates at the place under ALAN and the place 10m away from ALAN seperately each plot.
 After sampling, the soils were air-dried at room temperature for one week then sieved through 0.85mm and 0.15mm mesh finally used for total N,C measurements by combustion using a elemental analyzer (Vario MAX CN, Elementar Analysensysteme GmbH (Germany)) and total P measurement by inductively coupled plasma atomic-emission spectrometer (iCAP7400, Thermo Fisher Scientific U.S.A).
-Then we calculated the relative percentage change of each nutrient between the value in 2019 and in 2022 to compare the soil nutrient change with ALAN's effect (sampled under ALAN) and without ALAN's effect (sampled 10m away from ALAN).  
+Then we calculated the relative percentage change of each nutrient between the value in 2019 and in 2022 to compare the soil nutrient change with ALAN's effect (sampled under ALAN) and without ALAN's effect (sampled 10m away from ALAN).
 $$
-X_{2022}/X_{2019}, \ \ \ (X = C,N,P) 
+X_{2022}/X_{2019}, \ \ \ (X = C,N,P)
 $$
 
 *Data Analysis*
@@ -164,14 +175,14 @@ The Stan code used to fit the models is available from Github at https://github.
 Leaf mass per area (LMA) of each leaf of each individual was the response variable.
 Distance from the ALAN of each individual was transformed by log and reciprocal because the accumulation of insects and the intensity of ALAN fade away from distance nonlinearly.
 We conducted individual as a random effect for each species on our model because individuals of the same species were non-independent.
-All statistical analyses were conducted in R version 4.1.2 [@RCoreTeam2022]. 
+All statistical analyses were conducted in R version 4.1.2 [@RCoreTeam2022].
 
 # RESULTS
 
 The effects of ALAN and daylight were significant for species *Colocasia gigantea (Blume) Hook. f.*, while species *Melastoma candidum D. Don* showed no significance.
 Artificial light at night drove the averaged individual LMA value decrease for species *Colocasia gigantea (Blume) Hook. f.* (Table 1, slope: -0.1043 [95% CI: -0.1458, -0.0621]), and for species *Melastoma candidum D. Don* (Table 1, slope: -0.0422) although not significant.
 Both species showed no significance on the interaction of the effects of ALAN and daylight (Table 1).
-Loss of soil nutrients ($X_{2022}/X_{2019} < 1,\ (X = C,N,P)$) were observed in general among five plots from 2019 to 2022. 
+Loss of soil nutrients ($X_{2022}/X_{2019} < 1,\ (X = C,N,P)$) were observed in general among five plots from 2019 to 2022.
 The relative percentage change of each soil nutrient showed clear difference between the place under ALAN ($C_{2022}/C_{2019} = 0.919$, $N_{2022}/N_{2019} = 0.948$, $P_{2022}/P_{2019} = 0.537$) and the place 10m away from ALAN ($C_{2022}/C_{2019} = 0.663$, $N_{2022}/N_{2019} = 0.695$, $P_{2022}/P_{2019} = 0.492$) at the plot where *Colocasia gigantea (Blume) Hook. f.* disturbed, while showed not too much difference for the other species.
 
 # DISCUSSION
@@ -188,9 +199,9 @@ There was research showed that plants' biomass would increase under artificial l
 Controlling experiment probably tend to underestimate the species interaction and unpredictable environmental heterogeneity caused by natural and artificial factors, because many irreplaceable features of field conditions, such as subtle nutrients change, herbivores and competitors are usually absent.
 Thus, adequate tests of the influence of artificial light at night on understory will entail more experimental work under field conditions.
 In future work, diverse artificial light resource in light spectral quality and light intensity and more understory group will be needed to simulate comprehensive effcts of artificial light from plant physiology to plant community.
-In conclusion, the general pattern how understory species responds to artificial light at night remains unknown. 
+In conclusion, the general pattern how understory species responds to artificial light at night remains unknown.
 Our study showed the LMA value of some understory species would decrease with artificial light at night.
-This negative effect could indicate that increments of artificial light at night might bring about a physiological suppression to those understory plants with which applied implications for environmental management and urban ecological planning. 
+This negative effect could indicate that increments of artificial light at night might bring about a physiological suppression to those understory plants with which applied implications for environmental management and urban ecological planning.
 
 # ACKONWLEDGEMENTS
 
@@ -205,7 +216,7 @@ This negative effect could indicate that increments of artificial light at night
 
 **Fig. 1.**
 The distribution of individuals around the ALAN and the illustration of the experiment setup.
-The distribution of individuals LMA values around the artificial light of two experimental species (A and C). 
+The distribution of individuals LMA values around the artificial light of two experimental species (A and C).
 Photographs of the experimental plots during the day and night (B and D).
 
 ![](../figs/merge.png)
@@ -227,3 +238,4 @@ Results of Bayesian general linear mixed-effect models testing the effects of ar
 Significant effects (p < 0.05) are in bold.
 
 \newpage
+
