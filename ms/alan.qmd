@@ -190,18 +190,18 @@ However, these differences were less pronounced in the plot containing *M. candi
 # DISCUSSION
 
 Our findings support the hypothesis that artificial light at night (ALAN) can influence leaf mass per area (LMA) values in understory plants, but the response appears to vary among species.
-We observed a significant decrease in LMA in response to ALAN in shade species *Colocasia gigantea*, but not in sub species *Melastoma candidum*.
+We observed a significant decrease in LMA in response to ALAN in shade species *Colocasia gigantea*, but not in sun species *Melastoma candidum*.
 
 We observed the apparent decline in soil nutrient content from 2019 to 2022.
-This trend could be largely attributed to the nutrient absorption characteristics of the rubber trees dominating our study location.
+This trend could be largely attributed to the nutrient absorption characteristics of the rubber trees dominating our study location [ref].
 Rubber trees are known for their high nutrient uptake, especially nitrogen (N) and phosphorus (P), which can lead to significant soil nutrient depletion over time.
 This effect was evident in our study, with noticeable decreases in soil nutrient levels over two years in both ALAN-influenced and non-influenced areas.
-This soil nutrient decline seemed less pronounced in areas influenced by ALAN, especially in the plot populated by C. gigantea.
+This soil nutrient decline seemed less pronounced in areas influenced by ALAN, especially in the plot populated by *C. gigantea*
 This trend suggests a potential positive impact of ALAN on soil nutrient content, likely mediated by the attraction of insects.
-ALAN is known to attract insects, which, upon death due to collision, overheating, or predation, could contribute additional nutrient inputs into the soil, especially N and P.
+ALAN is known to attract insects, which, upon death due to collision, overheating, or predation, could contribute additional nutrient inputs into the soil, especially N and P [ref].
 This ALAN-induced insect influx could help offset the nutrient depletion caused by the nutrient-intensive rubber trees, thereby helping maintain soil nutrient levels under ALAN exposure.
 
-The significant decrease in leaf mass per area (LMA) in *C. gigantea* under artificial light at night (ALAN) could be predominantly driven by indirect effects mediated through changes in soil nutrient availability rather than direct effects of ALAN acting as a light resource.
+The significant decrease in leaf mass per area (LMA) in *C. gigantea* under artificial light at night (ALAN) could be predominantly driven by indirect effects mediated through changes in soil nutrient availability rather than direct effects of ALAN acting as a light resource (because sunlight increased LMA [Table 1]).
 The presence of ALAN is known to attract a higher density of insects, many of which may die due to collision, overheating, dehydration, or predation [ref].
 The decomposition of these deceased insects could lead to considerable enrichment of soil nutrients, particularly nitrogen (N) and phosphorus (P) [ref], which are fundamental to plant growth.
 (should we add rough estimate of the amount of dead insects and nutrients here?)
@@ -210,14 +210,15 @@ The enhanced nutrient availability may enable *C. gigantea* to allocate more res
 Additionally, increased soil nutrient availability, particularly nitrogen, could increase the photosynthetic capacity of *C. gigantea*.
 Higher photosynthetic rates might result in faster leaf growth and a consequent decrease in LMA, as resources are allocated more towards metabolic processes rather than structural tissues.
 
+- Why Meslastoma did not show significant results?
+- Are there any soil fertilization in the Meslastoma plot?
+
 ALAN, an increasingly prevalent aspect of our anthropogenic world, can have complex and nuanced impacts on forest ecosystems.
 Although it had been demonstrated that LMA increases with insolation [@Ackerly2002; @Niinemets2004], our research showed the effects of night artificial light on plants should be considered as a comprehensive situation.
 By affecting understory plant functional traits and possibly soil nutrient dynamics, ALAN can unexpectedly impact forest health and productivity.
 Controlled experiments potentially tend to underestimate the species interaction and unpredictable environmental heterogeneity caused by natural and artificial factors because many irreplaceable features of field conditions, such as subtle nutrient change, herbivores, and competitors, are usually absent.
 Thus, adequate tests of the influence of artificial light at night on the understory will require more experimental work under field conditions.
 Further investigations into the intricate relationships between ALAN, plant functional traits, and soil nutrient dynamics are warranted to enable the development of comprehensive forest management strategies that consider the broad implications of artificial lighting.
-
-The decrease in leaf mass per area (LMA) in response to ALAN in C. gigantea supports previous findings of a controlled experiment that showed plant biomass could increase under ALAN [@Speisser2021a].
 
 
 # ACKNOWLEDGEMENTS
