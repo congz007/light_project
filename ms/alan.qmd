@@ -55,7 +55,7 @@ library(kableExtra)
 
 \newpage
 
-**Impacts of artificial light at night on understory**
+**The effect of artificial light at night (ALAN) on understory plants: an experiment in a rubber tree forest in China**
 
 $$ $$
 
@@ -184,8 +184,8 @@ The interaction of the effects of ALAN and daylight did not yield any significan
 
 General observations from 2019 to 2022 revealed a loss of soil nutrients ($X_{2022}/X_{2019} < 1,\ (X = C,N,P)$) across all five plots.
 The relative percentage change in each soil nutrient demonstrated clear differences between locations under ALAN ($C_{2022}/C_{2019} = 0.919$, $N_{2022}/N_{2019} = 0.948$, $P_{2022}/P_{2019} = 0.537$) and locations 10m away from ALAN ($C_{2022}/C_{2019} = 0.663$, $N_{2022}/N_{2019} = 0.695$, $P_{2022}/P_{2019} = 0.492$) within the plot where *C. gigantea* was found.
-However, these differences were less pronounced in the plot containing *M. candidum*.
-<!-- put values for the other site -->
+However, these differences were less pronounced in the plot containing *M. candidum*, where under ALAN ($C_{2022}/C_{2019} = 0.677$, $N_{2022}/N_{2019} = 0.761$, $P_{2022}/P_{2019} = 0.729$) and locations 10m away from ALAN ($C_{2022}/C_{2019} = 0.712$, $N_{2022}/N_{2019} = 0.746$, $P_{2022}/P_{2019} = 0.742$).
+
 
 # DISCUSSION
 
