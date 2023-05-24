@@ -16,7 +16,7 @@ library(ggpubr)
 ```
 
 ```{r}
-soil <- read.csv("data-raw/soil_nutrients.csv")
+soil <- read.csv("../data-raw/soil_nutrients.CSV")
 soil
 ```
 
@@ -80,6 +80,9 @@ Here is total soil Nitrogen comparison bewteen 2019 and 2022.
 t  %>%filter(Distance == 0)%>% mutate(Year = as.character(Year)) %>%ggplot(., aes(x = Year,y = T.N, group  = Year))+
       geom_boxplot()+geom_point()
 t  %>%filter(Distance == 10)%>% mutate(Year = as.character(Year)) %>%ggplot(., aes(x = Year,y = T.N, group  = Year))+
+      geom_boxplot()+geom_point()
+
+t  %>%filter(Distance == 0)%>% mutate(Year = as.character(Year)) %>%ggplot(., aes(x = Year,y = T.N, group  = Year))+
       geom_boxplot()+geom_point()
 ```
 
