@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
   cache = TRUE,
-  fig.align = 'center',
+  fig.align = "center",
   fig.show = "hold"
 )
 ```
@@ -37,7 +37,7 @@ we punch leaf using leaf-disc to measure leaf nutrition.
 
 # Data Exploration
 
-the pacakges we'll use:
+the pacakges we"ll use:
 ```{r}
 library(kableExtra)
 library(tidyverse)
@@ -54,8 +54,8 @@ llp[1:5,] %>% kbl() %>% kable_styling()
 Then we calculate LMA and show our samples location away from the light.
 ```{r}
 llp1 <- llp |>mutate(LMA = dry_weight/(disc*pi*(0.005)^2))
-llp1$species[llp1$species =="Melastoma_candidum"] <-  'Melastoma candidum'
-llp1$species[llp1$species =="Colocasia_gigantea"] <- 'Colocasia gigantea'
+llp1$species[llp1$species =="Melastoma_candidum"] <-  "Melastoma candidum"
+llp1$species[llp1$species =="Colocasia_gigantea"] <- "Colocasia gigantea"
 llp1 |> 
   mutate(x_loc = Distance*cos(angel*pi/180))|>
   mutate(y_loc = Distance*sin(angel*pi/180))|>
@@ -68,7 +68,7 @@ llp1 |>
   geom_vline(xintercept = 0,linetype="dotted")+
   geom_point(shape =16)+
   facet_wrap(vars(species),nrow = 2,strip.position = "top")+
-  labs(x = "", y = "")+
+  labs(x = ", y = ")+
   theme(strip.text = element_text(face = "italic",size = 14))
 
 ```
@@ -95,7 +95,7 @@ ggplot(aes(x = Distance, y = LMA))+
   theme_bw()
 ```
 
-(We see there can be a negative correlation between LMA and Distance, while we can't simply draw the conclusion based on that, instead we add canopy openness into our consideration. )
+(We see there can be a negative correlation between LMA and Distance, while we can"t simply draw the conclusion based on that, instead we add canopy openness into our consideration. )
 
 
 ```{r}
@@ -131,8 +131,8 @@ sp1 <- llp1 |>
   filter(species == "Melastoma_candidum")
 
 x <- cbind(1,
-            log(1/(sp1$Distance)^2) |> scale(),
-            scale(sp1$canopy_openness))
+          log(1/(sp1$Distance)^2) |> scale(),
+          scale(sp1$canopy_openness))
 
 x <- cbind(x, x[,2] * x[,3])
 
@@ -171,7 +171,7 @@ where,
 
 Prior:
 
-- we usually use weakly informative priors and we don't use non-informative
+- we usually use weakly informative priors and we don"t use non-informative
   prirors such as unif(0, 1000).
 
 $$
@@ -213,11 +213,11 @@ $$
 
 
 ```{r, eval=TRUE }
-model <- rstan::stan_model("../stan/model.stan")
+model <- rstan::stan_model("stan/model.stan")
 ```
 
-```{r, collapse=FALSE, comment = ""}
-writeLines(readLines("../stan/model.stan"))
+```{r, collapse=FALSE, comment = "}
+writeLines(readLines("stan/model.stan"))
 ```
 
 ```{r, eval=TRUE}
@@ -236,6 +236,11 @@ fit <- rstan::sampling(model,
 summary(fit)$summary
 ```
 
+```{r}
+summarise_draws(fit,~quantile2(.x,probs = c(0.1,0.9)))
+```
+
+
 95% CI
 
 - beta[1,1] is the intercept which is not showing the figure.
@@ -249,6 +254,11 @@ mcmc_areas(fit,
 
 **NO EFECT!**
 
+```{r}
+mcmc_areas(fit,
+           pars = beta_name,
+           prob = 0.75)
+```
 
 Data for Colocasia_gigantea
 ```{r}
@@ -271,11 +281,11 @@ list_d <- list(
 ```
 
 ```{r, eval=TRUE}
-model1 <- rstan::stan_model("../stan/model.stan")
+model1 <- rstan::stan_model("stan/model.stan")
 ```
 
-```{r, collapse=FALSE, comment = ""}
-writeLines(readLines("../stan/model.stan"))
+```{r, collapse=FALSE, comment = "}
+writeLines(readLines("stan/model.stan"))
 ```
 
 ```{r, eval=TRUE}
@@ -314,8 +324,8 @@ quantile_interval <-  paste0("[",round(test$`2.5%`,4),", ",  round(test$`97.5%`,
 
 table_sp1 <- data.frame(
   "Parameters" = c(
-                   "ALAN's effect",
-                   "Daylight's effect",
+                   "ALAN"s effect",
+                   "Daylight"s effect",
                    "interaction"),
   "mean_value" = round(test$mean,4),
  quantile_interval 
@@ -335,8 +345,8 @@ quantile_interval <-  paste0("[",round(test1$`2.5%`,4),", ",  round(test1$`97.5%
 
 table_sp2 <- data.frame(
   "Parameters" = c(
-                   "ALAN's effect",
-                   "Daylight's effect",
+                   "ALAN"s effect",
+                   "Daylight"s effect",
                    "interaction"),
   "mean_value" = round(test1$mean,4),
  quantile_interval 
