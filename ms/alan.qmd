@@ -175,6 +175,7 @@ Hereafter, we refer to the distance from the ALAN source for each individual as 
 To account for non-independence among individuals of the same species, we included individuals as a random intercept in our models.
 All statistical analyses were conducted using R software, version 4.1.2 [@RCoreTeam2022].
 
+
 # RESULTS
 
 The influence of artificial light at night (ALAN) and daylight on LMA had significant effects on the species *Colocasia gigantea *, while for *Melastoma candidum*, these effects were not significant.
@@ -193,25 +194,29 @@ Our findings support the hypothesis that artificial light at night (ALAN) can in
 We observed a significant decrease in LMA in response to ALAN in shade species *Colocasia gigantea*, but not in sun species *Melastoma candidum*.
 
 We observed the apparent decline in soil nutrient content from 2019 to 2022.
-This trend could be largely attributed to the nutrient absorption characteristics of the rubber trees dominating our study location [ref].
+This trend could be largely attributed to the nutrient absorption characteristics of the rubber trees dominating our study location [@Yang2004].
 Rubber trees are known for their high nutrient uptake, especially nitrogen (N) and phosphorus (P), which can lead to significant soil nutrient depletion over time.
 This effect was evident in our study, with noticeable decreases in soil nutrient levels over two years in both ALAN-influenced and non-influenced areas.
-This soil nutrient decline seemed less pronounced in areas influenced by ALAN, especially in the plot populated by *C. gigantea*
+This soil nutrient decline seemed less pronounced in areas influenced by ALAN, especially in the plot populated by *C. gigantea*.
 This trend suggests a potential positive impact of ALAN on soil nutrient content, likely mediated by the attraction of insects.
-ALAN is known to attract insects, which, upon death due to collision, overheating, or predation, could contribute additional nutrient inputs into the soil, especially N and P [ref].
+ALAN is known to attract insects, which, upon death due to collision, overheating, or predation, could contribute additional nutrient inputs into the soil, especially N and P [@Minnaar2015; @Owens2018].
 This ALAN-induced insect influx could help offset the nutrient depletion caused by the nutrient-intensive rubber trees, thereby helping maintain soil nutrient levels under ALAN exposure.
 
 The significant decrease in leaf mass per area (LMA) in *C. gigantea* under artificial light at night (ALAN) could be predominantly driven by indirect effects mediated through changes in soil nutrient availability rather than direct effects of ALAN acting as a light resource (because sunlight increased LMA [Table 1]).
-The presence of ALAN is known to attract a higher density of insects, many of which may die due to collision, overheating, dehydration, or predation [ref].
-The decomposition of these deceased insects could lead to considerable enrichment of soil nutrients, particularly nitrogen (N) and phosphorus (P) [ref], which are fundamental to plant growth.
-(should we add rough estimate of the amount of dead insects and nutrients here?)
+The presence of ALAN is known to attract a higher density of insects, many of which may die due to collision, overheating, dehydration, or predation [@Minnaar2015; @Owens2018].
+The decomposition of these deceased insects could lead to considerable enrichment of soil nutrients, particularly nitrogen (N) and phosphorus (P) [@Schulze1997; @Fagan2002; @Woods2004; @Behie2013], which are fundamental to plant growth.
+(should we add rough estimate of the amount of dead insects and nutrients here? I think no need to add it unless being asked because it is too rough)
 Although the precise quantity of deceased insects and the resultant increase in soil nutrient content is a subject for further detailed study, this enhanced nutrient availability could potentially shift the resource allocation strategy of *C. gigantea*.
-The enhanced nutrient availability may enable *C. gigantea* to allocate more resources to rapid leaf growth rather than structural tissue, leading to a decrease in LMA [ref].
+The enhanced nutrient availability may enable *C. gigantea* to allocate more resources to rapid leaf growth rather than structural tissue, leading to a decrease in LMA [@Onoda2017; @Hernandez-Vargas2019].
 Additionally, increased soil nutrient availability, particularly nitrogen, could increase the photosynthetic capacity of *C. gigantea*.
 Higher photosynthetic rates might result in faster leaf growth and a consequent decrease in LMA, as resources are allocated more towards metabolic processes rather than structural tissues.
 
 - Why Meslastoma did not show significant results?
+  坡度 林冠开度 冲刷 
 - Are there any soil fertilization in the Meslastoma plot?
+  fertilization is forbided in XTBG, 
+
+On the other hand, no significant fluctuation in leaf mass per area (LMA) in *Melastoma candidum*
 
 ALAN, an increasingly prevalent aspect of our anthropogenic world, can have complex and nuanced impacts on forest ecosystems.
 Although it had been demonstrated that LMA increases with insolation [@Ackerly2002; @Niinemets2004], our research showed the effects of night artificial light on plants should be considered as a comprehensive situation.
@@ -242,12 +247,13 @@ Photographs of the experimental plots during the day and night (B and D).
 \newpage
 
 ```{r table, echo=FALSE}
-table <- read.csv("../data-raw/table.csv")%>%
-  kbl(caption = "Coefficients table") %>%
+table <- read.csv("../data-raw/table.csv")%>% 
+  as_tibble() %>% select(-sp) %>%
+  kbl(caption = "Coefficients table",col.names = c("Parameters", "Mean value", "95% CI" ))%>% 
   kable_paper("striped", full_width = F) %>%
-  column_spec(4, bold = c(F,F,F,T,T,F)) %>%
-  pack_rows("Melastoma_candidum", 1, 3) %>%
-  pack_rows("Colocasia_gigantea", 4, 6)
+  column_spec(3, bold = c(F,F,F,T,T,F)) %>%
+  pack_rows("Melastoma candidum", 1, 3,italic = TRUE) %>%
+  pack_rows("Colocasia_gigantea", 4, 6,italic = TRUE) 
 table
 ```
 
