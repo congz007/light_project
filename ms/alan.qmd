@@ -212,11 +212,11 @@ Additionally, increased soil nutrient availability, particularly nitrogen, could
 Higher photosynthetic rates might result in faster leaf growth and a consequent decrease in LMA, as resources are allocated more towards metabolic processes rather than structural tissues.
 
 - Why Meslastoma did not show significant results?
-  坡度 林冠开度 冲刷 
+  slope causing rain washing, low canopy openness, human interference like tread
 - Are there any soil fertilization in the Meslastoma plot?
-  fertilization is forbided in XTBG, 
+  I think fertilization is not permitted in east part unless an experiment. 
 
-On the other hand, no significant fluctuation in leaf mass per area (LMA) in *Melastoma candidum*
+On the other hand, no significant fluctuation was found in leaf mass per area (LMA) in *Melastoma candidum* under artificial light at night (ALAN) probably due to low canopy openness, slope and human interference like tread.
 
 ALAN, an increasingly prevalent aspect of our anthropogenic world, can have complex and nuanced impacts on forest ecosystems.
 Although it had been demonstrated that LMA increases with insolation [@Ackerly2002; @Niinemets2004], our research showed the effects of night artificial light on plants should be considered as a comprehensive situation.
