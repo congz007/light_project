@@ -219,6 +219,11 @@ Higher photosynthetic rates might result in faster leaf growth and a consequent 
 On the other hand, no significant fluctuation was found in leaf mass per area (LMA) in *Melastoma candidum* under artificial light at night (ALAN) probably due to low canopy openness, slope and human interference like tread.
 Slope causing surface runoff and human trampling might make soil homogenisation [@Kissling2009; @Yi2018; @Yang2018; @Bai2020], thus dilute the indirect impact of artificial light at night (ALAN).
 
+In plants, the physiological processes can be influenced by the intensity of artificial light at night commonly used in urban and suburban areas, as well as along highways [@Bennie2016; @Massetti2018].
+ALAN has been associated with various effects on plants, such as alterations in leaf coloration, retention or abscission (in deciduous trees), bud development, flowering patterns, growth rates, competetion and defense mechanisms against pathogens.
+Several studies demonstrated the impact of artificial light at night (ALAN) on certain plant circadian processes [@Sodani2021a], including enzyme activity, stomatal movement, photosynthesis, and photoperiodic movements.
+Furthermore, the presence of artificial light at night (ALAN) has emerged as a novel threat to the reproductive success of plants [@Wang2022a], as it disrupts the delicate balance of plant-pollinator ecosystems [@Knop2017].
+
 ALAN, an increasingly prevalent aspect of our anthropogenic world, can have complex and nuanced impacts on forest ecosystems.
 Although it had been demonstrated that LMA increases with insolation [@Ackerly2002; @Niinemets2004], our research showed the effects of night artificial light on plants should be considered as a comprehensive situation.
 By affecting understory plant functional traits and possibly soil nutrient dynamics, ALAN can unexpectedly impact forest health and productivity.
