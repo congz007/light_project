@@ -214,10 +214,10 @@ Higher photosynthetic rates might result in faster leaf growth and a consequent 
 - Why Meslastoma did not show significant results?
   slope causing rain washing, low canopy openness, human interference like tread
 - Are there any soil fertilization in the Meslastoma plot?
-  I think fertilization is not permitted in east part unless an experiment. 
+  I think fertilization is not permitted in east xtbg unless an experiment. 
 
 On the other hand, no significant fluctuation was found in leaf mass per area (LMA) in *Melastoma candidum* under artificial light at night (ALAN) probably due to low canopy openness, slope and human interference like tread.
-Slope causing surface runoff and human trampling might make soil homogenisation [@Yi2018; @Yang2018; @Bai2020], thus dilute the indirect impact of artificial light at night (ALAN).
+Slope causing surface runoff and human trampling might make soil homogenisation [@Kissling2009; @Yi2018; @Yang2018; @Bai2020], thus dilute the indirect impact of artificial light at night (ALAN).
 
 ALAN, an increasingly prevalent aspect of our anthropogenic world, can have complex and nuanced impacts on forest ecosystems.
 Although it had been demonstrated that LMA increases with insolation [@Ackerly2002; @Niinemets2004], our research showed the effects of night artificial light on plants should be considered as a comprehensive situation.
