@@ -216,14 +216,13 @@ Higher photosynthetic rates might result in faster leaf growth and a consequent 
 - Why Meslastoma did not show significant results?
   slope causing rain washing, low canopy openness, human interference like tread
 - Are there any soil fertilization in the Meslastoma plot?
-  I think fertilization is not permitted in east xtbg unless an experiment. 
+  In Method.
 
-On the other hand, no significant fluctuation was found in leaf mass per area (LMA) in *Melastoma candidum* under artificial light at night (ALAN) probably due to low canopy openness, slope and human interference like tread.
-Slope causing surface runoff and human trampling might make soil homogenisation [@Kissling2009; @Yi2018; @Yang2018; @Bai2020], thus dilute the indirect impact of artificial light at night (ALAN).
-In plants, the physiological processes can be influenced by the intensity of artificial light at night commonly used in urban and suburban areas, as well as along highways [@Bennie2016; @Massetti2018].
-ALAN has been associated with various effects on plants, such as alterations in leaf coloration, retention or abscission (in deciduous trees), bud development, flowering patterns, growth rates, competetion and defense mechanisms against pathogens.
-Several studies demonstrated the impact of artificial light at night (ALAN) on certain plant circadian processes [@Sodani2021a], including enzyme activity, stomatal movement, photosynthesis, and photoperiodic movements.
-Furthermore, the presence of artificial light at night (ALAN) has emerged as a novel threat to the reproductive success of plants [@Wang2022a], as it disrupts the delicate balance of plant-pollinator ecosystems [@Knop2017].
+On the other hand, no significant fluctuation was found in leaf mass per area (LMA) in *M. candidum* under artificial light at night (ALAN) probably due to low canopy openness, slope and human interference like tread.
+Slope causing surface runoff and human trampling might make soil homogenisation [@Kissling2009; @Yi2018; @Yang2018; @Bai2020], which dilute the indirect impact of artificial light at night (ALAN).
+Thus, LMA in *M. candidum* varies little in respond to low frequency variability in soil conditions.
+It should also be noted that the experimental results may also be influenced by the degree of intraspecific variation in LMA, which may overwhelm or counteract part of the environmental effects[@Poorter2009a; @Osnas2018].
+Currently, there is no existing database for LMAs belonging to the *Colocasia* or *Melastoma* genera, thus preventing us from comparing our data with them.
 
 ALAN, an increasingly prevalent aspect of our anthropogenic world, can have complex and nuanced impacts on forest ecosystems.
 Although it had been demonstrated that LMA increases with insolation [@Ackerly2002; @Niinemets2004], our research showed the effects of night artificial light on plants should be considered as a comprehensive situation.
