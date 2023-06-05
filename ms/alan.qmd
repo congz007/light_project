@@ -140,6 +140,8 @@ Based on our hypothesis, we anticipate two key outcomes:
 *Experimental setup*
 
 ALAN field experiments were located within the Xishuangbanna Tropical Botanical Garden (XTBG), China, in a rubber tree forest (N21°54' E101°16') where we set 5 plots and selected two plots for this experiment after field investigation.
+In the study area, the average yearly temperature is recorded at 21.7 °C, accompanied by an average annual precipitation of 1557 mm. 
+No fertilizer was used in the study area.
 LED lights (10w) were used to create an artificial light environment in all plots at night (Fig. 1).
 The LED system included six components.
 A metal box with an opening served as a rainproof protector.
@@ -218,7 +220,6 @@ Higher photosynthetic rates might result in faster leaf growth and a consequent 
 
 On the other hand, no significant fluctuation was found in leaf mass per area (LMA) in *Melastoma candidum* under artificial light at night (ALAN) probably due to low canopy openness, slope and human interference like tread.
 Slope causing surface runoff and human trampling might make soil homogenisation [@Kissling2009; @Yi2018; @Yang2018; @Bai2020], thus dilute the indirect impact of artificial light at night (ALAN).
-
 In plants, the physiological processes can be influenced by the intensity of artificial light at night commonly used in urban and suburban areas, as well as along highways [@Bennie2016; @Massetti2018].
 ALAN has been associated with various effects on plants, such as alterations in leaf coloration, retention or abscission (in deciduous trees), bud development, flowering patterns, growth rates, competetion and defense mechanisms against pathogens.
 Several studies demonstrated the impact of artificial light at night (ALAN) on certain plant circadian processes [@Sodani2021a], including enzyme activity, stomatal movement, photosynthesis, and photoperiodic movements.
