@@ -194,7 +194,7 @@
 \date{}
 
 \begin{document}
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, frame hidden, breakable, enhanced, boxrule=0pt, sharp corners, borderline west={3pt}{0pt}{shadecolor}]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, sharp corners, boxrule=0pt, breakable, borderline west={3pt}{0pt}{shadecolor}, frame hidden, enhanced]}{\end{tcolorbox}}\fi
 
 \newpage
 
@@ -381,7 +381,7 @@ collected two years later, in November 2021.
 
 \emph{Species Selection}
 
-Considering the understory conditions (mature individuals and
+Considering the understory conditions (number of mature individuals and
 distribution of individuals) and species specificity (it should be
 evergreen species and not be the nitrogen fix plants like
 \emph{Leguminosae}) of each plot, finally two species respectively in
@@ -532,34 +532,26 @@ gigantea}. Higher photosynthetic rates might result in faster leaf
 growth and a consequent decrease in LMA, as resources are allocated more
 towards metabolic processes rather than structural tissues.
 
-\begin{itemize}
-\tightlist
-\item
-  Why Meslastoma did not show significant results? slope causing rain
-  washing, low canopy openness, human interference like tread
-\item
-  Are there any soil fertilization in the Meslastoma plot? I think
-  fertilization is not permitted in east xtbg unless an experiment.
-\end{itemize}
-
-On the other hand, no significant fluctuation was found in leaf mass per
-area (LMA) in \emph{M. candidum} under artificial light at night (ALAN)
-probably due to low canopy openness, slope and human interference like
-tread. Slope causing surface runoff and human trampling might make soil
-homogenisation (\protect\hyperlink{ref-Kissling2009}{Kissling et al.
-2009}, \protect\hyperlink{ref-Yang2018}{Yang et al. 2018},
+Alternatively, no significant variation in leaf mass per area (LMA) was
+discovered in \emph{M. candidum} when exposed to artificial light at
+night (ALAN), likely due to factors such as slope, precipitation, and
+human activities like trampling. Previous studies have shown that the
+intensity of rainfall, gradient of the slope, and length of the slope
+can affect water erosion and the loss of nutrients such as nitrogen (N)
+and phosphorus (P) in surface runoff
+(\protect\hyperlink{ref-Zhao2013}{Zhao et al. 2013},
 \protect\hyperlink{ref-Yi2018}{Yi et al. 2018},
-\protect\hyperlink{ref-Bai2020}{Bai et al. 2020}), which dilute the
-indirect impact of artificial light at night (ALAN). Thus, LMA in
-\emph{M. candidum} varies little in respond to low frequency variability
-in soil conditions. It should also be noted that the experimental
-results may also be influenced by the degree of intraspecific variation
-in LMA, which may overwhelm or counteract part of the environmental
-effects(\protect\hyperlink{ref-Poorter2009a}{\textbf{Poorter2009a?}},
-\protect\hyperlink{ref-Osnas2018}{\textbf{Osnas2018?}}). Currently,
-there is no existing database for LMAs belonging to the \emph{Colocasia}
-or \emph{Melastoma} genera, thus preventing us from comparing our data
-with them.
+\protect\hyperlink{ref-Bai2020}{Bai et al. 2020}). Human trampling could
+also lead to the depletion of soil nutrients, including available P,
+available N, total N, and total P (\protect\hyperlink{ref-Yang2018}{Yang
+et al. 2018}). Thus, LMA in \emph{M. candidum} varies little in respond
+to low frequency variability in soil conditions. The observed
+experimental results could be attributed to the limited intraspecific
+variation in leaf mass per unit area (LMA) of \emph{M. candidum}, as LMA
+usually varies more among species than within species
+(\protect\hyperlink{ref-Poorter2009a}{Poorter et al. 2009},
+\protect\hyperlink{ref-Fajardo2016}{Fajardo and Siefert 2016},
+\protect\hyperlink{ref-Osnas2018}{Osnas et al. 2018}).
 
 ALAN, an increasingly prevalent aspect of our anthropogenic world, can
 have complex and nuanced impacts on forest ecosystems. Although it had
@@ -646,6 +638,11 @@ Woods, and J. J. Elser. 2002.
 {Implications} for {Trophic Complexity} and {Species
 Diversification}}:20.
 
+\leavevmode\vadjust pre{\hypertarget{ref-Fajardo2016}{}}%
+Fajardo, A., and A. Siefert. 2016.
+\href{https://doi.org/10.1007/s00442-016-3545-1}{Phenological variation
+of leaf functional traits within species}. Oecologia 180:951--959.
+
 \leavevmode\vadjust pre{\hypertarget{ref-Falchi2016}{}}%
 Falchi. 2016. \href{https://doi.org/10.1126/sciadv.1600377}{The new
 world atlas of artificial night sky brightness}.
@@ -669,13 +666,6 @@ Katabuchi, M. 2015.
 \href{https://doi.org/10.1007/s11284-015-1307-x}{{LeafArea}: An {R}
 package for rapid digital image analysis of leaf area}. Ecological
 Research 30:1073--1077.
-
-\leavevmode\vadjust pre{\hypertarget{ref-Kissling2009}{}}%
-Kissling, M., K. T. Hegetschweiler, H.-P. Rusterholz, and B. Baur. 2009.
-\href{https://doi.org/10.1016/j.apsoil.2009.05.008}{Short-term and
-long-term effects of human trampling on above-ground vegetation, soil
-density, soil organic matter and soil microbial processes in suburban
-beech forests}. Applied Soil Ecology 42:303--314.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Liu2022}{}}%
 Liu, Y., B. Speißer, E. Knop, and M. van Kleunen. 2022.
@@ -721,6 +711,14 @@ Niinemets, H. Poorter, T. Tosens, and M. Westoby. 2017.
 tradeoffs underlying the leaf economics spectrum}. New Phytologist
 214:1447--1463.
 
+\leavevmode\vadjust pre{\hypertarget{ref-Osnas2018}{}}%
+Osnas, J. L. D., M. Katabuchi, K. Kitajima, S. J. Wright, P. B. Reich,
+S. A. Van Bael, N. J. B. Kraft, M. J. Samaniego, S. W. Pacala, and J. W.
+Lichstein. 2018.
+\href{https://doi.org/10.1073/pnas.1803989115}{Divergent drivers of leaf
+trait variation within species, among species, and among functional
+groups}. Proceedings of the National Academy of Sciences 115:5480--5485.
+
 \leavevmode\vadjust pre{\hypertarget{ref-Owens2020}{}}%
 Owens, A. C. S., P. Cochard, J. Durrant, B. Farnworth, E. K. Perkin, and
 B. Seymoure. 2020.
@@ -738,6 +736,12 @@ Paik, I., and E. Huq. 2019.
 \href{https://doi.org/10.1016/j.semcdb.2019.03.007}{Plant
 photoreceptors: {Multi-functional} sensory proteins and their signaling
 networks}. Seminars in Cell \& Developmental Biology 92:114--121.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Poorter2009a}{}}%
+Poorter, H., Ü. Niinemets, L. Poorter, I. J. Wright, and R. Villar.
+2009. \href{https://doi.org/10.1111/j.1469-8137.2009.02830.x}{Causes and
+consequences of variation in leaf mass per area ({LMA}): A
+meta-analysis}. New Phytologist 182:565--588.
 
 \leavevmode\vadjust pre{\hypertarget{ref-RCoreTeam2022}{}}%
 R Core Team. 2022. R: {A} language and environment for statistical
@@ -828,6 +832,13 @@ fertilization regimes on nitrogen and phosphorus losses by surface
 runoff and bacterial community in a vegetable soil}. Journal of Soils
 and Sediments 18:3186--3196.
 
+\leavevmode\vadjust pre{\hypertarget{ref-Zhao2013}{}}%
+Zhao, X., P. Wu, X. Chen, M. J. Helmers, X. Zhou, X. Zhao, P. Wu, X.
+Chen, M. J. Helmers, and X. Zhou. 2013.
+\href{https://doi.org/10.1071/SR12239}{Runoff and sediment yield under
+simulated rainfall on hillslopes in the {Loess Plateau} of {China}}.
+Soil Research 51:50--58.
+
 \end{CSLReferences}
 
 \newpage
@@ -871,8 +882,9 @@ Parameters & Mean value & 95\% CI\\
 
 \textbf{Table. 1.} Results of Bayesian general linear mixed-effect
 models testing the effects of artificial light at night, daylight and
-interaction on experimental species. Significant effects (p \textless{}
-0.05) are in bold.
+interaction on experimental species. 95\% CI is 95\% confidence
+intervals. Significant results (p \textless{} 0.05) are highlighted in
+bold.
 
 \newpage
 

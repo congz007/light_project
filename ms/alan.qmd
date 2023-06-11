@@ -79,7 +79,7 @@ E-mail: mattocci27@gmail.com
 
 $$ $$
 
-**Running title**:
+**Running title**: 
 
 \newpage
 
@@ -153,7 +153,7 @@ The experiment was set up in November 2019, and leaf disc samples were collected
 
 *Species Selection*
 
-Considering the understory conditions (mature individuals and distribution of individuals) and species specificity (it should be evergreen species and not be the nitrogen fix plants like *Leguminosae*) of each plot, finally two species respectively in two plots were chosen for our study, *Colocasia gigantea* representing shade species and *Melastoma candidum* for sun species.
+Considering the understory conditions (number of mature individuals and distribution of individuals) and species specificity (it should be evergreen species and not be the nitrogen fix plants like *Leguminosae*) of each plot, finally two species respectively in two plots were chosen for our study, *Colocasia gigantea* representing shade species and *Melastoma candidum* for sun species.
 
 *Measurements*
 
@@ -213,16 +213,11 @@ The enhanced nutrient availability may enable *C. gigantea* to allocate more res
 Additionally, increased soil nutrient availability, particularly nitrogen, could increase the photosynthetic capacity of *C. gigantea*.
 Higher photosynthetic rates might result in faster leaf growth and a consequent decrease in LMA, as resources are allocated more towards metabolic processes rather than structural tissues.
 
-- Why Meslastoma did not show significant results?
-  slope causing rain washing, low canopy openness, human interference like tread
-- Are there any soil fertilization in the Meslastoma plot?
-  In Method.
-
-On the other hand, no significant fluctuation was found in leaf mass per area (LMA) in *M. candidum* under artificial light at night (ALAN) probably due to low canopy openness, slope and human interference like tread.
-Slope causing surface runoff and human trampling might make soil homogenisation [@Kissling2009; @Yi2018; @Yang2018; @Bai2020], which dilute the indirect impact of artificial light at night (ALAN).
+Alternatively, no significant variation in leaf mass per area (LMA) was discovered in *M. candidum* when exposed to artificial light at night (ALAN), likely due to factors such as slope, precipitation, and human activities like trampling. 
+Previous studies have shown that the intensity of rainfall, gradient of the slope, and length of the slope can affect water erosion and the loss of nutrients such as nitrogen (N) and phosphorus (P) in surface runoff [@Zhao2013; @Yi2018; @Bai2020].
+Human trampling could also lead to the decrease of soil nutrients, including available P, available N, total N, and total P [@Yang2018].
 Thus, LMA in *M. candidum* varies little in respond to low frequency variability in soil conditions.
-It should also be noted that the experimental results may also be influenced by the degree of intraspecific variation in LMA, which may overwhelm or counteract part of the environmental effects[@Poorter2009a; @Osnas2018].
-Currently, there is no existing database for LMAs belonging to the *Colocasia* or *Melastoma* genera, thus preventing us from comparing our data with them.
+The experimental results might also be attributed to the limited intraspecific variation in leaf mass per unit area (LMA) of *M. candidum*, as LMA usually varies more among species than within species [@Poorter2009a; @Fajardo2016; @Osnas2018].
 
 ALAN, an increasingly prevalent aspect of our anthropogenic world, can have complex and nuanced impacts on forest ecosystems.
 Although it had been demonstrated that LMA increases with insolation [@Ackerly2002; @Niinemets2004], our research showed the effects of night artificial light on plants should be considered as a comprehensive situation.
@@ -265,6 +260,7 @@ table
 
 **Table. 1.**
 Results of Bayesian general linear mixed-effect models testing the effects of artificial light at night, daylight and interaction on experimental species.
-Significant effects (p < 0.05) are in bold.
+95% CI is 95% confidence intervals.
+Significant results (p < 0.05) are highlighted in bold.
 
 \newpage
