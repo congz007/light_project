@@ -229,7 +229,19 @@ Further investigations into the intricate relationships between ALAN, plant func
 
 # ACKNOWLEDGEMENTS
 
+We thank Nuo Ai, Nuojiao Ai and Guangfeng Yi for assistance with field work.
+We thank the editors and anonymous reviewers, whose comments greatly improved the manuscript.
+Content determination of nutrient in soil was accomplished by Institutional Center for Shared Technologies and Facilities of XTBG, CAS.
+This work was funded in part by grants to Projects of International Cooperation and Exchanges (NSFC) of China (32161160324).
 
+
+# AUTHORS'S CONTRIBUTIONS
+
+A.N, M.K., and C.Z conceived the study; 
+C.Z collected data; 
+M.K. and C.Z. performed the analysis;
+M.K. and C.Z led the writing of the paper;
+and all authors contributed to revisions.
 
 
 # LITERATURE CITED
