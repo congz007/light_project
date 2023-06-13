@@ -55,7 +55,7 @@ library(kableExtra)
 
 \newpage
 
-**The effect of artificial light at night (ALAN) on understory plants: an experiment in a rubber tree forest in China**
+**The effect of artificial light at night (ALAN) on understory plants: an experiment in a rubber plantation in China**
 
 $$ $$
 
@@ -221,8 +221,8 @@ Thus, LMA in *M. candidum* varies little in respond to low frequency variability
 The experimental results might also be attributed to the limited intraspecific variation in leaf mass per unit area (LMA) of *M. candidum*, as LMA usually varies more among species than within species [@Poorter2009a; @Fajardo2016; @Osnas2018].
 
 ALAN, an increasingly prevalent aspect of our anthropogenic world, can have complex and nuanced impacts on forest ecosystems.
-Although it had been demonstrated that LMA increases with insolation [@Ackerly2002; @Niinemets2004], our research showed the effects of night artificial light on plants should be considered as a comprehensive situation.
-By affecting understory plant functional traits and possibly soil nutrient dynamics, ALAN can unexpectedly impact forest health and productivity.
+Although it had been demonstrated that LMA increases with insolation [@Ackerly2002; @Niinemets2004], our research showed the effects of ALAN on plants should be considered as a comprehensive situation.
+By affecting understory plant functional traits and possibly soil nutrient dynamics, ALAN may unexpectedly impact forest health and productivity.
 Controlled experiments potentially tend to underestimate the species interaction and unpredictable environmental heterogeneity caused by natural and artificial factors because many irreplaceable features of field conditions, such as subtle nutrient change, herbivores, and competitors, are usually absent.
 Thus, adequate tests of the influence of artificial light at night on the understory will require more experimental work under field conditions.
 Further investigations into the intricate relationships between ALAN, plant functional traits, and soil nutrient dynamics are warranted to enable the development of comprehensive forest management strategies that consider the broad implications of artificial lighting.
@@ -239,7 +239,7 @@ This work was funded in part by grants to Projects of International Cooperation 
 # AUTHORS'S CONTRIBUTIONS
 
 A.N, M.K., and C.Z conceived the study; 
-C.Z collected data; 
+C.Z and X.S collected data; 
 M.K. and C.Z. performed the analysis;
 M.K. and C.Z led the writing of the paper;
 and all authors contributed to revisions.
@@ -263,11 +263,11 @@ Photographs of the experimental plots during the day and night (B and D).
 ```{r table, echo=FALSE}
 table <- read.csv("../data-raw/table.csv")%>% 
   as_tibble() %>% select(-sp) %>%
-  kbl(caption = "Coefficients table",col.names = c("Parameters", "Mean value", "95% CI" ))%>% 
-  kable_paper("striped", full_width = F) %>%
+  kbl(caption = "Coefficients table",col.names = c("Parameters", "Mean value", "95% CI" ),booktabs = T)%>% 
+  kable_styling("striped", full_width = F) %>% 
   column_spec(3, bold = c(F,F,F,T,T,F)) %>%
   pack_rows("Melastoma candidum", 1, 3,italic = TRUE) %>%
-  pack_rows("Colocasia_gigantea", 4, 6,italic = TRUE) 
+  pack_rows("Colocasia_gigantea", 4, 6,italic = TRUE)
 table
 ```
 
