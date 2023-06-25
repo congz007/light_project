@@ -94,7 +94,10 @@ We selected two species: *Colocasia gigantea*, representing shade species and *M
 We measured canopy openness, LMA, soil nutrients and individual distance away from ALAN.
 We found a negative relationship between LMA and the effects of ALAN.
 This relationship was significant for *Colocasia gigantea* but not for*Melastoma candidum*.
+
 These results suggest that ALAN might have complex and multifaceted impacts on the understory ecosystem.
+(Xiaoyang said maybe write shade species is significant than sun species here?)
+
 
 **KEY WORDS**
 leaf mass per area (LMA),
@@ -123,7 +126,7 @@ Plants can sense light through photoreceptors, allowing them to respond to four 
 For individual species, LMA was proportional with species distributions along the insolation gradient and was significantly higher in evergreen versus deciduous species [@Ackerly2002; @Niinemets2004; @Onoda2008].
 Moreover, among a local community, @Ackerly2002 demonstrated that the average values of LMA significantly increased with increasing potential diurnal insolation (PDI).
 
-On the other hand, ALAN might indirectly affect plant leaf functional traits because ALAN has the potential to change soil environmental conditions by attracting insects.
+On the other hand, ALAN might indirectly affect plant leaf functional traits because ALAN has the potential to change soil fertility by attracting insects.
 Many insects orient themselves by maintaining a constant angle to light rays and are attracted by light [@Baker1978; @Sotthibandhu1979].
 Previous studies showed that 30–40% of insects die soon after approaching street lamps for collision, overheating, dehydration, or predation [@Minnaar2015; @Owens2018].
 Since nitrogen (N) and phosphorus (P) are the nutrients most frequently limiting primary productivity in forest ecosystems [@Wright2019], dead insects killed by ALAN could be important nutrient input for soil nutrients [@Behie2013].
@@ -135,6 +138,7 @@ Our hypothesis proposes that ALAN would influence the understory via two distinc
 Based on our hypothesis, we anticipate two key outcomes:
 (a) an increase in the influence of ALAN would correspond with a decrease in the LMA value of the understory, and
 (b) the extent of canopy openness and its interaction with ALAN would have a minor impact on the results of this experiment.
+(Xiaoyang said (b) could be the different results between sun-like species and shade-tolerance species?)
 
 # MATERIALS AND METHODS
 
@@ -208,7 +212,6 @@ This ALAN-induced insect influx could help offset the nutrient depletion caused 
 The significant decrease in leaf mass per area (LMA) in *C. gigantea* under artificial light at night (ALAN) could be predominantly driven by indirect effects mediated through changes in soil nutrient availability rather than direct effects of ALAN acting as a light resource (because sunlight increased LMA [Table 1]).
 The presence of ALAN is known to attract a higher density of insects, many of which may die due to collision, overheating, dehydration, or predation [@Minnaar2015; @Owens2018].
 The decomposition of these deceased insects could lead to considerable enrichment of soil nutrients, particularly nitrogen (N) and phosphorus (P) [@Schulze1997; @Fagan2002; @Woods2004; @Behie2013], which are fundamental to plant growth.
-(should we add rough estimate of the amount of dead insects and nutrients here? I think no need to add it unless being asked because it is too rough)
 Although the precise quantity of deceased insects and the resultant increase in soil nutrient content is a subject for further detailed study, this enhanced nutrient availability could potentially shift the resource allocation strategy of *C. gigantea*.
 The enhanced nutrient availability may enable *C. gigantea* to allocate more resources to rapid leaf growth rather than structural tissue, leading to a decrease in LMA [@Onoda2017; @Hernandez-Vargas2019].
 Additionally, increased soil nutrient availability, particularly nitrogen, could increase the photosynthetic capacity of *C. gigantea*.
