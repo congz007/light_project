@@ -16,13 +16,13 @@ format:
     toc-title: Contents
     self-contained: true
     smooth-scroll: true
+    html-math-method: katex
     highlight-style: github
   docx:
     toc: false
     number-sections: false
     highlight-style: github
-    html-math-method: katex
-    reference-doc: my_template.docx
+    reference-doc: template.docx
   pdf:
     toc: false
     keep-tex: true
@@ -222,6 +222,8 @@ Previous studies have shown that the intensity of rainfall, gradient of the slop
 Human trampling could also lead to the decrease of soil nutrients, including available P, available N, total N, and total P [@Yang2018].
 Thus, LMA in *M. candidum* varies little in respond to low frequency variability in soil conditions.
 The experimental results might also be attributed to the limited intraspecific variation in leaf mass per unit area (LMA) of *M. candidum*, as LMA usually varies more among species than within species [@Poorter2009a; @Fajardo2016; @Osnas2018].
+(Xiaoyang: Maybe discuss why sun species is not significant)
+
 
 ALAN, an increasingly prevalent aspect of our anthropogenic world, can have complex and nuanced impacts on forest ecosystems.
 Although it had been demonstrated that LMA increases with insolation [@Ackerly2002; @Niinemets2004], our research showed the effects of ALAN on plants should be considered as a comprehensive situation.
