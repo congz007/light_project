@@ -258,7 +258,7 @@ and all authors contributed to revisions.
 
 **Fig. 1.**
 The distribution of individuals around the ALAN and the illustration of the experiment setup.
-The distribution of individuals LMA values around the artificial light of two experimental species (A and C).
+The geographic distribution of individuals (points) around the artificial light (0,0) of two experimental species (A and C).
 Photographs of the experimental plots during the day and night (B and D).
 
 ![](../figs/merge.png)
