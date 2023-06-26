@@ -97,9 +97,7 @@ We selected two species: *Colocasia gigantea*, representing shade species and *M
 We measured canopy openness, LMA, soil nutrients and individual distance away from ALAN.
 We found a negative relationship between LMA and the effects of ALAN.
 This relationship was significant for *Colocasia gigantea* but not for *Melastoma candidum*.
-
 These results suggest that ALAN might have complex and multifaceted impacts on the understory ecosystem.
-(Xiaoyang said maybe write shade species is significant than sun species here?)
 
 
 **KEY WORDS**

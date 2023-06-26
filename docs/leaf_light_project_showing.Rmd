@@ -60,18 +60,25 @@ llp1$species[llp1$species =="Colocasia_gigantea"] <- "Colocasia gigantea"
 llp1 |> 
   mutate(x_loc = Distance*cos(angel*pi/180))|>
   mutate(y_loc = Distance*sin(angel*pi/180))|>
-  ggplot(aes(x_loc, y_loc, color = LMA, size = 7))+
+  ggplot(aes(x_loc, y_loc, color = LMA, size = 14))+
   guides(size = "none")+
   scale_color_gradient(low = "#43ff2a",
   high = "#105cff")+
   coord_fixed()+
   geom_hline(yintercept = 0,linetype="dotted")+
   geom_vline(xintercept = 0,linetype="dotted")+
-  geom_point(shape =16)+
-  facet_wrap(vars(species),nrow = 2,strip.position = "top")+
-  labs(x = ", y = ")+
-  theme(strip.text = element_text(face = "italic",size = 14))
-
+  geom_point(shape =16,size = 8)+
+  facet_wrap(vars(species),ncol = 2,strip.position = "top")+
+  labs(x = "", y = "")+
+  theme(strip.text = element_text(face = "italic",size = 28),
+        axis.text.x=element_text(vjust=1,size=20),
+        axis.text.y=element_text(vjust=1,size=20),
+        legend.key.size = unit(1.5, 'cm'),
+        legend.text = element_text(size = 10),
+        legend.title = element_text(size=18),
+        legend.position = c(0.95,0.5)) -> p1
+p1 
+ggsave(p1,file = "figs/joint_1.png",dpi = 300,width = 14,height = 7)
 ```
 (Notation: coordinate (0,0) is where the light is.)
 
