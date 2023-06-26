@@ -95,7 +95,6 @@ test_photo
 *.pdf
 *.eps
 *.csv
-*.png
 *.docx
 *.pptx
 *.xslx
