@@ -48,6 +48,7 @@ options(tinytex.verbose = TRUE)
 ```{r caching, include=FALSE}
 library(knitr)
 library(tidyverse)
+library(here)
 library(methods)
 options(kableExtra.auto_format = FALSE)
 library(kableExtra)
@@ -266,7 +267,7 @@ Photographs of the experimental plots during the day and night (B and D).
 \newpage
 
 ```{r table, echo=FALSE}
-table <- read.csv("../data-raw/table.csv")%>% 
+table <- read.csv(here("data/table.csv"))%>% 
   as_tibble() %>% select(-sp) %>%
   kbl(caption = "Coefficients table",col.names = c("Parameters", "Mean value", "95% CI" ),booktabs = T)%>% 
   kable_styling("striped", full_width = F) %>% 
