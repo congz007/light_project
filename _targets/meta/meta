@@ -1,5 +1,7 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-.Random.seed|object|dc6f492f517ef3db|||||||||||||||
+.Random.seed|object|12bd2e2180cff18a|||||||||||||||
+fig1|stem|460262642a774867|d7b3ce84bda295ee|ef46db3751d8e999|-1347776011|figs/sp1-dis.png|t19247.0639555501s|bf542760129cf87a|29612|file|local|vector|||1.097||
+fig2|stem|c5a24086dfd90d73|4f523313eccdbe88|ef46db3751d8e999|-983253655|figs/sp2-dis.png|t19247.0639555501s|0711cd79c0f20624|31345|file|local|vector|||0||
 make_table|function|5471876704395fdb|||||||||||||||
 table|stem|57582e133744455f|0fe09a88d259769e|58cd633a40177bc7|-1420435068||t19534.3754357536s|bf8f9b5758e72d99|619|rds|local|vector|||0.021||
 table_data|stem|87c1221014b5c5c7|8109db645678ad27|7199b9143a2e7ccc|-707952368||t19534.3744822813s|f73cea00d22be8c9|512|rds|local|vector|||1.118||
