@@ -42,12 +42,13 @@ the pacakges we"ll use:
 library(kableExtra)
 library(tidyverse)
 library(lme4)
+library(here)
 library(ggspatial)
 ```
 
 input our data
 ```{r}
-llp <- read_csv("../light_project/data-raw/leaf_light_project.csv")
+llp <- read_csv(here("data/leaf_light_project.csv"))
 llp[1:5,] %>% kbl() %>% kable_styling()
 ```
 
