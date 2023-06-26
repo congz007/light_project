@@ -2,12 +2,13 @@
 library(kableExtra)
 library(tidyverse)
 library(lme4)
+library(here)
 library(ggspatial)
 ```
 
 input our data
 ```{r}
-llp <- read_csv("../light_project/data-raw/leaf_light_project.csv")
+llp <- read_csv(here("data/leaf_light_project.csv"))
 llp[1:5,] %>% kbl() %>% kable_styling()
 ```
 
@@ -32,7 +33,10 @@ llp2 |> filter(species == "Melastoma candidum")|>
   facet_wrap(vars(species),nrow = 1,strip.position = "top")+
   geom_point(shape =16)+
   labs(x = "", y = "")+
-  theme(strip.text = element_text(face = "italic",size = 14),legend.position = c(0.9,0.5),legend.key.size = unit(15,"pt"),legend.background = element_rect(fill= FALSE))
+  theme(strip.text = element_text(face = "italic",size = 14),
+        legend.position = c(0.9,0.5),
+        legend.key.size = unit(15,"pt"),
+        legend.background = element_rect(fill= FALSE))
 ggsave("sp1-dis.png",units = "in", dpi = 300, width = 4, height = 4,device = "png")
 ```
 
@@ -48,7 +52,10 @@ llp2 |> filter(species == "Colocasia gigantea")|>
   facet_wrap(vars(species),nrow = 1,strip.position = "top")+
   geom_point(shape =16)+
   labs(x = "", y = "")+
-  theme(strip.text = element_text(face = "italic",size = 14),legend.position = c(0.92,0.5),legend.key.size = unit(13,"pt"),legend.background = element_rect(fill= FALSE))
+  theme(strip.text = element_text(face = "italic",size = 14),
+        legend.position = c(0.92,0.5),
+        legend.key.size = unit(13,"pt"),
+        legend.background = element_rect(fill= FALSE))
 ggsave("sp2-dis.png",units = "in", dpi = 300, width = 4, height = 4,device = "png")
 ```
 

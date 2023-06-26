@@ -20,5 +20,6 @@ list(
         read_csv("data/table.csv")
         ),
     tar_target(table,
-        make_table(table_data))
+        make_table(table_data)
+    )
 )
