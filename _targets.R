@@ -1,13 +1,15 @@
 library(targets)
+library(tarchetypes)
 library(stantargets)
 library(cmdstanr)
+library(furrr)
 
 source("R/make_table.R")
 source("R/geo_dis.R")
 source("R/stan_clean.R")
 
-set_cmdstan_path("/home/cong/.cmdstan/cmdstan-2.32.2")
-cmdstan_version()
+plan(multicore)
+options(clustermq.scheduler = "multicore")
 
 tar_option_set(packages = c(
   "tidyverse",
@@ -20,8 +22,16 @@ tar_option_set(packages = c(
   "knitr"
 ))
 
+# check if it's inside a container
+if (file.exists("/.dockerenv") | file.exists("/.singularity.d/startscript")) {
+  Sys.setenv(CMDSTAN = "/opt/cmdstan/cmdstan-2.23.2")
+  set_cmdstan_path("/opt/cmdstan/cmdstan-2.23.2")
+}
+
+cmdstan_version()
+
 list(
-    tar_target(table_data, 
+    tar_target(table_data,
         read_csv("data/table.csv")
         ),
     tar_target(table,
