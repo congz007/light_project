@@ -34,12 +34,27 @@ list(
         plot_geo(data)
     ),
     tar_target(sp1,
-        stan_data(data)
+        stan_data_sp1(data)
     ),
     tar_stan_mcmc(
     fit_sp1,
     "stan/model.stan",
     data = sp1,
+    refresh = 200,
+    chains = 4,
+    thin = 1,
+    parallel_chains = getOption("mc.cores", 4),
+    iter_warmup = 1000,
+    iter_sampling = 1000,
+    seed = 123
+   ),
+    tar_target(sp2,
+        stan_data_sp2(data)
+    ),
+    tar_stan_mcmc(
+    fit_sp2,
+    "stan/model.stan",
+    data = sp2,
     refresh = 200,
     chains = 4,
     thin = 1,
