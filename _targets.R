@@ -13,19 +13,17 @@ options(clustermq.scheduler = "multicore")
 
 tar_option_set(packages = c(
   "tidyverse",
-  "ggpubr",
   "here",
-  "rstan",
   "bayesplot",
-  "cowplot",
+  "patchwork",
   "kableExtra",
   "knitr"
 ))
 
 # check if it's inside a container
 if (file.exists("/.dockerenv") | file.exists("/.singularity.d/startscript")) {
-  Sys.setenv(CMDSTAN = "/opt/cmdstan/cmdstan-2.23.2")
-  set_cmdstan_path("/opt/cmdstan/cmdstan-2.23.2")
+  Sys.setenv(CMDSTAN = "/opt/cmdstan/cmdstan-2.32.2")
+  set_cmdstan_path("/opt/cmdstan/cmdstan-2.32.2")
 }
 
 cmdstan_version()
