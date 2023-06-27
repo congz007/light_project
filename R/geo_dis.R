@@ -11,18 +11,18 @@ plot_geo <- function(data) {
       coord_fixed()+
       geom_hline(yintercept = 0, linetype = "dotted") +
       geom_vline(xintercept = 0, linetype = "dotted") +
-      geom_point(shape = 16, size = 3)+
+      geom_point(shape = 16, size = 2.5)+
       facet_wrap(vars(species), ncol = 2, strip.position = "top") +
       labs(x = "", y = "", col = expression(LMA~(gm^{-2})))+
-      theme(strip.text = element_text(face = "italic", size = 24),
-            axis.text.x = element_text(vjust = 1, size = 20),
-            axis.text.y = element_text(vjust = 1, size = 20),
-            legend.key.size = unit(0.8, 'cm'),
+      theme_bw()+
+      theme(strip.text = element_text(face = "italic", size = 8),
+            axis.text.x = element_text(vjust = 1, size = 10),
+            axis.text.y = element_text(vjust = 1, size = 10),
+            legend.key.size = unit(0.5, 'cm'),
             legend.text = element_text(size = 10),
-            legend.title = element_text(size = 15),
+            legend.title = element_text(size = 10),
             # legend.position = c(0.95, 0.5))
-            legend.position = "right")+
-      theme_bw()
+            legend.position = "right")
 }
 
 #' @title ggsave for targets
