@@ -31,7 +31,7 @@ menu() {
  		radian.sif bash
     ;;
 	*)
-    echo "Type 1-3"
+    echo "Type 1-5"
     ;;
   esac
 }
