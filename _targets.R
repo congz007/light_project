@@ -43,7 +43,22 @@ list(
     lma_df,
     read_csv(leaf_light_project_csv) |>
       janitor::clean_names() |>
-      mutate(sp = ifelse(species == "Melastoma_candidum", "melas", "coloc"))
+      mutate(sp = ifelse(species == "Melastoma_candidum", "melas", "coloc")) |>
+      mutate(lma = dry_weight / (disc * pi * (0.005)^2))
+  ),
+  tar_target(
+      lma_map,{
+      p <- plot_geo(lma_df)
+      my_ggsave(
+        "figs/lma_map",
+        p,
+        dpi = 300,
+        width = 173,
+        height = 57.7,
+        units = "mm"
+      )
+    },
+    format = "file"
   ),
   tar_map(
     values = list(sp = c("melas", "coloc")),
