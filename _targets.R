@@ -28,6 +28,45 @@ if (file.exists("/.dockerenv") | file.exists("/.singularity.d/startscript")) {
 
 cmdstan_version()
 
+mapped <- tar_map(
+    values = list(sp = c("melas", "coloc")),
+    tar_target(
+      stan_data,
+      generate_stan_data(lma_df, sp)
+    ),
+    tar_stan_mcmc(
+      fit,
+      "stan/model.stan",
+      data = stan_data,
+      refresh = 0,
+      chains = 4,
+      parallel_chains = getOption("mc.cores", 4),
+      iter_warmup = 1000,
+      iter_sampling = 2000,
+      adapt_delta = 0.95,
+      max_treedepth = 15,
+      seed = 123,
+      return_draws = TRUE,
+      return_diagnostics = TRUE,
+      return_summary = TRUE,
+      summaries = list(
+        mean = ~mean(.x),
+        sd = ~sd(.x),
+        mad = ~mad(.x),
+        ~posterior::quantile2(.x, probs = c(0.025, 0.05, 0.25, 0.5, 0.75, 0.95, 0.975)),
+        posterior::default_convergence_measures()
+      )
+    ),
+    tar_target(
+      summary_stan_each, {
+        fit_summary_model |>
+        filter(str_detect(variable, "beta")) |>
+        filter(!str_detect(variable, "beta\\[1,")) |>
+        mutate(sp = sp)
+      }
+    )
+  )
+
 list(
   tar_target(
     leaf_light_project_csv,
@@ -60,36 +99,13 @@ list(
     },
     format = "file"
   ),
-  tar_map(
-    values = list(sp = c("melas", "coloc")),
-    tar_target(
-      stan_data,
-      generate_stan_data(lma_df, sp)
-    ),
-    tar_stan_mcmc(
-      fit,
-      "stan/model.stan",
-      data = stan_data,
-      refresh = 0,
-      chains = 4,
-      parallel_chains = getOption("mc.cores", 4),
-      iter_warmup = 1000,
-      iter_sampling = 2000,
-      adapt_delta = 0.95,
-      max_treedepth = 15,
-      seed = 123,
-      return_draws = TRUE,
-      return_diagnostics = TRUE,
-      return_summary = TRUE,
-      summaries = list(
-        mean = ~mean(.x),
-        sd = ~sd(.x),
-        mad = ~mad(.x),
-        ~posterior::quantile2(.x, probs = c(0.025, 0.05, 0.25, 0.5, 0.75, 0.95, 0.975)),
-        posterior::default_convergence_measures()
-      )
-    )
+  mapped,
+  tar_combine(
+    summary_stan,
+    mapped[["summary_stan_each"]],
+    command = bind_rows(!!!.x)
   ),
+
   # tar_target(table_data,
   #     read_csv("data/table.csv")
   #     ),
