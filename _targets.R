@@ -2,7 +2,7 @@ library(targets)
 library(stantargets)
 
 source("R/make_table.R")
-
+source("R/geo_dis.R")
 
 tar_option_set(packages = c(
   "tidyverse",
@@ -21,5 +21,10 @@ list(
         ),
     tar_target(table,
         make_table(table_data)
-    )
+    ),
+    tar_target(data,
+        read_csv("data/leaf_light_project.csv")
+    ),
+    tar_target(fig1,
+        plot_geo(data))
 )

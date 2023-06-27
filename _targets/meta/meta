@@ -1,7 +1,10 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-.Random.seed|object|12bd2e2180cff18a|||||||||||||||
-fig1|stem|460262642a774867|d7b3ce84bda295ee|ef46db3751d8e999|-1347776011|figs/sp1-dis.png|t19247.0639555501s|bf542760129cf87a|29612|file|local|vector|||1.097||
+.Random.seed|object|2762716778e131af|||||||||||||||
+data|stem|e09c25f64bbabc96|6fd296f673eda8da|7199b9143a2e7ccc|1588979285||t19535.0976024271s|f71a42835f4fd540|3819|rds|local|vector|||1.219||
+fig1|stem|c26299560317ab17|44fc681db2587966|2149ce4c328dd58c|-1347776011||t19535.0981760383s|66181d580272c051|137750|rds|local|vector|||0.042||
 fig2|stem|c5a24086dfd90d73|4f523313eccdbe88|ef46db3751d8e999|-983253655|figs/sp2-dis.png|t19247.0639555501s|0711cd79c0f20624|31345|file|local|vector|||0||
 make_table|function|5471876704395fdb|||||||||||||||
+plot_geo|function|683d259a78483b4c|||||||||||||||
 table|stem|57582e133744455f|0fe09a88d259769e|58cd633a40177bc7|-1420435068||t19534.3754357536s|bf8f9b5758e72d99|619|rds|local|vector|||0.021||
 table_data|stem|87c1221014b5c5c7|8109db645678ad27|7199b9143a2e7ccc|-707952368||t19534.3744822813s|f73cea00d22be8c9|512|rds|local|vector|||1.118||
+table_fig|stem|f43384ca1240c568|c0ee5fe24f95076b|67d3031941ae02cb|-1569321030||t19535.0791400426s|bf160f080fbf1dbb|99|rds|local|vector|||0.046||
