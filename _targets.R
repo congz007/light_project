@@ -53,7 +53,7 @@ list(
         "figs/lma_map",
         p,
         dpi = 300,
-        width = 173,
+        width = 110,
         height = 57.7,
         units = "mm"
       )
