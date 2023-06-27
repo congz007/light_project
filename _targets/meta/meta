@@ -1,5 +1,5 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-.Random.seed|object|dae6b9f9064b08db|||||||||||||||
+.Random.seed|object|fd4befdc33e87aaa|||||||||||||||
 data|stem|e09c25f64bbabc96|6fd296f673eda8da|7199b9143a2e7ccc|1588979285||t19535.0976024271s||3819|rds|local|vector|||0.444||dataleaf_light_project.csv does not exist in current working directory homemattoccilight_project.
 fig1|stem|c26299560317ab17|44fc681db2587966|3db6bfdd70f543fb|-1347776011||t19535.0981760383s||137750|rds|local|vector|||0.347||object of type closure is not subsettable
 fig2|stem|c5a24086dfd90d73|4f523313eccdbe88|ef46db3751d8e999|-983253655|figs/sp2-dis.png|t19247.0639555501s|0711cd79c0f20624|31345|file|local|vector|||0||
@@ -29,14 +29,16 @@ fit_summary_model_coloc|stem|beec05431124bfb3|b733ab9b202a5714|67c637aa58b6a54b|
 fit_summary_model_melas|stem|5b4581d269d9e5b5|1e4e2701f5ba11a0|4b8d578263e04542|1649807943||t19535.3272269028s|8de2d1919def31ba|6493|fst_tbl|local|vector|||0.75||
 generate_stan_data|function|5c39279d3fcb9572|||||||||||||||
 leaf_light_project_csv|stem|8091d42884b52f4d|e1a7250b1d73e293|ef46db3751d8e999|-291590375|data/leaf_light_project.csv|t19535.3189727291s|b4e18c3ab3e9549e|16118|file|local|vector|||0.283||
-lma_df|stem|143a108bd14aeec7|5df787ed0ca0ed0b|3393dc7b60a5d88c|2085082458||t19535.3254446957s|69370f2f1f7441ee|3689|rds|local|vector|||0.185||
+lma_df|stem|6b98d51e7a1bf952|1e42e4958a6e111b|60a10cac1c0153d0|2085082458||t19535.3415155375s|deeb574487143a6d|4957|rds|local|vector|||0.468||
+lma_map|stem|b43d5896b1d0d43a|c4d06f44078786bc|e7cea8d022cf4a0e|-124749745|figs/lma_map.png*figs/lma_map.pdf|t19535.3493892233s|9ad28c4c8fb69a7c|93805|file|local|vector|||1.097||
 make_table|function|5471876704395fdb|||||||||||||||
-plot_geo|function|683d259a78483b4c|||||||||||||||
+my_ggsave|function|f95c949784d28668|||||||||||||||
+plot_geo|function|37476662dd520970|||||||||||||||
 sp1|stem|a758a4b72767a94d|383d9744ea3a8973|7d8ef00b8cabb1b5|-779942735||t19535.2517391191s|85f6336dc231313a|1172|rds|local|vector|||0.121||
 sp2|stem|4d56d082105623f7|cc13eeabdfe52200|44ef5085bc878c56|-1546540721||t19535.2517376145s||2039|rds|local|vector|||0.329||no applicable method for mutate applied to an object of class function
 stan_data|function|a4620f557d83e0af|||||||||||||||
-stan_data_coloc|stem|cb3e09cf365453ce|a4ebc166d263e5c0|c3de32a6d587eb39|43897636||t19535.3254448809s|aceaae682d404099|2039|rds|local|vector|||0.011||
-stan_data_melas|stem|959dc58af36c4d63|380c8d5d18e6ba7c|c3de32a6d587eb39|-481663364||t19535.3254449272s|7325a5f2baad2457|1171|rds|local|vector|||0.002||
+stan_data_coloc|stem|cb3e09cf365453ce|a4ebc166d263e5c0|c81c2ac23b9476f8|43897636||t19535.3415156764s|aceaae682d404099|2039|rds|local|vector|||0.003||
+stan_data_melas|stem|959dc58af36c4d63|380c8d5d18e6ba7c|c81c2ac23b9476f8|-481663364||t19535.3415247043s|7325a5f2baad2457|1171|rds|local|vector|||0.303||
 stan_data_sp1|function|a4620f557d83e0af|||||||||||||||
 stan_data_sp2|function|cca798ba8294b712|||||||||||||||
 table|stem|57582e133744455f|0fe09a88d259769e|58cd633a40177bc7|-1420435068||t19534.3754357536s|bf8f9b5758e72d99|619|rds|local|vector|||0.021||
