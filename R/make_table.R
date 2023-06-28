@@ -18,7 +18,7 @@ table_summary <- function(summary_stan){
   tibble(parameters, mean, quantile_interval) |> 
     kbl(col.names = c("Parameters", "Mean value", "95% CI"),
         booktabs = T) |>
-    kable_styling(full_width = F) |>
+    kable_classic(full_width = F) |>
     column_spec(3,bold = c(F,F,F,T,T,F)) |>
     pack_rows("Melastoma candidum", 1, 3, italic = TRUE) |>
     pack_rows("Colocasia gigantea", 4, 6, italic = TRUE) 
