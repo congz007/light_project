@@ -105,6 +105,15 @@ list(
     mapped[["summary_stan_each"]],
     command = bind_rows(!!!.x)
   ),
+  tar_target(
+    table,{
+    Tb <- table_summary(summary_stan)
+    my_kable_save(
+      Tb,
+      "figs/Table1"
+    )
+    },  
+  ),
 
   # tar_target(table_data,
   #     read_csv("data/table.csv")
