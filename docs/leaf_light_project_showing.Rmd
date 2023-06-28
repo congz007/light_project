@@ -332,8 +332,8 @@ quantile_interval <-  paste0("[",round(test$`2.5%`,4),", ",  round(test$`97.5%`,
 
 table_sp1 <- data.frame(
   "Parameters" = c(
-                   "ALAN"s effect",
-                   "Daylight"s effect",
+                   "ALAN's effect",
+                   "Daylight's effect",
                    "interaction"),
   "mean_value" = round(test$mean,4),
  quantile_interval 
