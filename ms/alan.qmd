@@ -254,14 +254,16 @@ and all authors contributed to revisions.
 \newpage
 
 !
-[The distribution of individuals around the ALAN and the illustration of the experiment setup.
-The geographic distribution of individuals (points) around the artificial light (0,0) of two experimental species (A and C).
-Photographs of the experimental plots during the day and night (B and D).
+[The distribution of individuals around the ALAN.
+The relative geographic location of individuals (points) around the artificial light (0,0) of two experimental species (*C. gigantea* and *M. candidum*).
+Color represents the LMA value.
 ](`r here::here("figs/merge.png")`){#fig-alan}
 
 \newpage
 
-[The illustration of experimental setting]
+[The illustration of experimental setup.
+Photographs of the experimental plots in daylight and at night (A and B).
+]
 
 \newpage
 
