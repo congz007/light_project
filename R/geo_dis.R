@@ -22,7 +22,8 @@ plot_geo <- function(data) {
             legend.text = element_text(size = 10),
             legend.title = element_text(size = 10),
             # legend.position = c(0.95, 0.5))
-            legend.position = "right")
+            legend.position = "right",
+            axis.title = element_text(size=10, face=1))
 }
 
 #' @title ggsave for targets
