@@ -30,12 +30,12 @@ fit_summary_model_melas|stem|f0307e6b5da970b8|1e4e2701f5ba11a0|758811154ddaef11|
 generate_stan_data|function|5c39279d3fcb9572|||||||||||||||
 leaf_light_project_csv|stem|8091d42884b52f4d|e1a7250b1d73e293|ef46db3751d8e999|-291590375|data/leaf_light_project.csv|t19247.0639549714s|b4e18c3ab3e9549e|16118|file|local|vector|||0.283||
 lma_df|stem|d2bedb3294a532db|1e42e4958a6e111b|60a10cac1c0153d0|2085082458||t19535.3572625003s|deeb574487143a6d|4957|rds|local|vector|||0.202||
-lma_map|stem|adaf659390f6e46b|198546e501f1a9d2|9ac57506c27995fc|-124749745|figs/lma_map.png*figs/lma_map.pdf|t19535.6013973417s|bf6f870f815763f1|77068|file|local|vector|||0.367||
+lma_map|stem|bb64a03a2a41ae69|198546e501f1a9d2|5c2d7616d65be9ff|-124749745|figs/lma_map.png*figs/lma_map.pdf|t19537.2421780948s|085f019d86942b09|80608|file|local|vector|||0.351||
 make_table|function|5471876704395fdb|||||||||||||||
 mapped|object|da28472efe7879d4|||||||||||||||
 my_ggsave|function|f95c949784d28668|||||||||||||||
 my_kable_save|function|b675faca10977d53|||||||||||||||
-plot_geo|function|ea62aa5d199f57a4|||||||||||||||
+plot_geo|function|1d629432ba183774|||||||||||||||
 sp1|stem|a758a4b72767a94d|383d9744ea3a8973|7d8ef00b8cabb1b5|-779942735||t19535.2517391191s|85f6336dc231313a|1172|rds|local|vector|||0.121||
 sp2|stem|4d56d082105623f7|cc13eeabdfe52200|44ef5085bc878c56|-1546540721||t19535.2517376145s||2039|rds|local|vector|||0.329||no applicable method for mutate applied to an object of class function
 stan_data|function|a4620f557d83e0af|||||||||||||||

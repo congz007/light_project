@@ -13,7 +13,7 @@ plot_geo <- function(data) {
       geom_vline(xintercept = 0, linetype = "dotted") +
       geom_point(shape = 16, size = 2.5)+
       facet_wrap(vars(species), ncol = 2, strip.position = "top") +
-      labs(x = "", y = "", col = expression(LMA~(gm^{-2})))+
+      labs(x = "(m)", y = "(m)", col = expression(LMA~(gm^{-2})))+
       theme_bw()+
       theme(strip.text = element_text(face = "italic", size = 8),
             axis.text.x = element_text(vjust = 1, size = 10),
