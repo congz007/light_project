@@ -1,6 +1,7 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
 .Random.seed|object|0a8728c13e849f32|||||||||||||||
 data|stem|e09c25f64bbabc96|6fd296f673eda8da|7199b9143a2e7ccc|1588979285||t19535.0976024271s||3819|rds|local|vector|||0.444||dataleaf_light_project.csv does not exist in current working directory homemattoccilight_project.
+daylight_jpg|stem|aa8c784da5e1cb88|89b94d8bf5cf9853|ef46db3751d8e999|1469033651|figs/daylight.jpg|t19247.0639554344s|9d34723ca61f78f5|6989008|file|local|vector|||0.331||
 fig1|stem|c26299560317ab17|44fc681db2587966|3db6bfdd70f543fb|-1347776011||t19535.0981760383s||137750|rds|local|vector|||0.347||object of type closure is not subsettable
 fig2|stem|c5a24086dfd90d73|4f523313eccdbe88|ef46db3751d8e999|-983253655|figs/sp2-dis.png|t19247.0639555501s|0711cd79c0f20624|31345|file|local|vector|||0||
 fit_data_coloc|stem|6592e4117e825953|c7a74cd3c5a381ce|203c40045787641f|1630150851||t19535.3572690975s|f8e806d2a82649d7|2783|qs|local|vector|||0||
@@ -32,10 +33,12 @@ leaf_light_project_csv|stem|8091d42884b52f4d|e1a7250b1d73e293|ef46db3751d8e999|-
 lma_df|stem|d2bedb3294a532db|1e42e4958a6e111b|60a10cac1c0153d0|2085082458||t19535.3572625003s|deeb574487143a6d|4957|rds|local|vector|||0.202||
 lma_map|stem|6347e54a998bddf3|198546e501f1a9d2|2a5e0499bef63317|-124749745|figs/lma_map.png*figs/lma_map.pdf|t19537.2466143217s|ae147e5f776f2a61|79627|file|local|vector|||0.372||
 make_table|function|5471876704395fdb|||||||||||||||
-mapped|object|da28472efe7879d4|||||||||||||||
+mapped|object|81fe713ffa3e83da|||||||||||||||
 my_ggsave|function|f95c949784d28668|||||||||||||||
 my_kable_save|function|b675faca10977d53|||||||||||||||
+night_jpg|stem|a57102e516e9bbc4|6728884d4f6cb961|ef46db3751d8e999|2082800662|figs/night.jpg|t19247.0639555501s|6ad009456d77be79|2591071|file|local|vector|||0||
 plot_geo|function|b56ff0d71eb05416|||||||||||||||
+plot_merge|stem|dc9039d70d47e117|b03f83e24da4db70|ecc3d308048bb65d|619496532||t19537.2813249703s|0b52c5847220add9|82|rds|local|vector|||2.775||
 sp1|stem|a758a4b72767a94d|383d9744ea3a8973|7d8ef00b8cabb1b5|-779942735||t19535.2517391191s|85f6336dc231313a|1172|rds|local|vector|||0.121||
 sp2|stem|4d56d082105623f7|cc13eeabdfe52200|44ef5085bc878c56|-1546540721||t19535.2517376145s||2039|rds|local|vector|||0.329||no applicable method for mutate applied to an object of class function
 stan_data|function|a4620f557d83e0af|||||||||||||||

@@ -17,7 +17,9 @@ tar_option_set(packages = c(
   "bayesplot",
   "patchwork",
   "kableExtra",
-  "knitr"
+  "knitr",
+  "cowplot",
+  "magick"
 ))
 
 # check if it's inside a container
@@ -114,7 +116,23 @@ list(
     )
     },  
   ),
-
+  tar_target(
+    daylight_jpg,
+    "figs/daylight.jpg",
+    format = "file"
+  ),
+  tar_target(
+    night_jpg,
+    "figs/night.jpg",
+    format = "file"
+  ),
+  tar_target(
+    plot_merge,
+    plot_merge(daylight_jpg,night_jpg,
+      "figs/merge",
+      110,
+      57.7)
+  ),
   # tar_target(table_data,
   #     read_csv("data/table.csv")
   #     ),
