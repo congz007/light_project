@@ -50,3 +50,43 @@ my_ggsave <- function(filename, plot, units = c("in", "cm",
   )
   str_c(filename, c(".png", ".pdf"))
 }
+
+
+plot_merge <- function(daylight,night, name, width, height){
+  ima3 <- ggdraw()+draw_image(daylight)
+  ima4 <- ggdraw()+draw_image(night)
+
+  png(paste0(name,".png"),
+    width = width,
+    height = height,
+    units = "mm",
+    bg = "white",
+    res = 300)
+  plot_grid(ima3,ima4,
+        align = "h",
+        labels = c("A","B"),
+        vjust = 1,
+        hjust = 0.2,
+        scale = 1,
+        rel_widths = c(1, 1),
+        rel_heights = c(1,1))+
+        theme(plot.margin = unit(c(0.3,0.3,0.3,0.3), "cm")) 
+  dev.off()
+
+  pdf(paste0(name,".pdf"),
+    width = width,
+    height = height,
+    )
+  plot_grid(ima3,ima4,
+        align = "h",
+        labels = c("A","B"),
+        vjust = 1,
+        hjust = 0.2,
+        scale = 1,
+        rel_widths = c(1, 1),
+        rel_heights = c(1,1))+
+        theme(plot.margin = unit(c(0.3,0.3,0.3,0.3), "cm")) 
+  dev.off()
+}
+
+
