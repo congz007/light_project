@@ -255,17 +255,16 @@ and all authors contributed to revisions.
 
 \newpage
 
-!
-[The distribution of individuals around the ALAN.
+![The distribution of individuals around the ALAN.
 The relative geographic location of individuals (points) around the artificial light (0,0) of two experimental species (*C. gigantea* and *M. candidum*).
 Color represents the LMA value.
-](`r here::here("figs/merge.png")`){#fig-alan}
+](`r here::here("figs/lma_map.pdf")`){#fig-alan}
 
 \newpage
 
-[The illustration of experimental setup.
+![The illustration of experimental setup.
 Photographs of the experimental plots in daylight and at night (A and B).
-]
+](`r here::here("figs/merge.png")`)
 
 \newpage
 
@@ -273,5 +272,6 @@ Photographs of the experimental plots in daylight and at night (A and B).
 Results of Bayesian general linear mixed-effect models testing the effects of artificial light at night, daylight and interaction on experimental species.
 95% CI is 95% confidence intervals.
 Significant results (p < 0.05) are highlighted in bold.
+![](`r here::here("figs/Table1.pdf")`)
 
 \newpage
