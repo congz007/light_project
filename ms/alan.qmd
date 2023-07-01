@@ -215,10 +215,12 @@ Additionally, increased soil nutrient availability, particularly N, could increa
 The enhanced nutrient availability may enable *C. gigantea* to allocate more resources to rapid leaf growth rather than structural tissue, leading to a decrease in LMA [@Onoda2017; @Hernandez-Vargas2019].
 
 On the other hand, no significant variation in LMA was discovered in *M. candidum* when exposed to ALAN.
-This results might be attributed to the limited intraspecific variation in LMA of *M. candidum*, as LMA usually varies more among species than within species [@Poorter2009a; @Fajardo2016; @Osnas2018].
-LMA in *M. candidum* varies little in respond to low frequency variability in soil conditions due to factors such as slope, precipitation, and human activities such as trampling.
-Previous studies have shown that the intensity of rainfall, gradient of the slope, and length of the slope can affect water erosion and the loss of nutrients such as N and P in surface runoff [@Zhao2013; @Yi2018; @Bai2020].
-Human trampling could also lead to the decrease of soil nutrients, including available P, available N, total N, and total P [@Yang2018].
+The exact LMA values within a species not only depend on local environmental conditions but also the phenotypic plasticity [@Fajardo2016].
+Previous study showed there were significant sun-shade differences in leaf mass per area (LMA) [@Martin2020] and LMA usually varies more among species than within species [@Poorter2009a; @Osnas2018]. 
+The limited variation within the sun species *M. candidum* in leaf mass per area (LMA) could be a possible explanation for the result.
+This result also parallelled with the infrequent variability in soil conditions within the plot, which is situated on a slope with relatively high canopy openness.
+Previous studies showed that the intensity of rainfall, gradient of the slope, and length of the slope can affect water erosion and the loss of nutrients such as N and P in surface runoff [@Zhao2013; @Yi2018; @Bai2020].
+Thus, the soil within this plot might suffer a more substantial loss of nutrients in surface runoff in comparison to the other plot.
 
 ALAN, an increasingly prevalent aspect of our anthropogenic world, can have complex and nuanced impacts on forest ecosystems.
 Although it had been demonstrated that LMA increases with insolation [@Ackerly2002; @Niinemets2004], our research showed the effects of ALAN on plants should be considered as a comprehensive situation.
