@@ -144,7 +144,7 @@ Based on our hypothesis, we anticipate two key outcomes:
 ALAN field experiments were located within the Xishuangbanna Tropical Botanical Garden (XTBG), China, in a rubber tree forest (N21°54' E101°16') where we set 5 plots and selected two plots for this experiment after field investigation.
 In the study area, the average yearly temperature is recorded at 21.7 °C, accompanied by an average annual precipitation of 1557 mm.
 No fertilizer was used in the study area.
-LED lights (10w) were used to create an artificial light environment in all plots at night (Fig. 1).
+LED lights (10w) were used to create an artificial light environment in all plots at night @fig-alan.
 The LED system included six components.
 A metal box with an opening served as a rainproof protector.
 This box was attached to a tree around 1.2m from the ground.
@@ -184,9 +184,9 @@ Codes are available at https://github.com/congz007/light_project.
 
 # RESULTS
 
-The influence of artificial light at night (ALAN) and daylight on LMA had significant effects on the species *Colocasia gigantea *, while for *Melastoma candidum*, these effects were not significant.
-In the case of *C. gigantea*, ALAN led to a decrease in the average individual leaf mass per area (LMA) value (Table 1, slope: -0.1043 [95% CI: -0.1458, -0.0621]).
-Although *M. candidum* showed a similar decrease in LMA value in response to ALAN (Table 1, slope: -0.0422), this change was not statistically significant.
+The influence of artificial light at night (ALAN) and daylight on LMA had significant effects on the species *Colocasia gigantea *, while for *Melastoma candidum*, these effects were not significant @fig-LMA.
+In the case of *C. gigantea*, ALAN led to a decrease in the average individual leaf mass per area (LMA) value (Table 1, slope: -0.1052 [95% CI: -0.15, -0.0613]).
+Although *M. candidum* showed a similar decrease in LMA value in response to ALAN (Table 1, slope: -0.0434), this change was not statistically significant.
 The interaction of the effects of ALAN and daylight did not yield any significant results for both species (Table 1).
 
 General observations from 2019 to 2022 revealed a loss of soil nutrients [X~2022~/X~2019~ < 1, where X represents carbon (C), nitrogen (N), and phosphorus (P)] across all five plots.
@@ -254,17 +254,16 @@ and all authors contributed to revisions.
 <div id="refs"></div>
 
 \newpage
+![The illustration of experimental setup.
+Photographs of the experimental plots in daylight and at night (A and B).
+](`r here::here("figs/merge.png")`){#fig-alan}
+
+\newpage
 
 ![The distribution of individuals around the ALAN.
 The relative geographic location of individuals (points) around the artificial light (0,0) of two experimental species (*C. gigantea* and *M. candidum*).
 Color represents the LMA value.
-](`r here::here("figs/lma_map.pdf")`){#fig-alan}
-
-\newpage
-
-![The illustration of experimental setup.
-Photographs of the experimental plots in daylight and at night (A and B).
-](`r here::here("figs/merge.png")`)
+](`r here::here("figs/lma_map.pdf")`){#fig-LMA}
 
 \newpage
 
@@ -272,6 +271,5 @@ Photographs of the experimental plots in daylight and at night (A and B).
 Results of Bayesian general linear mixed-effect models testing the effects of artificial light at night, daylight and interaction on experimental species.
 95% CI is 95% confidence intervals.
 Significant results (p < 0.05) are highlighted in bold.
-![](`r here::here("figs/Table1.pdf")`)
 
-\newpage
+![](`r here::here("figs/Table1.pdf")`)

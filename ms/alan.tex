@@ -180,7 +180,7 @@
 \date{}
 
 \begin{document}
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, enhanced, interior hidden, sharp corners, frame hidden, borderline west={3pt}{0pt}{shadecolor}, boxrule=0pt]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, interior hidden, frame hidden, breakable, sharp corners, boxrule=0pt, enhanced]}{\end{tcolorbox}}\fi
 
 \newpage
 
@@ -353,15 +353,15 @@ experiment after field investigation. In the study area, the average
 yearly temperature is recorded at 21.7 °C, accompanied by an average
 annual precipitation of 1557 mm. No fertilizer was used in the study
 area. LED lights (10w) were used to create an artificial light
-environment in all plots at night (Fig. 1). The LED system included six
-components. A metal box with an opening served as a rainproof protector.
-This box was attached to a tree around 1.2m from the ground. A
-rechargeable lithium battery (12v/30Ah) and an electric timer controlled
-the timing and duration of the LED operation at night. An electric wire
-connected the battery and LED, hanging from a tree branch with a
-lampshade approximately 2 m from the ground. The LED system was
-programmed to function automatically from 8 pm to 5 am daily. The
-experiment was set up in November 2019, and leaf disc samples were
+environment in all plots at night Fig.~\ref{fig-alan}. The LED system
+included six components. A metal box with an opening served as a
+rainproof protector. This box was attached to a tree around 1.2m from
+the ground. A rechargeable lithium battery (12v/30Ah) and an electric
+timer controlled the timing and duration of the LED operation at night.
+An electric wire connected the battery and LED, hanging from a tree
+branch with a lampshade approximately 2 m from the ground. The LED
+system was programmed to function automatically from 8 pm to 5 am daily.
+The experiment was set up in November 2019, and leaf disc samples were
 collected two years later, in November 2021.
 
 \emph{Species Selection}
@@ -441,14 +441,14 @@ available at https://github.com/congz007/light\_project.
 
 The influence of artificial light at night (ALAN) and daylight on LMA
 had significant effects on the species \emph{Colocasia gigantea }, while
-for \emph{Melastoma candidum}, these effects were not significant. In
-the case of \emph{C. gigantea}, ALAN led to a decrease in the average
-individual leaf mass per area (LMA) value (Table 1, slope: -0.1043
-{[}95\% CI: -0.1458, -0.0621{]}). Although \emph{M. candidum} showed a
-similar decrease in LMA value in response to ALAN (Table 1, slope:
--0.0422), this change was not statistically significant. The interaction
-of the effects of ALAN and daylight did not yield any significant
-results for both species (Table 1).
+for \emph{Melastoma candidum}, these effects were not significant
+Fig.~\ref{fig-LMA}. In the case of \emph{C. gigantea}, ALAN led to a
+decrease in the average individual leaf mass per area (LMA) value (Table
+1, slope: -0.1052 {[}95\% CI: -0.15, -0.0613{]}). Although \emph{M.
+candidum} showed a similar decrease in LMA value in response to ALAN
+(Table 1, slope: -0.0434), this change was not statistically
+significant. The interaction of the effects of ALAN and daylight did not
+yield any significant results for both species (Table 1).
 
 General observations from 2019 to 2022 revealed a loss of soil nutrients
 {[}X\textsubscript{2022}/X\textsubscript{2019} \textless{} 1, where X
@@ -533,8 +533,8 @@ species not only depend on local environmental conditions but also the
 phenotypic plasticity (\protect\hyperlink{ref-Fajardo2016}{Fajardo and
 Siefert 2016}). Previous study showed there were significant sun-shade
 differences in leaf mass per area (LMA)
-(\protect\hyperlink{ref-Martin2020}{\textbf{Martin2020?}}) and LMA
-usually varies more among species than within species
+(\protect\hyperlink{ref-Martin2020}{Martin et al. 2020}) and LMA usually
+varies more among species than within species
 (\protect\hyperlink{ref-Poorter2009a}{Poorter et al. 2009},
 \protect\hyperlink{ref-Osnas2018}{Osnas et al. 2018}). The limited
 variation within the sun species \emph{M. candidum} in leaf mass per
@@ -708,6 +708,12 @@ Chen. 2022. \href{https://doi.org/10.1002/ajb2.16038}{Sources and
 consequences of mismatch between leaf disc and whole-leaf leaf mass per
 area ({LMA})}. American Journal of Botany 109:1242--1250.
 
+\leavevmode\vadjust pre{\hypertarget{ref-Martin2020}{}}%
+Martin, R. E., G. P. Asner, L. P. Bentley, A. Shenkin, N. Salinas, K. Q.
+Huaypar, M. M. Pillco, F. D. Ccori Álvarez, B. J. Enquist, S. Diaz, and
+Y. Malhi. 2020. Covariance of {Sun} and {Shade Leaf Traits Along} a
+{Tropical Forest Elevation Gradient}. Frontiers in Plant Science 10.
+
 \leavevmode\vadjust pre{\hypertarget{ref-Minnaar2015}{}}%
 Minnaar, C., J. G. Boyles, I. A. Minnaar, C. L. Sole, and A. E.
 McKechnie. 2015. \href{https://doi.org/10.1111/1365-2664.12381}{Stacking
@@ -869,14 +875,13 @@ Soil Research 51:50--58.
 
 \begin{figure}
 
-{\centering \includegraphics{/home/cong/coding/light_project/figs/lma_map.pdf}
+{\centering \includegraphics{/home/cong/coding/light_project/figs/merge.png}
 
 }
 
-\caption{\label{fig-alan}The distribution of individuals around the
-ALAN. The relative geographic location of individuals (points) around
-the artificial light (0,0) of two experimental species (\emph{C.
-gigantea} and \emph{M. candidum}). Color represents the LMA value.}
+\caption{\label{fig-alan}The illustration of experimental setup.
+Photographs of the experimental plots in daylight and at night (A and
+B).}
 
 \end{figure}
 
@@ -884,12 +889,14 @@ gigantea} and \emph{M. candidum}). Color represents the LMA value.}
 
 \begin{figure}
 
-{\centering \includegraphics{/home/cong/coding/light_project/figs/merge.png}
+{\centering \includegraphics{/home/cong/coding/light_project/figs/lma_map.pdf}
 
 }
 
-\caption{The illustration of experimental setup. Photographs of the
-experimental plots in daylight and at night (A and B).}
+\caption{\label{fig-LMA}The distribution of individuals around the ALAN.
+The relative geographic location of individuals (points) around the
+artificial light (0,0) of two experimental species (\emph{C. gigantea}
+and \emph{M. candidum}). Color represents the LMA value.}
 
 \end{figure}
 
@@ -902,8 +909,6 @@ intervals. Significant results (p \textless{} 0.05) are highlighted in
 bold.
 
 \includegraphics{/home/cong/coding/light_project/figs/Table1.pdf}
-
-\newpage
 
 
 
