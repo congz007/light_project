@@ -19,7 +19,8 @@ tar_option_set(packages = c(
   "kableExtra",
   "knitr",
   "cowplot",
-  "magick"
+  "magick",
+  "latex2exp"
 ))
 
 # check if it's inside a container
