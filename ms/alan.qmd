@@ -215,13 +215,14 @@ Although the precise quantity of dead insects and the resultant increase in soil
 Additionally, increased soil nutrient availability, particularly N, could increase the photosynthetic capacity of *C. gigantea*.
 The enhanced nutrient availability may enable *C. gigantea* to allocate more resources to rapid leaf growth rather than structural tissue, leading to a decrease in LMA [@Onoda2017; @Hernandez-Vargas2019].
 
-On the other hand, no significant variation in LMA was discovered in *M. candidum* when exposed to ALAN.
-The exact LMA values within a species not only depend on local environmental conditions but also the phenotypic plasticity [@Fajardo2016].
-Previous study showed there were significant sun-shade differences in leaf mass per area (LMA) [@Martin2020] and LMA usually varies more among species than within species [@Poorter2009a; @Osnas2018].
+On the other hand, no significant variation in LMA was found in *M. candidum* under ALAN.
+The exact LMA values within a species not only depend on genetic variation but also the phenotypic plasticity [@Fajardo2016].
 The limited variation within the sun species *M. candidum* in leaf mass per area (LMA) could be a possible explanation for the result.
-This result also parallelled with the infrequent variability in soil conditions within the plot, which is situated on a slope with relatively high canopy openness.
+The amounts of intraspecific variability (ITV)  might be lower for sun species because sun species typically inhabit relatively stable and predictable environments with consistent sunlight exposure which may result in lower ITV. 
+Although many studies have explored ITV across different functional groups, such as herbs versus trees [@Siefert2015], there needs to be more research into the ITV differences between sun species and shade species.
+This result also parallelled with the infrequent variability in soil conditions within the plot.
 Previous studies showed that the intensity of rainfall, gradient of the slope, and length of the slope can affect water erosion and the loss of nutrients such as N and P in surface runoff [@Zhao2013; @Yi2018; @Bai2020].
-Thus, the soil within this plot might suffer a more substantial loss of nutrients in surface runoff in comparison to the other plot.
+The soil within this plot might suffer a more substantial loss of nutrients in surface runoff in comparison to the other plot because this plot is situated on a slope with relatively high canopy openness.
 
 ALAN, an increasingly prevalent aspect of our anthropogenic world, can have complex and nuanced impacts on forest ecosystems.
 Although it had been demonstrated that LMA increases with insolation [@Ackerly2002; @Niinemets2004], our research showed the effects of ALAN on plants should be considered as a comprehensive situation.
