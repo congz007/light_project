@@ -96,13 +96,14 @@ We found a negative relationship between LMA and the effects of ALAN.
 This relationship was significant for *Colocasia gigantea* but not for *Melastoma candidum*.
 These results suggest that ALAN might have complex and multifaceted impacts on the understory ecosystem.
 
-
 **KEY WORDS**
-leaf mass per area (LMA),
-understory,
-Artificial light at night (ALAN),
-*Colocasia gigantea (Blume) Hook. f.* ,
-*Melastoma candidum D. Don*
+*Colocasia gigantea*,
+*Melastoma candidum*,
+artificial light at night,
+functional traits,
+leaf mass per area,
+specific leaf area,
+understory
 
 # INTRODUCTION
 
@@ -216,7 +217,7 @@ The enhanced nutrient availability may enable *C. gigantea* to allocate more res
 
 On the other hand, no significant variation in LMA was discovered in *M. candidum* when exposed to ALAN.
 The exact LMA values within a species not only depend on local environmental conditions but also the phenotypic plasticity [@Fajardo2016].
-Previous study showed there were significant sun-shade differences in leaf mass per area (LMA) [@Martin2020] and LMA usually varies more among species than within species [@Poorter2009a; @Osnas2018]. 
+Previous study showed there were significant sun-shade differences in leaf mass per area (LMA) [@Martin2020] and LMA usually varies more among species than within species [@Poorter2009a; @Osnas2018].
 The limited variation within the sun species *M. candidum* in leaf mass per area (LMA) could be a possible explanation for the result.
 This result also parallelled with the infrequent variability in soil conditions within the plot, which is situated on a slope with relatively high canopy openness.
 Previous studies showed that the intensity of rainfall, gradient of the slope, and length of the slope can affect water erosion and the loss of nutrients such as N and P in surface runoff [@Zhao2013; @Yi2018; @Bai2020].
@@ -244,7 +245,7 @@ a ZiHui (Wisdom) Yunnan Program (202203AM140026).
 
 C.Z. and M.K. conceived the study;
 A.N. and X.S. set up the ALAN expreiment;
-C.Z and X.S. collected data;
+C.Z. and X.S. collected data;
 C.Z. performed the analysis;
 C.Z. and M.K. led the writing of the paper;
 and all authors contributed to revisions.
@@ -254,22 +255,24 @@ and all authors contributed to revisions.
 <div id="refs"></div>
 
 \newpage
-![The illustration of experimental setup.
-Photographs of the experimental plots in daylight and at night (A and B).
+
+![
+Photographs of the experimental setup during daytime (A) and nighttime (B) in a rubber tree forest within the Xishuangbanna Tropical Botanical Garden (XTBG), China.
 ](`r here::here("figs/merge.png")`){#fig-alan}
 
 \newpage
 
-![The distribution of individuals around the ALAN.
-The relative geographic location of individuals (points) around the artificial light (0,0) of two experimental species (*C. gigantea* and *M. candidum*).
-Color represents the LMA value.
-](`r here::here("figs/lma_map.pdf")`){#fig-LMA}
+![
+Leaf mass per area (LMA) values of individuals from the two experimental species, *C. gigante* and *M. candidu*, in realtion to their relative geographic locations with respect to the artificial light at night (ALAN).
+The ALANs are located in the center of the maps (0, 0).
+Color represents the LMA values.
+](`r here::here("figs/lma_map.png")`){#fig-LMA}
 
 \newpage
 
 **Table. 1.**
-Results of Bayesian general linear mixed-effect models testing the effects of artificial light at night, daylight and interaction on experimental species.
-95% CI is 95% confidence intervals.
-Significant results (p < 0.05) are highlighted in bold.
+Summary of Bayesian linear mixed-effect models testing the effects of artificial light at night (ALAN), daylight, and their interaction on leaf mass per area (LMA) values.
+Posterior means and 95% credible intervals (CI) are shown.
+Intervals that do not include zero are highlighted in bold.
 
-![](`r here::here("figs/Table1.pdf")`)
+![](`r here::here("figs/Table1.png")`)
