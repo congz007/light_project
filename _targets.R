@@ -127,13 +127,13 @@ list(
     "figs/night.jpg",
     format = "file"
   ),
-  tar_target(
-    plot_merge,
-    plot_merge(daylight_jpg,night_jpg,
-      "figs/merge",
-      110,
-      57.7)
-  ),
+  #tar_target(
+  #  plot_merge,
+  #  plot_merge(daylight_jpg,night_jpg,
+  #    "figs/merge",
+  #    110,
+  #    57)
+  #),
   # tar_target(table_data,
   #     read_csv("data/table.csv")
   #     ),

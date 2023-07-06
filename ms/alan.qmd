@@ -275,4 +275,4 @@ Summary of Bayesian linear mixed-effect models testing the effects of artificial
 Posterior means and 95% credible intervals (CI) are shown.
 Intervals that do not include zero are highlighted in bold.
 
-![](`r here::here("figs/Table1.png")`)
+![](`r here::here("figs/Table1.png")`){width=300}
