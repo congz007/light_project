@@ -28,7 +28,7 @@ my_kable_save <- function(table, tablename) {
   save_kable(
     x = table,
     file = paste0(tablename,".png"),
-    density = 300
+    density = 1200
 )
   save_kable(
     x = table,

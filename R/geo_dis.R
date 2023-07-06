@@ -67,7 +67,7 @@ plot_merge <- function(daylight,night, name, width, height){
         labels = c("A","B"),
         vjust = 1,
         hjust = 0.2,
-        scale = 1,
+        scale = 0.8,
         rel_widths = c(1, 1),
         rel_heights = c(1,1))+
         theme(plot.margin = unit(c(0.3,0.3,0.3,0.3), "cm")) 
