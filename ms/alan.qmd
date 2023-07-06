@@ -216,13 +216,15 @@ Additionally, increased soil nutrient availability, particularly N, could increa
 The enhanced nutrient availability may enable *C. gigantea* to allocate more resources to rapid leaf growth rather than structural tissue, leading to a decrease in LMA [@Onoda2017; @Hernandez-Vargas2019].
 
 On the other hand, no significant variation in LMA was found in *M. candidum* under ALAN.
-The exact LMA values within a species not only depend on genetic variation but also the phenotypic plasticity [@Fajardo2016].
 The limited variation within the sun species *M. candidum* in leaf mass per area (LMA) could be a possible explanation for the result.
 The amounts of intraspecific variability (ITV)  might be lower for sun species because sun species typically inhabit relatively stable and predictable environments with consistent sunlight exposure which may result in lower ITV. 
 Although many studies have explored ITV across different functional groups, such as herbs versus trees [@Siefert2015], there needs to be more research into the ITV differences between sun species and shade species.
-This result also parallelled with the infrequent variability in soil conditions within the plot.
-Previous studies showed that the intensity of rainfall, gradient of the slope, and length of the slope can affect water erosion and the loss of nutrients such as N and P in surface runoff [@Zhao2013; @Yi2018; @Bai2020].
-The soil within this plot might suffer a more substantial loss of nutrients in surface runoff in comparison to the other plot because this plot is situated on a slope with relatively high canopy openness.
+Additionally, no significant change in LMA in this plot could be attributed to the soil nutrients remaining stable.
+There was a comparable decrease in soil nutrient observed both in the area under ALAN and 10m away from ALAN.
+The probable explanation for this is that the area under ALAN was situated on a slope with relatively high canopy openness.
+Because factors such as rainfall intensity, slope gradient, and slope length have an impact on water erosion and the depletion of nutrients like nitrogen (N) and phosphorus (P) in surface runoff [@Zhao2013; @Yi2018; @Bai2020].
+
+The probable explanation for this is that the area under artificial light at night (ALAN) was situated on a slope with a relatively high level of canopy openness. Factors such as rainfall intensity, slope gradient, and slope length influence water erosion and the loss of nutrients such as nitrogen (N) and phosphorus (P) through surface runoff.
 
 ALAN, an increasingly prevalent aspect of our anthropogenic world, can have complex and nuanced impacts on forest ecosystems.
 Although it had been demonstrated that LMA increases with insolation [@Ackerly2002; @Niinemets2004], our research showed the effects of ALAN on plants should be considered as a comprehensive situation.
