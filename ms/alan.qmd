@@ -224,8 +224,6 @@ There was a comparable decrease in soil nutrient observed both in the area under
 The probable explanation for this is that the area under ALAN was situated on a slope with relatively high canopy openness.
 Because factors such as rainfall intensity, slope gradient, and slope length have an impact on water erosion and the depletion of nutrients like nitrogen (N) and phosphorus (P) in surface runoff [@Zhao2013; @Yi2018; @Bai2020].
 
-The probable explanation for this is that the area under artificial light at night (ALAN) was situated on a slope with a relatively high level of canopy openness. Factors such as rainfall intensity, slope gradient, and slope length influence water erosion and the loss of nutrients such as nitrogen (N) and phosphorus (P) through surface runoff.
-
 ALAN, an increasingly prevalent aspect of our anthropogenic world, can have complex and nuanced impacts on forest ecosystems.
 Although it had been demonstrated that LMA increases with insolation [@Ackerly2002; @Niinemets2004], our research showed the effects of ALAN on plants should be considered as a comprehensive situation.
 By affecting understory plant functional traits and possibly soil nutrient dynamics, ALAN may unexpectedly impact forest health and productivity.
