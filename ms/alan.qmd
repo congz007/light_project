@@ -145,7 +145,7 @@ Based on our hypothesis, we anticipate two key outcomes:
 ALAN field experiments were located within the Xishuangbanna Tropical Botanical Garden (XTBG), China, in a rubber tree forest (N21°54' E101°16') where we set 5 plots and selected two plots for this experiment after field investigation.
 In the study area, the average yearly temperature is recorded at 21.7 °C, accompanied by an average annual precipitation of 1557 mm.
 No fertilizer was used in the study area.
-LED lights (10w) were used to create an artificial light environment in all plots at night @fig-alan.
+LED lights (10w) were used to create an artificial light environment in all plots at night (@fig-alan).
 The LED system included six components.
 A metal box with an opening served as a rainproof protector.
 This box was attached to a tree around 1.2m from the ground.
@@ -156,7 +156,10 @@ The experiment was set up in November 2019, and leaf disc samples were collected
 
 *Species Selection*
 
-Considering the understory conditions (number of mature individuals and distribution of individuals) and species specificity (it should be evergreen species and not be the nitrogen fix plants like *Leguminosae*) of each plot, finally two species respectively in two plots were chosen for our study, *Colocasia gigantea* representing shade species and *Melastoma candidum* for sun species.
+We considered the understory conditions to select species, including numbers of mature individuals and distributions of individuals within each plot.
+Essential criteria also included the species being part of functional groups, specifically evergreen species, and not belonging to nitrogen-fixing families such as Leguminosae.
+As a result, we chose two species, each from a different plot for our study:
+*Colocasia gigantea*, representing shade species, and *Melastoma candidum* representing sun species.
 
 *Measurements*
 
@@ -215,18 +218,16 @@ Although the precise quantity of dead insects and the resultant increase in soil
 Additionally, increased soil nutrient availability, particularly N, could increase the photosynthetic capacity of *C. gigantea*.
 The enhanced nutrient availability may enable *C. gigantea* to allocate more resources to rapid leaf growth rather than structural tissue, leading to a decrease in LMA [@Onoda2017; @Hernandez-Vargas2019].
 
-On the other hand, the LMA of *M. candidum* was found no significant change under ALAN.
-The potential explanation for the observed result may be the limited variation within the sun species *M. candidum* in leaf mass per area (LMA).
-The amounts of intraspecific variability (ITV)  might be lower for sun species because sun species typically inhabit relatively stable and predictable environments with consistent sunlight exposure which may result in lower ITV. 
+On the other hand, ALAN did not have a significant effect on LMA in the sun species *M. candidum*.
+Sun species receive stronger sunlight than shade species, which might result in the small effect of ALAN on their LMA.
+Because the effect of daylight was not significant either, intraspecific variability (ITV) itself for sun species may inherently be smaller than for shade species.
 Although many studies have explored ITV across different functional groups, such as herbs versus trees [@Siefert2015], there needs to be more research into the ITV differences between sun species and shade species.
-Additionally, no significant change in LMA in this plot could be attributed to the soil nutrients remaining stable.
-There was a comparable decrease in soil nutrient observed both in the area under ALAN and 10m away from ALAN.
-The probable explanation for this is that the area under ALAN was situated on a slope with relatively high canopy openness.
-Because factors such as rainfall intensity, slope gradient, and slope length have an impact on water erosion and the depletion of nutrients like nitrogen (N) and phosphorus (P) in surface runoff [@Zhao2013; @Yi2018; @Bai2020].
+Additionally, the less pronounced soil nutrient differences between ALAN-influenced and non-influenced areas in the plot with *M. candidum* compared to the plot with *C. gigantea* may explain the lack of significant change in LMA for *M. candidum*.
+The ALAN treatment was set up on a slope in this plot, and therefore, increased soil nutrients resulting from dead insects attracted by ALAN might be more likely to be washed off and not persist in the soil [@Zhao2013; @Yi2018; @Bai2020].
 
 ALAN, an increasingly prevalent aspect of our anthropogenic world, can have complex and nuanced impacts on forest ecosystems.
 Although it had been demonstrated that LMA increases with insolation [@Ackerly2002; @Niinemets2004], our research showed the effects of ALAN on plants should be considered as a comprehensive situation.
-By affecting understory plant functional traits and possibly soil nutrient dynamics, ALAN may unexpectedly impact forest health and productivity.
+ALAN may unexpectedly impact forest health and productivity by affecting understory plant functional traits and possibly soil nutrient dynamics.
 Controlled experiments potentially tend to underestimate the species interaction and unpredictable environmental heterogeneity caused by natural and artificial factors because many irreplaceable features of field conditions, such as subtle nutrient change, herbivores, and competitors, are usually absent.
 Thus, adequate tests of the influence of artificial light at night on the understory will require more experimental work under field conditions.
 Further investigations into the intricate relationships between ALAN, plant functional traits, and soil nutrient dynamics are warranted to enable the development of comprehensive forest management strategies that consider the broad implications of artificial lighting.

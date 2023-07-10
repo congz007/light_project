@@ -180,7 +180,7 @@
 \date{}
 
 \begin{document}
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}, interior hidden, frame hidden, breakable, enhanced]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, boxrule=0pt, interior hidden, borderline west={3pt}{0pt}{shadecolor}, enhanced, frame hidden, breakable]}{\end{tcolorbox}}\fi
 
 \newpage
 
@@ -353,7 +353,7 @@ experiment after field investigation. In the study area, the average
 yearly temperature is recorded at 21.7 °C, accompanied by an average
 annual precipitation of 1557 mm. No fertilizer was used in the study
 area. LED lights (10w) were used to create an artificial light
-environment in all plots at night \textbf{?@fig-alan}. The LED system
+environment in all plots at night (Fig.~\ref{fig-alan}). The LED system
 included six components. A metal box with an opening served as a
 rainproof protector. This box was attached to a tree around 1.2m from
 the ground. A rechargeable lithium battery (12v/30Ah) and an electric
@@ -366,13 +366,14 @@ collected two years later, in November 2021.
 
 \emph{Species Selection}
 
-Considering the understory conditions (number of mature individuals and
-distribution of individuals) and species specificity (it should be
-evergreen species and not be the nitrogen fix plants like
-\emph{Leguminosae}) of each plot, finally two species respectively in
-two plots were chosen for our study, \emph{Colocasia gigantea}
-representing shade species and \emph{Melastoma candidum} for sun
-species.
+We considered the understory conditions to select species, including
+numbers of mature individuals and distributions of individuals within
+each plot. Essential criteria also included the species being part of
+functional groups, specifically evergreen species, and not belonging to
+nitrogen-fixing families such as Leguminosae. As a result, we chose two
+species, each from a different plot for our study: \emph{Colocasia
+gigantea}, representing shade species, and \emph{Melastoma candidum}
+representing sun species.
 
 \emph{Measurements}
 
@@ -427,7 +428,7 @@ Hamiltonian Monte Carlo algorithm (HMC) implemented in Stan
 weakly-informative priors (\protect\hyperlink{ref-Gelman2008}{Gelman et
 al. 2008}). Convergence of the posterior distribution was assessed with
 the Gelman-Rubin statistic with a convergence threshold of 1.1
-(\protect\hyperlink{ref-Gelman2013}{\textbf{Gelman2013?}}) and effective
+(\protect\hyperlink{ref-Gelman2013}{Gelman et al. 2013}) and effective
 sample sizes \textgreater{} 400
 (\protect\hyperlink{ref-Vehtari2021}{Vehtari et al. 2021}) for all
 parameters. All statistical analyses were conducted in R version 4.x
@@ -527,28 +528,25 @@ structural tissue, leading to a decrease in LMA
 \protect\hyperlink{ref-Hernandez-Vargas2019}{Hernández-Vargas et al.
 2019}).
 
-On the other hand, no significant variation in LMA was discovered in
-\emph{M. candidum} when exposed to ALAN. The exact LMA values within a
-species not only depend on local environmental conditions but also the
-phenotypic plasticity (\protect\hyperlink{ref-Fajardo2016}{Fajardo and
-Siefert 2016}). Previous study showed there were significant sun-shade
-differences in leaf mass per area (LMA)
-(\protect\hyperlink{ref-Martin2020}{Martin et al. 2020}) and LMA usually
-varies more among species than within species
-(\protect\hyperlink{ref-Poorter2009a}{Poorter et al. 2009},
-\protect\hyperlink{ref-Osnas2018}{Osnas et al. 2018}). The limited
-variation within the sun species \emph{M. candidum} in leaf mass per
-area (LMA) could be a possible explanation for the result. This result
-also parallelled with the infrequent variability in soil conditions
-within the plot, which is situated on a slope with relatively high
-canopy openness. Previous studies showed that the intensity of rainfall,
-gradient of the slope, and length of the slope can affect water erosion
-and the loss of nutrients such as N and P in surface runoff
+On the other hand, ALAN did not have a significant effect on LMA in the
+sun species \emph{M. candidum}. Sun species receive stronger sunlight
+than shade species, which might result in the small effect of ALAN on
+their LMA. Because the effect of daylight was not significant either,
+intraspecific variability (ITV) itself for sun species may inherently be
+smaller than for shade species. Although many studies have explored ITV
+across different functional groups, such as herbs versus trees
+(\protect\hyperlink{ref-Siefert2015}{Siefert et al. 2015}), there needs
+to be more research into the ITV differences between sun species and
+shade species. Additionally, the less pronounced soil nutrient
+differences between ALAN-influenced and non-influenced areas in the plot
+with \emph{M. candidum} compared to the plot with \emph{C. gigantea} may
+explain the lack of significant change in LMA for \emph{M. candidum}.
+The ALAN treatment was set up on a slope in this plot, and therefore,
+increased soil nutrients resulting from dead insects attracted by ALAN
+might be more likely to be washed off and not persist in the soil
 (\protect\hyperlink{ref-Zhao2013}{Zhao et al. 2013},
 \protect\hyperlink{ref-Yi2018}{Yi et al. 2018},
-\protect\hyperlink{ref-Bai2020}{Bai et al. 2020}). Thus, the soil within
-this plot might suffer a more substantial loss of nutrients in surface
-runoff in comparison to the other plot.
+\protect\hyperlink{ref-Bai2020}{Bai et al. 2020}).
 
 ALAN, an increasingly prevalent aspect of our anthropogenic world, can
 have complex and nuanced impacts on forest ecosystems. Although it had
@@ -651,11 +649,6 @@ Woods, and J. J. Elser. 2002.
 {Implications} for {Trophic Complexity} and {Species
 Diversification}}:20.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Fajardo2016}{}}%
-Fajardo, A., and A. Siefert. 2016.
-\href{https://doi.org/10.1007/s00442-016-3545-1}{Phenological variation
-of leaf functional traits within species}. Oecologia 180:951--959.
-
 \leavevmode\vadjust pre{\hypertarget{ref-Falchi2016}{}}%
 Falchi. 2016. \href{https://doi.org/10.1126/sciadv.1600377}{The new
 world atlas of artificial night sky brightness}.
@@ -666,6 +659,10 @@ Gaston, K. J., J. Bennie, T. W. Davies, and J. Hopkins. 2013.
 \href{https://doi.org/10.1111/brv.12036}{The ecological impacts of
 nighttime light pollution: A mechanistic appraisal}. Biological Reviews
 88:912--927.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Gelman2013}{}}%
+Gelman, A., J. B. Carlin, H. S. Stern, D. B. Dunson, A. Vehtari, and D.
+B. Rubin. 2013. Bayesian {Data Analysis}. {CRC Press}.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Gelman2008}{}}%
 Gelman, A., A. Jakulin, M. G. Pittau, and Y.-S. Su. 2008.
@@ -708,12 +705,6 @@ Chen. 2022. \href{https://doi.org/10.1002/ajb2.16038}{Sources and
 consequences of mismatch between leaf disc and whole-leaf leaf mass per
 area ({LMA})}. American Journal of Botany 109:1242--1250.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Martin2020}{}}%
-Martin, R. E., G. P. Asner, L. P. Bentley, A. Shenkin, N. Salinas, K. Q.
-Huaypar, M. M. Pillco, F. D. Ccori Álvarez, B. J. Enquist, S. Diaz, and
-Y. Malhi. 2020. Covariance of {Sun} and {Shade Leaf Traits Along} a
-{Tropical Forest Elevation Gradient}. Frontiers in Plant Science 10.
-
 \leavevmode\vadjust pre{\hypertarget{ref-Minnaar2015}{}}%
 Minnaar, C., J. G. Boyles, I. A. Minnaar, C. L. Sole, and A. E.
 McKechnie. 2015. \href{https://doi.org/10.1111/1365-2664.12381}{Stacking
@@ -741,14 +732,6 @@ Niinemets, H. Poorter, T. Tosens, and M. Westoby. 2017.
 tradeoffs underlying the leaf economics spectrum}. New Phytologist
 214:1447--1463.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Osnas2018}{}}%
-Osnas, J. L. D., M. Katabuchi, K. Kitajima, S. J. Wright, P. B. Reich,
-S. A. Van Bael, N. J. B. Kraft, M. J. Samaniego, S. W. Pacala, and J. W.
-Lichstein. 2018.
-\href{https://doi.org/10.1073/pnas.1803989115}{Divergent drivers of leaf
-trait variation within species, among species, and among functional
-groups}. Proceedings of the National Academy of Sciences 115:5480--5485.
-
 \leavevmode\vadjust pre{\hypertarget{ref-Owens2020}{}}%
 Owens, A. C. S., P. Cochard, J. Durrant, B. Farnworth, E. K. Perkin, and
 B. Seymoure. 2020.
@@ -766,12 +749,6 @@ Paik, I., and E. Huq. 2019.
 \href{https://doi.org/10.1016/j.semcdb.2019.03.007}{Plant
 photoreceptors: {Multi-functional} sensory proteins and their signaling
 networks}. Seminars in Cell \& Developmental Biology 92:114--121.
-
-\leavevmode\vadjust pre{\hypertarget{ref-Poorter2009a}{}}%
-Poorter, H., Ü. Niinemets, L. Poorter, I. J. Wright, and R. Villar.
-2009. \href{https://doi.org/10.1111/j.1469-8137.2009.02830.x}{Causes and
-consequences of variation in leaf mass per area ({LMA}): A
-meta-analysis}. New Phytologist 182:565--588.
 
 \leavevmode\vadjust pre{\hypertarget{ref-RCoreTeam2022}{}}%
 R Core Team. 2022. R: {A} language and environment for statistical
@@ -801,6 +778,20 @@ Schulze, W., E. D. Schulze, J. S. Pate, and A. N. Gillison. 1997.
 soils and insects during growth of the pitcher plants {Nepenthes}
 mirabilis , {Cephalotus} follicularis and {Darlingtonia} californica}.
 Oecologia 112:464--471.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Siefert2015}{}}%
+Siefert, A., C. Violle, L. Chalmandrier, C. H. Albert, A. Taudiere, A.
+Fajardo, L. W. Aarssen, C. Baraloto, M. B. Carlucci, M. V. Cianciaruso,
+V. de L. Dantas, F. de Bello, L. D. S. Duarte, C. R. Fonseca, G. T.
+Freschet, S. Gaucherand, N. Gross, K. Hikosaka, B. Jackson, V. Jung, C.
+Kamiyama, M. Katabuchi, S. W. Kembel, E. Kichenin, N. J. B. Kraft, A.
+Lagerström, Y. L. Bagousse-Pinguet, Y. Li, N. Mason, J. Messier, T.
+Nakashizuka, J. McC. Overton, D. A. Peltzer, I. M. Pérez-Ramos, V. D.
+Pillar, H. C. Prentice, S. Richardson, T. Sasaki, B. S. Schamp, C.
+Schöb, B. Shipley, M. Sundqvist, M. T. Sykes, M. Vandewalle, and D. A.
+Wardle. 2015. \href{https://doi.org/10.1111/ele.12508}{A global
+meta-analysis of the relative extent of intraspecific trait variation in
+plant communities}. Ecology Letters 18:1406--1419.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Sotthibandhu1979}{}}%
 Sotthibandhu, S., and R. R. Baker. 1979.
@@ -873,14 +864,23 @@ Soil Research 51:50--58.
 
 \newpage
 
-\includegraphics{/home/cong/coding/light_project/figs/merge.png}\{\#fig-alan;
-fig.width=`50\%'\}
+\begin{figure}
+
+{\centering \includegraphics{/Users/mattocci/Dropbox/Reserach/MS/light_project/figs/merge.png}
+
+}
+
+\caption{\label{fig-alan}Photographs of the experimental setup during
+daytime (A) and nighttime (B) in a rubber tree forest within the
+Xishuangbanna Tropical Botanical Garden (XTBG), China.}
+
+\end{figure}
 
 \newpage
 
 \begin{figure}
 
-{\centering \includegraphics{/home/cong/coding/light_project/figs/lma_map.png}
+{\centering \includegraphics{/Users/mattocci/Dropbox/Reserach/MS/light_project/figs/lma_map.png}
 
 }
 
@@ -900,7 +900,7 @@ their interaction on leaf mass per area (LMA) values. Posterior means
 and 95\% credible intervals (CI) are shown. Intervals that do not
 include zero are highlighted in bold.
 
-\includegraphics[width=3.125in,height=\textheight]{/home/cong/coding/light_project/figs/Table1.png}
+\includegraphics[width=3.125in,height=\textheight]{/Users/mattocci/Dropbox/Reserach/MS/light_project/figs/Table1.png}
 
 
 
