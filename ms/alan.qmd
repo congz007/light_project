@@ -215,7 +215,7 @@ Although the precise quantity of dead insects and the resultant increase in soil
 Additionally, increased soil nutrient availability, particularly N, could increase the photosynthetic capacity of *C. gigantea*.
 The enhanced nutrient availability may enable *C. gigantea* to allocate more resources to rapid leaf growth rather than structural tissue, leading to a decrease in LMA [@Onoda2017; @Hernandez-Vargas2019].
 
-On the other hand, no significant variation in LMA was found in *M. candidum* under ALAN.
+On the other hand, the LMA of *M. candidum* was found no significant change under ALAN.
 The limited variation within the sun species *M. candidum* in leaf mass per area (LMA) could be a possible explanation for the result.
 The amounts of intraspecific variability (ITV)  might be lower for sun species because sun species typically inhabit relatively stable and predictable environments with consistent sunlight exposure which may result in lower ITV. 
 Although many studies have explored ITV across different functional groups, such as herbs versus trees [@Siefert2015], there needs to be more research into the ITV differences between sun species and shade species.
