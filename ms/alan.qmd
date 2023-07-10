@@ -162,7 +162,7 @@ Considering the understory conditions (number of mature individuals and distribu
 
 We measured the horizontal distance and geographic orientation of each individual away from the LED using a tape measure representing the relative effects of ALAN.
 The canopy openness of each individual was on behalf of individual daylight interception, which was photographed by Nikon COOLPIX4500 with a fish-eye lens (Nikon FC-e8) and then measured using R package *LeafArea* [@Katabuchi2015].
-For leaf mass per area (LMA), we used leaf disc (10mm^2) punched from leaf avoiding vein and leaf margin instead of whole-leaf to calculate individual mean LMA value [@Maenpuen2022].
+For leaf mass per area (LMA), we used 1.0‐cm‐diameter leaf disc punched from leaf avoiding vein and leaf margin instead of whole-leaf to calculate individual mean LMA value [@Maenpuen2022].
 We chose five healthy leaves, then five leaf discs, each leaf on species *M. candidum*, and round five leaves, then seven leaf discs on species *C. gigantea*.
 
 For soil nutrients (N, C, P), we collected surface soil samples (0-10 cm depths) in five plots in June 2019 and June 2022.
@@ -180,7 +180,7 @@ To account for non-independence among individuals of the same species, we includ
 
 Posterior distributions of all parameters were estimated using the Hamiltonian Monte Carlo algorithm (HMC) implemented in Stan [@Carpenter2017] using the weakly-informative priors [@Gelman2008].
 Convergence of the posterior distribution was assessed with the Gelman-Rubin statistic with a convergence threshold of 1.1 [@Gelman2013] and effective sample sizes > 400 [@Vehtari2021] for all parameters.
-All statistical analyses were conducted in R version 4.x [@RCoreTeam2022] using the R package *targets* version 1.2.0 for workflow management [@Landau2023].
+All statistical analyses were conducted in R version 4.2.0 [@RCoreTeam2022] using the R package *targets* version 1.2.0 for workflow management [@Landau2023].
 Codes are available at https://github.com/congz007/light_project.
 
 # RESULTS
@@ -208,15 +208,15 @@ This trend suggests a potential positive impact of ALAN on soil nutrient content
 ALAN is known to attract insects, which, upon death due to collision, overheating, or predation, could contribute additional nutrient inputs into the soil, such as N and P [@Minnaar2015; @Owens2018].
 This ALAN-induced insect influx could help offset the nutrient depletion caused by the nutrient-intensive rubber trees, thereby helping maintain soil nutrient levels under ALAN exposure.
 
-The significant decrease in LMA for *C. gigantea* under ALAN could be predominantly driven by indirect effects mediated through changes in soil nutrient availability rather than direct effects of ALAN acting as a light resource because sunlight increased LMA (Table 1).
+The significant decrease in LMA for *C. gigantea* under ALAN could be predominantly driven by indirect effects mediated through changes in soil nutrient availability rather than direct effects of ALAN acting as a light resource because sunlight increased LMA Table.1.
 The presence of ALAN is known to attract a higher density of insects, many of which may die due to collision, overheating, dehydration, or predation [@Minnaar2015; @Owens2018].
 The decomposition of these deceased insects could lead to considerable enrichment of soil nutrients, particularly N and P [@Schulze1997; @Fagan2002; @Woods2004; @Behie2013], which are fundamental to plant growth.
 Although the precise quantity of dead insects and the resultant increase in soil nutrient content is a subject for further detailed study, this enhanced nutrient availability could potentially shift the resource allocation strategy of *C. gigantea*.
 Additionally, increased soil nutrient availability, particularly N, could increase the photosynthetic capacity of *C. gigantea*.
 The enhanced nutrient availability may enable *C. gigantea* to allocate more resources to rapid leaf growth rather than structural tissue, leading to a decrease in LMA [@Onoda2017; @Hernandez-Vargas2019].
 
-On the other hand, the LMA of *M. candidum* was found no significant change under ALAN.
-The potential explanation for the observed result may be the limited variation within the sun species *M. candidum* in leaf mass per area (LMA).
+On the other hand, the LMA of *M. candidum* did not show any significant change under the effect of ALAN.
+The potential explanation for the observed result may be the limited variation within the sun species *M. candidum* in LMA.
 The amounts of intraspecific variability (ITV)  might be lower for sun species because sun species typically inhabit relatively stable and predictable environments with consistent sunlight exposure which may result in lower ITV. 
 Although many studies have explored ITV across different functional groups, such as herbs versus trees [@Siefert2015], there needs to be more research into the ITV differences between sun species and shade species.
 Additionally, no significant change in LMA in this plot could be attributed to the soil nutrients remaining stable.
