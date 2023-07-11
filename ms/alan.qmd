@@ -226,7 +226,7 @@ Additionally, the less pronounced soil nutrient differences between ALAN-influen
 The ALAN treatment was set up on a slope in this plot, and therefore, increased soil nutrients resulting from dead insects attracted by ALAN might be more likely to be washed off and not persist in the soil [@Zhao2013; @Yi2018; @Bai2020].
 
 ALAN, an increasingly prevalent aspect of our anthropogenic world, can have complex and nuanced impacts on forest ecosystems.
-Although it had been demonstrated that LMA increases with insolation [@Ackerly2002; @Niinemets2004], our research showed the effects of ALAN on plants should be considered as a comprehensive situation.
+Although it has been demonstrated that insolation (i.e., natural light) increases LMA [@Ackerly2002; @Niinemets2004], our research indicates that ALAN may influence LMA more indirectly, by enhancing soil nutrient availability rather than directly acting as a light source.
 ALAN may unexpectedly impact forest health and productivity by affecting understory plant functional traits and possibly soil nutrient dynamics.
 Controlled experiments potentially tend to underestimate the species interaction and unpredictable environmental heterogeneity caused by natural and artificial factors because many irreplaceable features of field conditions, such as subtle nutrient change, herbivores, and competitors, are usually absent.
 Thus, adequate tests of the influence of artificial light at night on the understory will require more experimental work under field conditions.
