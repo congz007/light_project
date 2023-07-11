@@ -22,7 +22,7 @@ format:
     toc: false
     number-sections: false
     highlight-style: github
-    reference-doc: template.docx
+    reference-doc: qmd_style.docx
   pdf:
     toc: false
     keep-tex: true
@@ -51,9 +51,8 @@ library(here)
 library(methods)
 ```
 
-\newpage
 
-**Artificial light at night (ALAN) influence understory plant traits through ecological processes: a two-year experiment in a rubber plantation in China**
+**Artificial light at night (ALAN) influences understory plant traits through ecological processes: a two-year experiment in a rubber plantation in China**
 
 $$ $$
 
