@@ -188,7 +188,7 @@ Codes are available at https://github.com/congz007/light_project.
 
 # RESULTS
 
-The influence of artificial light at night (ALAN) and daylight on LMA had significant effects on the species *Colocasia gigantea *, while for *Melastoma candidum*, these effects were not significant @fig-LMA.
+The influence of artificial light at night (ALAN) and daylight on LMA had significant effects on the species *Colocasia gigantea *, while for *Melastoma candidum*, these effects were not significant (@fig-LMA).
 In the case of *C. gigantea*, ALAN led to a decrease in the average individual leaf mass per area (LMA) value (Table 1, slope: -0.1052 [95% CI: -0.15, -0.0613]).
 Although *M. candidum* showed a similar decrease in LMA value in response to ALAN (Table 1, slope: -0.0434), this change was not statistically significant.
 The interaction of the effects of ALAN and daylight did not yield any significant results for both species (Table 1).
