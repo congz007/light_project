@@ -86,14 +86,14 @@ $$ $$
 # ABSTRACT
 
 Artificial light at night (ALAN) demonstrated a new ecological factor that influences organisms through multi-approach.
-As yet, assessing the impacts of artificial light at night on understory plants has little attention.
-We evaluated whether ALAN would affect the LMA (leaf mass per area) of understory plants through a two-year field light experiment in a tropical rubber plantation in south China.
-We hypothesized that ALAN could impact the understory in two ways: by directly supplementing light to aboveground plant parts and indirectly by attracting insects, which could alter soil nutrient composition underground.
-We selected two species: *Colocasia gigantea*, representing shade species and *Melastoma candidum*, representing sun species.
-We measured canopy openness, LMA, soil nutrients and individual distance away from ALAN.
-We found a negative relationship between LMA and the effects of ALAN.
+Yet, assessing the impacts of artificial light at night on understory plants has little attention.
+We evaluated whether ALAN would affect LMA (leaf mass per area) of understory plants through a two-year field light experiment in a tropical rubber plantation in South China.
+Our hypothesis was that ALAN could impact the understory in two ways: by directly supplementing light to aboveground plant parts and indirectly affecting soil nutrient composition underground by attracting insects.
+We selected two species: *Colocasia gigantea*, representing shade species, and *Melastoma candidum*, representing sun species.
+We measured canopy openness, LMA, soil nutrients, and individual distance away from ALAN.
+We found a negative relationship between LMA and the strength of ALAN, indicating that ALAN may influence LMA more indirectly by enhancing soil nutrient availability rather than directly acting as a light source.
 This relationship was significant for *Colocasia gigantea* but not for *Melastoma candidum*.
-These results suggest that ALAN may influence LMA more indirectly, by enhancing soil nutrient availability rather than directly acting as a light source.
+These results suggest that ALAN might have complex and multifaceted impacts on the understory ecosystem.
 
 **KEY WORDS**
 *Colocasia gigantea*,
@@ -118,7 +118,7 @@ However, few studies have examined the effects of ALAN on plant functional trait
 
 ALAN might, directly and indirectly, affect plant leaf functional traits.
 First, ALAN might directly affect plant leaf functional traits because ALAN could work as a light resource.
-Although LMA is driven by inherent genetic mechanisms [@Asner2011], environmental stresses (temperature, water and light) also shape LMA.
+Although LMA is driven by inherent genetic mechanisms [@Asner2011], environmental stresses (temperature, water, and light) also shape LMA.
 Plants can sense light through photoreceptors, allowing them to respond to four parameters of their light environment: light spectral quality, light intensity, light direction, and light duration [@Rich2006; @Paik2019].
 @Terashima2006 showed that the light-saturated rate of leaf photosynthesis per unit area is highly correlated with leaf structural parameters such as leaf thickness, leaf mass per area, mesophyll surface area, and chloroplast surface area, and sun leaves are thicker than shade leaves as the height of the palisade tissue in sun leaves is greater than that in shade leaves.
 For individual species, LMA was proportional with species distributions along the insolation gradient and was significantly higher in evergreen versus deciduous species [@Ackerly2002; @Niinemets2004; @Onoda2008].
@@ -139,7 +139,7 @@ Based on our hypothesis, we anticipate two key outcomes:
 
 # MATERIALS AND METHODS
 
-*Experimental setup*
+*Experimental setup* (**We need to add light intensity**)
 
 ALAN field experiments were located within the Xishuangbanna Tropical Botanical Garden (XTBG), China, in a rubber tree forest (N21°54' E101°16') where we set 5 plots and selected two plots for this experiment after field investigation.
 In the study area, the average yearly temperature is recorded at 21.7 °C, accompanied by an average annual precipitation of 1557 mm.
@@ -198,7 +198,7 @@ However, these differences were less pronounced in the plot containing *M. candi
 
 # DISCUSSION
 
-Our findings support the hypothesis that artificial light at night (ALAN) can influence leaf mass per area (LMA) values in understory plants but the response appears to vary among species.
+Our findings support the hypothesis that artificial light at night (ALAN) can influence leaf mass per area (LMA) values in understory plants, but the response appears to vary among species.
 We observed a significant decrease in LMA in response to ALAN in shade species *Colocasia gigantea*, but not in sun species *Melastoma candidum*.
 
 We observed the apparent decline in soil nutrient content from 2019 to 2022.
@@ -210,7 +210,7 @@ This trend suggests a potential positive impact of ALAN on soil nutrient content
 ALAN is known to attract insects, which, upon death due to collision, overheating, or predation, could contribute additional nutrient inputs into the soil, such as N and P [@Minnaar2015; @Owens2018].
 This ALAN-induced insect influx could help offset the nutrient depletion caused by the nutrient-intensive rubber trees, thereby helping maintain soil nutrient levels under ALAN exposure.
 
-The significant decrease in LMA for *C. gigantea* under ALAN could be predominantly driven by indirect effects mediated through changes in soil nutrient availability rather than direct effects of ALAN acting as a light resource because sunlight increased LMA Table.1.
+The significant decrease in LMA for *C. gigantea* under ALAN could be predominantly driven by indirect effects mediated through changes in soil nutrient availability rather than direct effects of ALAN acting as a light resource because sunlight increased LMA (Table 1).
 The presence of ALAN is known to attract a higher density of insects, many of which may die due to collision, overheating, dehydration, or predation [@Minnaar2015; @Owens2018].
 The decomposition of these deceased insects could lead to considerable enrichment of soil nutrients, particularly N and P [@Schulze1997; @Fagan2002; @Woods2004; @Behie2013], which are fundamental to plant growth.
 Although the precise quantity of dead insects and the resultant increase in soil nutrient content is a subject for further detailed study, this enhanced nutrient availability could potentially shift the resource allocation strategy of *C. gigantea*.
@@ -225,7 +225,7 @@ Additionally, the less pronounced soil nutrient differences between ALAN-influen
 The ALAN treatment was set up on a slope in this plot, and therefore, increased soil nutrients resulting from dead insects attracted by ALAN might be more likely to be washed off and not persist in the soil [@Zhao2013; @Yi2018; @Bai2020].
 
 ALAN, an increasingly prevalent aspect of our anthropogenic world, can have complex and nuanced impacts on forest ecosystems.
-Although it has been demonstrated that insolation (i.e., natural light) increases LMA [@Ackerly2002; @Niinemets2004], our research indicates that ALAN may influence LMA more indirectly, by enhancing soil nutrient availability rather than directly acting as a light source.
+Although it has been demonstrated that insolation (i.e., natural light) increases LMA [@Ackerly2002; @Niinemets2004], our research indicates that ALAN may influence LMA more indirectly by enhancing soil nutrient availability rather than directly acting as a light source.
 ALAN may unexpectedly impact forest health and productivity by affecting understory plant functional traits and possibly soil nutrient dynamics.
 Controlled experiments potentially tend to underestimate the species interaction and unpredictable environmental heterogeneity caused by natural and artificial factors because many irreplaceable features of field conditions, such as subtle nutrient change, herbivores, and competitors, are usually absent.
 Thus, adequate tests of the influence of artificial light at night on the understory will require more experimental work under field conditions.
@@ -267,7 +267,7 @@ Photographs of the experimental setup during daytime (A) and nighttime (B) in a 
 Leaf mass per area (LMA) values of individuals from the two experimental species, *C. gigante* and *M. candidu*, in realtion to their relative geographic locations with respect to the artificial light at night (ALAN).
 The ALANs are located in the center of the maps (0, 0).
 Color represents the LMA values.
-](`r here::here("figs/lma_map.png")`){#fig-LMA}
+](`r here::here("figs/lma_map.pdf")`){#fig-LMA}
 
 \newpage
 
