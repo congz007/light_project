@@ -267,7 +267,7 @@ Photographs of the experimental setup during daytime (A) and nighttime (B) in a 
 Leaf mass per area (LMA) values of individuals from the two experimental species, *C. gigante* and *M. candidu*, in realtion to their relative geographic locations with respect to the artificial light at night (ALAN).
 The ALANs are located in the center of the maps (0, 0).
 Color represents the LMA values.
-](`r here::here("figs/lma_map.pdf")`){#fig-LMA}
+](`r here::here("figs/lma_map.png")`){#fig-LMA}
 
 \newpage
 
