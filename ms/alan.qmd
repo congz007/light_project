@@ -108,7 +108,7 @@ understory
 
 Artificial light at night (ALAN), a leading contributor to light pollution, has disrupted ecological processes since the early 20th century [@Longcore2004; @Gaston2013; @Bennie2016].
 A recent study estimated that around 23% of the world's inhabited land surfaces, accounting for over 80% of the global population, are subject to the adverse effects of light pollution [@Falchi2016a].
-Although the intensity of ALAN varies several orders of magnitude from faint skyglow reflected from distant cities to direct illumination of urban and suburban vegetation [@Bennie2016], ALAN could influence the behaviour or physiology of broad ranges of taxonomic groups, including mammals, birds, reptiles, amphibians, fishes, invertebrates, and plants.
+Although the intensity of ALAN varies several orders of magnitude from faint skyglow reflected from distant cities to direct illumination of urban and suburban vegetation [@Bennie2016], ALAN could influence the behaviour or physiology of broad ranges of taxonomic groups, including mammals, birds, reptiles, amphibians, fishes, invertebrates, and plants [@Rich2006].
 It could alter ecosystem functions [@Rich2006].
 For example, ALAN attracts insects interfering in movement, foraging, reproduction, and development, as an important bringer to driving insect population decline [@Owens2020; @Boyes2021].
 Many studies have focused on how ALAN changes the behaviour of animals [@Russart2018]. However, only a handful of studies have been published on the effect of ALAN on plants [@Bennie2016; @Speisser2021a; @Liu2022].
@@ -148,7 +148,7 @@ LED lights (10W) were used to create an artificial light environment in all plot
 The LED system included six components.
 A metal box with an opening served as a rainproof protector.
 This box was attached to a tree around 1.2m from the ground.
-A rechargeable lithium battery (12v/30Ah) and an electric timer controlled the timing and duration of the LED operation at night.
+A rechargeable lithium battery (12V/30Ah) and an electric timer controlled the timing and duration of the LED operation at night.
 An electric wire connected the battery and LED, hanging from a tree branch with a lampshade approximately 2 m from the ground.
 The LED system was programmed to function automatically from 8 pm to 5 am daily.
 The experiment was set up in November 2019, and leaf disc samples were collected two years later, in November 2021.
@@ -157,8 +157,7 @@ The experiment was set up in November 2019, and leaf disc samples were collected
 
 We considered the understory conditions to select species, including numbers of mature individuals and distributions of individuals within each plot.
 Essential criteria also included the species being part of functional groups, specifically evergreen species, and not belonging to nitrogen-fixing families such as Leguminosae.
-As a result, we chose two species, each from a different plot for our study:
-*Colocasia gigantea*, representing shade species, and *Melastoma candidum* representing sun species.
+As a result, we chose two species, each from a different plot for our study: *Colocasia gigantea*, representing shade species, and *Melastoma candidum* representing sun species.
 
 *Measurements*
 
@@ -259,6 +258,7 @@ and all authors contributed to revisions.
 
 ![
 Photographs of the experimental setup during daytime (A) and nighttime (B) in a rubber tree forest within the Xishuangbanna Tropical Botanical Garden (XTBG), China.
+One of the target species, *Colocasia gigantea*, is visible in both pictures.
 ](`r here::here("figs/merge.png")`){#fig-alan}
 
 \newpage
@@ -267,7 +267,7 @@ Photographs of the experimental setup during daytime (A) and nighttime (B) in a 
 Leaf mass per area (LMA) values of individuals from the two experimental species, *C. gigante* and *M. candidu*, in realtion to their relative geographic locations with respect to the artificial light at night (ALAN).
 The ALANs are located in the center of the maps (0, 0).
 Color represents the LMA values.
-](`r here::here("figs/lma_map.pngs")`){#fig-LMA}
+](`r here::here("figs/lma_map.png")`){#fig-LMA}
 
 \newpage
 
