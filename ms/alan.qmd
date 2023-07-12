@@ -88,7 +88,7 @@ $$ $$
 Artificial light at night (ALAN) demonstrated a new ecological factor that influences organisms through multi-approach.
 Yet, assessing the impacts of artificial light at night on understory plants has little attention.
 We evaluated whether ALAN would affect LMA (leaf mass per area) of understory plants through a two-year field light experiment in a tropical rubber plantation in South China.
-We hypothesized that ALAN could impact the understory in two ways: by directly supplementing light to aboveground plant parts (which increases LMA) and indirectly affecting soil nutrient composition underground by attracting insects (which decreases LMA).
+We hypothesized that ALAN could impact the understory in two ways: by directly supplementing light to aboveground plant parts (which increases LMA) and indirectly affecting soil nutrient composition by attracting insects (which decreases LMA).
 We selected two species: *Colocasia gigantea*, representing shade species, and *Melastoma candidum*, representing sun species.
 We measured canopy openness, LMA, soil nutrients, and individual distance away from light resource.
 We found a negative relationship between LMA and the strength of ALAN, indicating that ALAN may influence LMA more indirectly by enhancing soil nutrient availability rather than directly acting as a light source.
