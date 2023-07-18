@@ -89,11 +89,11 @@ Artificial light at night (ALAN) demonstrated a new ecological factor that influ
 Yet, assessing the impacts of artificial light at night on understory plants has little attention.
 We evaluated whether ALAN would affect LMA (leaf mass per area) of understory plants through a two-year field light experiment in a tropical rubber plantation in South China.
 We hypothesized that ALAN could impact the understory in two ways: by directly supplementing light to aboveground plant parts (which increases LMA) and indirectly affecting soil nutrient composition by attracting insects (which decreases LMA).
-We selected two species: *Colocasia gigantea*, representing shade tolerant speceis, and *Melastoma candidum*, representing light demanding species.
+We selected two species: *Colocasia gigantea*, representing shade-torelant species, and *Melastoma candidum*, representing light-demanding species.
 We measured canopy openness, LMA, soil nutrients, and individual distance away from light resource.
 We found a negative relationship between LMA and the strength of ALAN, indicating that ALAN may influence LMA more indirectly by enhancing soil nutrient availability rather than directly acting as a light source.
 This relationship was significant for *Colocasia gigantea* but not for *Melastoma candidum*.
-These results suggest that ALAN might have multifaceted and species dependency impacts on the understory ecosystem.
+These results suggest that ALAN might have complex and species-specific impacts on the understory ecosystem.
 
 **KEY WORDS**
 *Colocasia gigantea*,
@@ -128,50 +128,54 @@ On the other hand, ALAN might indirectly affect plant leaf functional traits bec
 Many insects orient themselves by maintaining a constant angle to light rays and are attracted by light [@Baker1978; @Sotthibandhu1979].
 Previous studies showed that 30–40% of insects die soon after approaching street lamps for collision, overheating, dehydration, or predation [@Minnaar2015; @Owens2018].
 Since nitrogen (N) and phosphorus (P) are the nutrients most frequently limiting primary productivity in forest ecosystems [@Wright2019], dead insects killed by ALAN could be important nutrient input for soil nutrients [@Behie2013].
-Soil resources, especially N and P availability, are known to affect leaf mass per area (LAM) and leaf N and P contents [@Wright2004; @Riva2016], and those effects are known to be opposite to the effects of light [@Ackerly2002; @Hernandez-Vargas2019] (i.e., while strong light increases LMA but high levels of N availability decrease LMA).
+Soil resources, especially N and P availability, are known to affect leaf mass per area (LAM) and leaf N and P contents [@Wright2004; @Katabuchi2012; @Riva2016], and those effects are known to be opposite to the effects of light [@Ackerly2002; @Hernandez-Vargas2019] (i.e., while strong light increases LMA but high levels of N availability decrease LMA).
 
 Here, we investigated the relationship between LMA values of the understory and the effects of ALAN through a two-year experiment in a tropical rubber plant forest in south China.
-We selected two species as subjects of this experiment, each representing sun and shade tolerant speceis, to discern differences in their responses to ALAN.
+We selected two species as subjects of this experiment, each representing sun and shade-torelant species, to discern differences in their responses to ALAN.
 Our hypothesis proposes that ALAN would influence the understory via two distinct pathways: one directly, as a supplementary light source for the aboveground portions of plants (increase in LMA), and the other indirectly, improving soil nutrient availability for the belowground parts (decrease in LMA).
 Based on our hypothesis, we anticipate two key outcomes:
-(a) an increase in the influence of ALAN would correspond with a decrease or increase in the LMA value of the understory plants, but 
+(a) an increase in the influence of ALAN would correspond with a decrease or increase in the LMA value of the understory plants, but
 (b) the extent of canopy openness and its interaction with ALAN would have a minor impact on the results of this experiment.
 
 # MATERIALS AND METHODS
 
-*Experimental setup* 
+*Experimental setup*
 
-ALAN field experiments were located within the Xishuangbanna Tropical Botanical Garden (XTBG), China, in rubber tree forests (N21°54' E101°16') where we set 5 plots and selected two plots for this experiment based on the natural distribution of the target plant species.
+ALAN field experiments were located within the Xishuangbanna Tropical Botanical Garden (XTBG), China, in a rubber tree forest (N21°54' E101°16') where we set 5 plots and selected two plots for this experiment based on the natural distribution of the target plant species.
 In the study area, the average yearly temperature is recorded at 21.7 °C, accompanied by an average annual precipitation of 1557 mm.
 No fertilizer was used in the study area.
 LED lights (10W) were used to create an artificial light environment in all plots at night (@fig-alan).
-The light intensity of LED lights vertically decreased from 300 lux at the luminous place to 100 lux at a height of 1.3 metres to 12 lux at the ground, and horizontally mainly concentrated within 5 m (6 lux) according to the density of the bush.
-The LED system included six components.
-A metal box with an opening served as a rainproof protector.
-This box was attached to a tree around 1.2m from the ground.
-A rechargeable lithium battery (12V/30Ah) and an electric timer controlled the timing and duration of the LED operation at night.
-An electric wire connected the battery and LED, hanging from a tree branch with a lampshade approximately 2 m from the ground.
 The LED system was programmed to function automatically from 8 pm to 5 am daily.
+A rechargeable lithium battery (12V/30Ah) and an electric timer controlled the timing and duration of the LED operation at night.
+The battery and LEDs were connected by electric wire and hung from a tree branch with a lampshade approximately 2 m from the ground.
+The light intensity of LED lights at the light sources was xxx ± xxx (mean ± SE) lux.
+The light intensity decreased with distance:
+xxx ± xxx lux at a radius of 1 m,
+xxx ± xxx lux at a radius of 2 m, and
+xxx ± xxx lux at a radius of 4 m.
+The light intensity was almost undetectable at 0 lux beyond xxx m
 The experiment was set up in November 2019, and leaf disc samples were collected two years later, in November 2021.
 
 *Species Selection*
 
-We considered the understory conditions to select species, ensuring that at least 15 mature individuals present from the light source to 10 m away from it.
+We considered the understory conditions to select species, ensuring that at least 15 mature individuals were present from the light source to 10 m away from it.
 Essential criteria also included the species being part of functional groups, specifically evergreen species, and not belonging to nitrogen-fixing families such as Leguminosae.
-As a result, we chose two species, each from a different plot for our study: *Colocasia gigantea*, representing shade tolerant speceis, and *Melastoma candidum* representing light demanding species.
+As a result, we chose two species, each from a different plot, for our study: *Colocasia gigantea*, representing shade-torelant species, and *Melastoma candidum* representing light-demanding species.
 
 *Measurements*
 
 We measured the horizontal distance and geographic orientation of each individual away from the LED using a tape measure representing the relative effects of ALAN.
 The canopy openness of each individual was on behalf of individual daylight interception, which was photographed by Nikon COOLPIX4500 with a fish-eye lens (Nikon FC-e8) and then measured using the R package *LeafArea* [@Katabuchi2015].
-For leaf mass per area (LMA), we used 1.0‐cm‐diameter leaf disc punched from leaf avoiding vein and leaf margin instead of whole-leaf to calculate individual mean LMA value [@Maenpuen2022].
-We chose five healthy leaves, then five leaf discs, each leaf on species *M. candidum*, and three to five leaves, then seven leaf discs on species *C. gigantea*.
+
+For leaf mass per area (LMA), we used a 1.0‐cm‐diameter puncher, avoiding vein and leaf margin instead of using whole-leaf LMA value [@Maenpuen2022].
+We chose five healthy leaves from each individual *M. candidum* plant, and between three to five healthy leaves from each individual *C. gigantea* plant.
+We then punched five leaf discs from each *M. candidum* leaf, and seven leaf discs from each leaf of *C. gigantea*.
 
 For soil nutrients (N, C, P), we collected surface soil samples (0-10 cm depths) in five plots in June 2019 and June 2022 to investigate the general trends in soil nutrients.
-Detailed analysis of soil nutrients was conducted in two selected plots.
+Detailed analysis of soil nutrients was conducted in the two selected plots.
 We took three replicates at the place under ALAN and 10m away from ALAN separately from each plot.
 After sampling, the soils were air-dried at room temperature for one week, then sieved through 0.85mm and 0.15mm mesh finally used for total N, C measurements by combustion using an elemental analyzer (Vario MAX CN, Elementar Analysensysteme GmbH, Germany) and total P measurement by inductively coupled plasma atomic-emission spectrometer (iCAP7400, Thermo Fisher Scientific, USA).
-Then we calculated the relative percentage change of each nutrient between the value in 2019 and 2022 to compare the soil nutrient change with ALAN's effect (sampled under ALAN) and without ALAN's effect (sampled 10m away from ALAN).
+We then calculated the relative percentage change of each nutrient between the value in 2019 and 2022 to compare the soil nutrient change with ALAN's effect (sampled under ALAN) and without ALAN's effect (sampled 10m away from ALAN).
 
 *Data Analysis*
 
@@ -200,7 +204,7 @@ However, these differences were less pronounced in the plot containing *M. candi
 # DISCUSSION
 
 Our findings support the hypothesis that artificial light at night (ALAN) can influence leaf mass per area (LMA) values in understory plants, but the response appears to vary among species.
-We observed a significant decrease in LMA in response to ALAN in shade tolerant speceis *Colocasia gigantea*, but not in light demanding species *Melastoma candidum*.
+We observed a significant decrease in LMA in response to ALAN in shade-torelant species *Colocasia gigantea*, but not in light-demanding species *Melastoma candidum*.
 
 We observed the apparent decline in soil nutrient content from 2019 to 2022.
 This trend could be primarily attributed to the nutrient absorption characteristics of the rubber trees dominating our study location [@Yang2004].
@@ -218,13 +222,13 @@ Although the precise quantity of dead insects and the resultant increase in soil
 Additionally, increased soil nutrient availability, particularly N, could increase the photosynthetic capacity of *C. gigantea*.
 The enhanced nutrient availability may enable *C. gigantea* to allocate more resources to rapid leaf growth rather than structural tissue, leading to a decrease in LMA [@Onoda2017; @Hernandez-Vargas2019].
 
-On the other hand, ALAN did not have a significant effect on LMA in the light demanding species *M. candidum*.
-light demanding species receive stronger sunlight than shade tolerant speceis, which might result in the small effect of ALAN on their LMA.
-Because the effect of daylight was not significant either, intraspecific trait variability (ITV) itself for light demanding species may inherently be smaller than for shade tolerant speceis.
-Although many studies have explored ITV across different functional groups, such as herbs versus trees [@Siefert2015], there needs to be more research into the ITV differences between light demanding species and shade tolerant speceis.
+On the other hand, ALAN did not have a significant effect on LMA in the light-demanding species *M. candidum*.
+light-demanding species receive stronger sunlight than shade-torelant species, which might result in the small effect of ALAN on their LMA.
+Because the effect of daylight was not significant either, intraspecific trait variability (ITV) itself for light-demanding species may inherently be smaller than for shade-torelant species.
+Although many studies have explored ITV across different functional groups, such as herbs versus trees [@Siefert2015], there needs to be more research into the ITV differences between light-demanding species and shade-torelant species.
 Additionally, the less pronounced soil nutrient differences between ALAN-influenced and non-influenced areas in the plot with *M. candidum* compared to the plot with *C. gigantea* may explain the lack of significant change in LMA for *M. candidum*.
-ALAN's attraction to insects might be spatially dependent,  which leads to certain locations attracting fewer insects and consequently experiencing a diminished soil fertilization effect.
 The ALAN treatment was set up on a slope in this plot, and therefore, increased soil nutrients resulting from dead insects attracted by ALAN might be more likely to be washed off and not persist in the soil [@Zhao2013; @Yi2018; @Bai2020].
+Alternatively, ALAN's attraction to insects might be spatially dependent, which leads to certain locations attracting fewer insects and consequently experiencing a diminished soil fertilization effect.
 
 ALAN, an increasingly prevalent aspect of our anthropogenic world, can have complex and nuanced impacts on forest ecosystems.
 Although it has been demonstrated that insolation (i.e., natural light) increases LMA [@Ackerly2002; @Niinemets2004], our research indicates that ALAN may influence LMA more indirectly by enhancing soil nutrient availability rather than directly acting as a light source.
@@ -238,7 +242,7 @@ Further investigations into the intricate relationships between ALAN, plant func
 We thank Nuo Ai, Nuojiao Ai and Guangfeng Yi for assistance with fieldwork.
 Content determination of soil nutrients was accomplished by Institutional Center for Shared Technologies and Facilities of XTBG, CAS.
 This work was funded in part by grants to Projects of International Cooperation and Exchanges (NSFC) of China (32161160324).
-MK was supported by 
+MK was supported by
 a Xishuangbanna State Rainforest Talent Support Program,
 a CAS President's International Fellowship Initiative (2020FYB0003), and
 a ZiHui (Wisdom) Yunnan Program (202203AM140026).
