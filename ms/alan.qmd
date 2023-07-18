@@ -89,7 +89,7 @@ Artificial light at night (ALAN) demonstrated a new ecological factor that influ
 Yet, assessing the impacts of artificial light at night on understory plants has little attention.
 We evaluated whether ALAN would affect LMA (leaf mass per area) of understory plants through a two-year field light experiment in a tropical rubber plantation in South China.
 We hypothesized that ALAN could impact the understory in two ways: by directly supplementing light to aboveground plant parts (which increases LMA) and indirectly affecting soil nutrient composition by attracting insects (which decreases LMA).
-We selected two species: *Colocasia gigantea*, representing shade torelance speceis, and *Melastoma candidum*, representing light demanding species.
+We selected two species: *Colocasia gigantea*, representing shade tolerant speceis, and *Melastoma candidum*, representing light demanding species.
 We measured canopy openness, LMA, soil nutrients, and individual distance away from light resource.
 We found a negative relationship between LMA and the strength of ALAN, indicating that ALAN may influence LMA more indirectly by enhancing soil nutrient availability rather than directly acting as a light source.
 This relationship was significant for *Colocasia gigantea* but not for *Melastoma candidum*.
@@ -131,7 +131,7 @@ Since nitrogen (N) and phosphorus (P) are the nutrients most frequently limiting
 Soil resources, especially N and P availability, are known to affect leaf mass per area (LAM) and leaf N and P contents [@Wright2004; @Riva2016], and those effects are known to be opposite to the effects of light [@Ackerly2002; @Hernandez-Vargas2019] (i.e., while strong light increases LMA but high levels of N availability decrease LMA).
 
 Here, we investigated the relationship between LMA values of the understory and the effects of ALAN through a two-year experiment in a tropical rubber plant forest in south China.
-We selected two species as subjects of this experiment, each representing sun and shade torelance speceis, to discern differences in their responses to ALAN.
+We selected two species as subjects of this experiment, each representing sun and shade tolerant speceis, to discern differences in their responses to ALAN.
 Our hypothesis proposes that ALAN would influence the understory via two distinct pathways: one directly, as a supplementary light source for the aboveground portions of plants (increase in LMA), and the other indirectly, improving soil nutrient availability for the belowground parts (decrease in LMA).
 Based on our hypothesis, we anticipate two key outcomes:
 (a) an increase in the influence of ALAN would correspond with a decrease or increase in the LMA value of the understory plants, but 
@@ -158,7 +158,7 @@ The experiment was set up in November 2019, and leaf disc samples were collected
 
 We considered the understory conditions to select species, ensuring that at least 15 mature individuals present from the light source to 10 m away from it.
 Essential criteria also included the species being part of functional groups, specifically evergreen species, and not belonging to nitrogen-fixing families such as Leguminosae.
-As a result, we chose two species, each from a different plot for our study: *Colocasia gigantea*, representing shade torelance speceis, and *Melastoma candidum* representing light demanding species.
+As a result, we chose two species, each from a different plot for our study: *Colocasia gigantea*, representing shade tolerant speceis, and *Melastoma candidum* representing light demanding species.
 
 *Measurements*
 
@@ -200,7 +200,7 @@ However, these differences were less pronounced in the plot containing *M. candi
 # DISCUSSION
 
 Our findings support the hypothesis that artificial light at night (ALAN) can influence leaf mass per area (LMA) values in understory plants, but the response appears to vary among species.
-We observed a significant decrease in LMA in response to ALAN in shade torelance speceis *Colocasia gigantea*, but not in light demanding species *Melastoma candidum*.
+We observed a significant decrease in LMA in response to ALAN in shade tolerant speceis *Colocasia gigantea*, but not in light demanding species *Melastoma candidum*.
 
 We observed the apparent decline in soil nutrient content from 2019 to 2022.
 This trend could be primarily attributed to the nutrient absorption characteristics of the rubber trees dominating our study location [@Yang2004].
@@ -219,9 +219,9 @@ Additionally, increased soil nutrient availability, particularly N, could increa
 The enhanced nutrient availability may enable *C. gigantea* to allocate more resources to rapid leaf growth rather than structural tissue, leading to a decrease in LMA [@Onoda2017; @Hernandez-Vargas2019].
 
 On the other hand, ALAN did not have a significant effect on LMA in the light demanding species *M. candidum*.
-light demanding species receive stronger sunlight than shade torelance speceis, which might result in the small effect of ALAN on their LMA.
-Because the effect of daylight was not significant either, intraspecific trait variability (ITV) itself for light demanding species may inherently be smaller than for shade torelance speceis.
-Although many studies have explored ITV across different functional groups, such as herbs versus trees [@Siefert2015], there needs to be more research into the ITV differences between light demanding species and shade torelance speceis.
+light demanding species receive stronger sunlight than shade tolerant speceis, which might result in the small effect of ALAN on their LMA.
+Because the effect of daylight was not significant either, intraspecific trait variability (ITV) itself for light demanding species may inherently be smaller than for shade tolerant speceis.
+Although many studies have explored ITV across different functional groups, such as herbs versus trees [@Siefert2015], there needs to be more research into the ITV differences between light demanding species and shade tolerant speceis.
 Additionally, the less pronounced soil nutrient differences between ALAN-influenced and non-influenced areas in the plot with *M. candidum* compared to the plot with *C. gigantea* may explain the lack of significant change in LMA for *M. candidum*.
 ALAN's attraction to insects might be spatially dependent,  which leads to certain locations attracting fewer insects and consequently experiencing a diminished soil fertilization effect.
 The ALAN treatment was set up on a slope in this plot, and therefore, increased soil nutrients resulting from dead insects attracted by ALAN might be more likely to be washed off and not persist in the soil [@Zhao2013; @Yi2018; @Bai2020].
