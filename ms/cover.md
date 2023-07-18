@@ -12,7 +12,7 @@ What is the major contribution of your paper to your discipline?
 As yet, assessing the impacts of artificial light at night on understory plants has little attention. 
 We evaluated whether and how ALAN would affect the LMA (leaf mass per area) of understory plants by measuring canopy openness, LMA, soil nutrients and distance away from ALAN for each individual.
 We hypothesized that ALAN could impact the understory in two ways: by directly supplementing light to aboveground plant parts and indirectly by attracting insects, which could alter soil nutrient composition underground.
-We selected two species: *Colocasia gigantea*, representing shade species and *Melastoma candidum*, representing sun species.
+We selected two species: *Colocasia gigantea*, representing shade torelance speceis and *Melastoma candidum*, representing sun species.
 We found a negative relationship between LMA and the effects of ALAN.
 Our study suggests that ALAN might have complex and multifaceted impacts on the understory ecosystem.
 
