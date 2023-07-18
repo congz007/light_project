@@ -141,8 +141,6 @@ Based on our hypothesis, we anticipate two key outcomes:
 
 *Experimental setup*
 
-latexdiff-vc --git --flatten --force -r b2c96ae alan.tex
-
 ALAN field experiments were located within the Xishuangbanna Tropical Botanical Garden (XTBG), China, in a rubber tree forest (N21°54' E101°16') where we set 5 plots and selected two plots for this experiment based on the natural distribution of the target plant species.
 In the study area, the average yearly temperature is recorded at 21.7 °C, accompanied by an average annual precipitation of 1557 mm.
 No fertilizer was used in the study area.
