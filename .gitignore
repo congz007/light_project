@@ -104,3 +104,5 @@ test_photo
 *.html
 *.fdb_latexmk
 
+
+.vscode
