@@ -179,7 +179,7 @@ We then calculated the relative percentage change of each nutrient between the v
 
 *Data Analysis*
 
-To analyze the effects of ALAN, daylight's effect, and their interaction on *M. candidum* and *C. gigantea*, we fitted a Bayesian linear mixed-effects model for each species.
+To analyze the effects of ALAN, daylight, and their interaction on *M. candidum* and *C. gigantea*, we fitted a Bayesian linear mixed-effects model for each species.
 The leaf mass per area (LMA) of each leaf of each individual was modelled as a function of the distance from the ALAN source for each individual, the canopy openness of each individual, and the interaction between the distance from the ALAN source and the canopy openness.
 We transformed the distance from the ALAN source for each individual using a log and reciprocal function, as the intensity of ALAN diminish non-linearly with distance.
 Hereafter, we refer to the distance from the ALAN source for each individual as the ALAN effect and the canopy openness of each individual as the daylight effect.
