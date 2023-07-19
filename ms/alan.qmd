@@ -112,7 +112,7 @@ Although the intensity of ALAN varies several orders of magnitude from faint sky
 It could alter ecosystem functions [@Rich2006; @Falcon2020].
 For example, ALAN attracts insects interfering in movement, foraging, reproduction, and development, as an important bringer to driving insect population decline [@Owens2020; @Boyes2021].
 Many studies have focused on how ALAN changes the behaviour of animals [@Russart2018]. However, only a handful of studies have been published on the effect of ALAN on plants [@Bennie2016; @Speisser2021a; @Liu2022].
-@Speisser2021a conducted plant growth experiments with and without weak ALAN (28 lx: within the range of light intensities at ground level under street lights) and showed that ALAN increases the biomass of herbaceous plants.
+@Speisser2021a conducted plant growth experiments with and without weak ALAN (28 lux: within the range of light intensities at ground level under street lights) and showed that ALAN increases the biomass of herbaceous plants.
 Their results suggest that even weak ALAN acts as a light resource for plant growth.
 However, few studies have examined the effects of ALAN on plant functional traits in conditions close to their natural environment.
 
@@ -148,12 +148,12 @@ LED lights (10W) were used to create an artificial light environment in all plot
 The LED system was programmed to function automatically from 8 pm to 5 am daily.
 A rechargeable lithium battery (12V/30Ah) and an electric timer controlled the timing and duration of the LED operation at night.
 The battery and LEDs were connected by electric wire and hung from a tree branch with a lampshade approximately 2 m from the ground.
-The light intensity of LED lights at the light sources was xxx ± xxx (mean ± SE) lux.
+The light intensity of LED lights at the light sources was 372.8 ± 66.6 (mean ± SE) lux.
 The light intensity decreased with distance:
-xxx ± xxx lux at a radius of 1 m,
-xxx ± xxx lux at a radius of 2 m, and
-xxx ± xxx lux at a radius of 4 m.
-The light intensity was almost undetectable at 0 lux beyond xxx m
+190.2 ± 26.5 lux at a radius of 1 m,
+62.0 ± 4.9 lux at a radius of 2 m, and
+9.9 ± 0.7 lux at a radius of 4 m.
+The light intensity was almost undetectable at 0 lux beyond 10 m.
 The experiment was set up in November 2019, and leaf disc samples were collected two years later, in November 2021.
 
 *Species Selection*
