@@ -110,7 +110,7 @@ Artificial light at night (ALAN), a leading contributor to light pollution, has 
 A recent study estimated that around 23% of the world's inhabited land surfaces, accounting for over 80% of the global population, are subject to the adverse effects of light pollution [@Falchi2016a].
 Although the intensity of ALAN varies several orders of magnitude from faint skyglow reflected from distant cities to direct illumination of urban and suburban vegetation [@Bennie2016], ALAN could influence the behaviour or physiology of broad ranges of taxonomic groups, including mammals, birds, reptiles, amphibians, fishes, invertebrates, and plants [@Rich2006;@Loss2014; @Falcon2020; @Forsburg2021].
 It could alter ecosystem functions [@Rich2006; @Falcon2020].
-For example, ALAN attracts insects interfering in movement, foraging, reproduction, and development, as an important bringer to driving insect population decline [@Owens2020; @Boyes2021].
+For example, ALAN attracts insects interfering in movement, foraging, reproduction, and development, as an important bringer to driving insect population decline [@Owens2020; @Boyes2021; @Yang2022].
 Many studies have focused on how ALAN changes the behaviour of animals [@Russart2018]. However, only a handful of studies have been published on the effect of ALAN on plants [@Bennie2016; @Speisser2021a; @Liu2022].
 @Speisser2021a conducted plant growth experiments with and without weak ALAN (28 lux: within the range of light intensities at ground level under street lights) and showed that ALAN increases the biomass of herbaceous plants.
 Their results suggest that even weak ALAN acts as a light resource for plant growth.
