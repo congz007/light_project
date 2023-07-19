@@ -175,11 +175,11 @@ For soil nutrients (N, C, P), we collected surface soil samples (0-10 cm depths)
 Detailed analysis of soil nutrients was conducted in the two selected plots.
 We took three replicates at the place under ALAN and 10m away from ALAN separately from each plot.
 After sampling, the soils were air-dried at room temperature for one week, then sieved through 0.85-mm and 0.15-mm mesh finally used for total N, C measurements by combustion using an elemental analyzer (Vario MAX CN, Elementar Analysensysteme GmbH, Germany) and total P measurement by inductively coupled plasma atomic-emission spectrometer (iCAP7400, Thermo Fisher Scientific, USA).
-We then calculated the relative percentage change of each nutrient between the value in 2019 and 2022 to compare the soil nutrient change with ALAN's effect (sampled under ALAN) and without ALAN's effect (sampled 10m away from ALAN).
+We then calculated the relative percentage change of each nutrient between the value in 2019 and 2022 to compare the soil nutrient change with ALAN's effect (sampled under ALAN) and without ALAN's effect (sampled 10 m away from ALAN).
 
 *Data Analysis*
 
-To analyze the effects of ALAN, daylight, and their interaction on *M. candidum* and *C. gigantea*, we fitted a Bayesian linear mixed-effects model for each species.
+To analyze the effects of ALAN, daylight and their interaction on *M. candidum* and *C. gigantea*, we fitted a Bayesian linear mixed-effects model for each species.
 The leaf mass per area (LMA) of each leaf of each individual was modelled as a function of the distance from the ALAN source for each individual, the canopy openness of each individual, and the interaction between the distance from the ALAN source and the canopy openness.
 We transformed the distance from the ALAN source for each individual using a log and reciprocal function, as the intensity of ALAN diminish non-linearly with distance.
 Hereafter, we refer to the distance from the ALAN source for each individual as the ALAN effect and the canopy openness of each individual as the daylight effect.

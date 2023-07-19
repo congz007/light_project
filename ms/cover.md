@@ -1,24 +1,25 @@
-July XX, 2022
+July XX, 2023
 
 Dear Editor,
 
 We hereby submit tha manuscript, “Artificial light at night (ALAN) influences understory plant traits through ecological processes: a two-year experiment in a rubber plantation in China” (Cong Zhou, Akihiro Nakamura, Xiaoyang Song, Masatoshi Katabuchi), for consideration as a brief communication article in Plant ecology.
 
-What are the questions addressed or hypotheses tested?
-We evaluated whether and how ALAN would affect the LMA (leaf mass per area) of understory plants through a two-year field light experiment in a tropical rubber plant forest in south China.
-
-Assessing the impacts of artificial light at night on understory plants has little attention. 
-We evaluated whether ALAN would affect LMA (leaf mass per area) of understory plants through a two-year field light experiment in a tropical rubber plantation in South China.
-We hypothesized that ALAN could impact the understory in two ways: by directly supplementing light to aboveground plant parts and indirectly by attracting insects, which could alter soil nutrient composition underground.
-We selected two species: *Colocasia gigantea*, representing shade-tolerant speceis and *Melastoma candidum*, representing light-demanding species.
-We found a negative relationship between LMA and the effects of ALAN.
-Our study suggests that ALAN might have complex and species-specific impacts on the understory ecosystem.
-
-
 Artificial light at night (ALAN), a leading contributor to light pollution, has been showed one unavoidable ecological factor.
-Our study focuses on the effect of ALAN on understory ecosystem, and thus it targets many of plant ecologists and environmental conservation managers.
+Yet, assessing the impacts of ALAN on understory plants has little attention. 
+In this study, we showed that ALAN would negatively affect the leaf mass per area (LMA) of understory plants through changing the spatial distribution of nocturnal phototropic insects further altering soil fertility.  
 
-The programming code and the data supporting the findings of this study will be deposited at https://github.com/congz007/light_project.
+We conducted a two-year field LED experiment in a rubber plantation in South China.
+We hypothesized that ALAN could impact the understory in two ways: by directly supplementing light to aboveground plant parts (which increases LMA) and indirectly affecting soil nutrient composition by attracting insects (which decreases LMA).
+We measured canopy openness, LMA, soil nutrients, and individual distance away from light resource for two species: *Colocasia gigantea*, representing shade-tolerant speceis and *Melastoma candidum*, representing light-demanding species.
+We fitted a Bayesian linear mixed-effects model to analyze the effects of ALAN, daylight and their interaction for each species.
+
+Our study suggests that ALAN might have complex and species-specific impacts on the understory ecosystem.
+Our study focuses on the effect of ALAN on understory ecosystem, thus it targets many of plant ecologists and environmental conservation managers.
+
+
+We confirm that this work is original and has not been published elsewhere, nor is it currently under consideration for publication elsewhere.
+
+The authors declare that they have no conflicts of interest regarding this study.
 
 Sincerely,
 
