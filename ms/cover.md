@@ -2,7 +2,7 @@ July XX, 2022
 
 Dear Editor,
 
-We hereby submit tha manuscript, “Artificial light at night (ALAN) influences understory plant traits through ecological processes: a two-year experiment in a rubber plantation in China” (Cong Zhou, Akihiro Nakamura, Xiaoyang Song, Masatoshi Katabuchi), for consideration as a brief communication article in XXXX.
+We hereby submit tha manuscript, “Artificial light at night (ALAN) influences understory plant traits through ecological processes: a two-year experiment in a rubber plantation in China” (Cong Zhou, Akihiro Nakamura, Xiaoyang Song, Masatoshi Katabuchi), for consideration as a brief communication article in Plant ecology.
 
 What are the questions addressed or hypotheses tested?
 We evaluated whether and how ALAN would affect the LMA (leaf mass per area) of understory plants through a two-year field light experiment in a tropical rubber plant forest in south China.
