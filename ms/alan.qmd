@@ -131,7 +131,8 @@ Since nitrogen (N) and phosphorus (P) are the nutrients most frequently limiting
 Soil resources, especially N and P availability, are known to affect leaf mass per area (LAM) and leaf N and P contents [@Wright2004; @Katabuchi2012; @Riva2016], and those effects are known to be opposite to the effects of light [@Ackerly2002; @Hernandez-Vargas2019] (i.e., while strong light increases LMA but high levels of N availability decrease LMA).
 
 Here, we investigated the relationship between LMA values of the understory and the effects of ALAN through a two-year experiment in a tropical rubber plant forest in south China.
-We selected two species as subjects of this experiment, each representing sun and shade-torelant species, to discern differences in their responses to ALAN.
+A previous study conducted at the same site, with the same experimental setup, demonstrated that ALAN attracts ants [@Yang2022].
+We selected two understory species as subjects of this experiment, each representing light-demanding and shade-torelant species, to discern differences in their responses to ALAN.
 Our hypothesis proposes that ALAN would influence the understory via two distinct pathways: one directly, as a supplementary light source for the aboveground portions of plants (increase in LMA), and the other indirectly, improving soil nutrient availability for the belowground parts (decrease in LMA).
 Based on our hypothesis, we anticipate two key outcomes:
 (a) an increase in the influence of ALAN would correspond with a decrease or increase in the LMA value of the understory plants, but
@@ -173,7 +174,7 @@ We then punched five leaf discs from each *M. candidum* leaf, and seven leaf dis
 
 For soil nutrients (N, C, P), we collected surface soil samples (0-10 cm depths) in five plots in June 2019 and June 2022 to investigate the general trends in soil nutrients.
 Detailed analysis of soil nutrients was conducted in the two selected plots.
-We took three replicates at the place under ALAN and 10m away from ALAN separately from each plot.
+We took three replicates at the place under ALAN and 10 m away from ALAN separately from each plot.
 After sampling, the soils were air-dried at room temperature for one week, then sieved through 0.85-mm and 0.15-mm mesh finally used for total N, C measurements by combustion using an elemental analyzer (Vario MAX CN, Elementar Analysensysteme GmbH, Germany) and total P measurement by inductively coupled plasma atomic-emission spectrometer (iCAP7400, Thermo Fisher Scientific, USA).
 We then calculated the relative percentage change of each nutrient between the value in 2019 and 2022 to compare the soil nutrient change with ALAN's effect (sampled under ALAN) and without ALAN's effect (sampled 10 m away from ALAN).
 
