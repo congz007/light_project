@@ -76,12 +76,20 @@ Masatoshi Katabuchi
 E-mail: katabuchi@xtbg.ac.cn;
 mattocci27@gmail.com
 
-
 $$ $$
 
-**Running title**:
+Zhou Cong:
+<https://orcid.org/0000-0003-3233-3611>
 
-\newpage
+Akihiro Nakamura:
+<https://orcid.org/0000-0001-7349-5102>
+
+Song Xiaoyang:
+<https://orcid.org/0000-0001-9529-1418>
+
+Masatoshi Katabuchi:
+<https://orcid.org/0000-0001-9900-9029>
+
 
 # ABSTRACT
 
