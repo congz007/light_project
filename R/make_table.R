@@ -17,7 +17,7 @@ table_summary <- function(summary_stan){
 
   tibble(parameters, mean, quantile_interval) |> 
     kbl(col.names = c("Variables", "Mean", "95% CI"),
-        booktabs = T) |>
+        booktabs = T, digits = 4) |>
     kable_classic(full_width = F) |>
     column_spec(3,bold = c(F,F,F,T,T,F)) |>
     pack_rows("Melastoma candidum", 1, 3, italic = TRUE) |>
@@ -25,15 +25,17 @@ table_summary <- function(summary_stan){
 }
 
 my_kable_save <- function(table, tablename) {
+#  save_kable(
+#    x = table,
+#    file = paste0(tablename,".png"),
+#    density = 1200
+#)
   save_kable(
     x = table,
-    file = paste0(tablename,".png"),
-    density = 1200
-)
-  save_kable(
-    x = table,
-    file = paste0(tablename,".pdf"),
+    file = paste0(tablename,".html"),
     density = 300
   )
-  str_c(tablename, c(".png", ".pdf"))
+#  str_c(tablename, c(".png", ".pdf"))
+  str_c(tablename, ".html")
+#  webshot::webshot("Table1.html", "Table1.pdf") 
 }

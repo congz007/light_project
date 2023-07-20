@@ -31,11 +31,11 @@ fit_summary_model_melas|stem|f0307e6b5da970b8|1e4e2701f5ba11a0|758811154ddaef11|
 generate_stan_data|function|5c39279d3fcb9572|||||||||||||||
 leaf_light_project_csv|stem|8091d42884b52f4d|e1a7250b1d73e293|ef46db3751d8e999|-291590375|data/leaf_light_project.csv|t19247.0639549714s|b4e18c3ab3e9549e|16118|file|local|vector|||0.283||
 lma_df|stem|d2bedb3294a532db|1e42e4958a6e111b|60a10cac1c0153d0|2085082458||t19535.3572625003s|deeb574487143a6d|4957|rds|local|vector|||0.202||
-lma_map|stem|6347e54a998bddf3|198546e501f1a9d2|2a5e0499bef63317|-124749745|figs/lma_map.png*figs/lma_map.pdf|t19537.2466143217s|ae147e5f776f2a61|79627|file|local|vector|||0.372||
+lma_map|stem|d747c83c5943bec7|198546e501f1a9d2|2a5e0499bef63317|-124749745|figs/lma_map.png*figs/lma_map.pdf|t19558.198232229s|91b4a0dffb1bbbf6|81358|file|local|vector|||0.372||
 make_table|function|5471876704395fdb|||||||||||||||
 mapped|object|1368d398ad09d5ee|||||||||||||||
 my_ggsave|function|f95c949784d28668|||||||||||||||
-my_kable_save|function|58166b6e53b751fb|||||||||||||||
+my_kable_save|function|0fa9a3d247cc12b8|||||||||||||||
 night_jpg|stem|a57102e516e9bbc4|6728884d4f6cb961|ef46db3751d8e999|2082800662|figs/night.jpg|t19247.0639555501s|6ad009456d77be79|2591071|file|local|vector|||0||
 plot_geo|function|b56ff0d71eb05416|||||||||||||||
 plot_merge|function|ca6ac29581fce6ba|||||||||||||||
@@ -49,8 +49,8 @@ stan_data_sp2|function|cca798ba8294b712|||||||||||||||
 summary_stan|stem|c5c5d5c67069fd3c|7dc906b618aa44b6|bc9eecc853c3a0b6|-1534383106||t19535.5996134296s|e3e584337416b3a7|945|rds|local|vector|||0.001||
 summary_stan_each_coloc|stem|e9f38c329f1944be|39ba579e39ea5bf2|73f4402d21da1e4d|479555981||t19535.5996133139s|6122300abc460529|604|rds|local|vector|||0.003||
 summary_stan_each_melas|stem|a292849357b585bb|e704978d90acd440|4ae7ab2be177a0e8|423708745||t19535.5996134296s|0561af084b04b3a2|602|rds|local|vector|||0.003||
-table|stem|73dcf4075eb0fd86|41b50b5da8b099fb|b903bce80b609c4e|-1420435068||t19536.098922294s||71|rds|local|vector|||1.239||R attempt to perform an operation not allowed by the security policy PDF  errorconstitute.cIsCoderAuthorized413
+table|stem|2eee5bde10868f41|41b50b5da8b099fb|0a2818c80c8a815a|-1420435068||t19558.212673664s|425d385953b3c542|67|rds|local|vector|||0.126||
 table_csv|stem||aa9bda0a8a65da59|ef46db3751d8e999|-795627135|data/table_csv|t19535.3200206281s||0|file|local|vector|||||_paths_ missing files datatable_csv
 table_data|stem|87c1221014b5c5c7|8109db645678ad27|7199b9143a2e7ccc|-707952368||t19534.3744822813s|f73cea00d22be8c9|512|rds|local|vector|||1.118||
 table_fig|stem|f43384ca1240c568|c0ee5fe24f95076b|67d3031941ae02cb|-1569321030||t19535.0791400426s|bf160f080fbf1dbb|99|rds|local|vector|||0.046||
-table_summary|function|adba4826da2131fc|||||||||||||||
+table_summary|function|789b45ebf262b5be|||||||||||||||
