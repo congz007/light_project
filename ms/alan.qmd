@@ -143,7 +143,7 @@ Based on our hypothesis, we anticipate two key outcomes:
 *Experimental setup*
 
 ALAN field experiments were located within the Xishuangbanna Tropical Botanical Garden (XTBG), China, in a rubber tree forest (N21°54' E101°16') where we set 5 plots and selected two plots for this experiment based on the natural distribution of the target plant species.
-In the study area, the average yearly temperature is recorded at 21.7 °C, accompanied by an average annual precipitation of 1557 mm.
+In the study area, the average yearly temperature is recorded at 21.7 °C, accompanied by an average annual precipitation of 1557 mm.
 No fertilizer was used in the study area.
 LED lights (10W) were used to create an artificial light environment in all plots at night (@fig-alan).
 The LED system was programmed to function automatically from 8 pm to 5 am daily.
@@ -168,7 +168,7 @@ As a result, we chose two species, each from a different plot, for our study: *C
 We measured the horizontal distance and geographic orientation of each individual away from the LED using a tape measure representing the relative effects of ALAN.
 The canopy openness of each individual was on behalf of individual daylight interception, which was photographed by Nikon COOLPIX4500 with a fish-eye lens (Nikon FC-e8) and then measured using the R package *LeafArea* [@Katabuchi2015].
 
-For leaf mass per area (LMA), we used a 1.0‐cm‐diameter puncher, avoiding vein and leaf margin instead of using whole-leaf LMA value [@Maenpuen2022].
+For leaf mass per area (LMA), we used a 1.0‐cm‐diameter puncher instead of using whole-leaf LMA values, avoiding veins and leaf margins [@Maenpuen2022].
 We chose five healthy leaves from each individual *M. candidum* plant, and between three to five healthy leaves from each individual *C. gigantea* plant.
 We then punched five leaf discs from each *M. candidum* leaf, and seven leaf discs from each leaf of *C. gigantea*.
 

@@ -1,7 +1,7 @@
 % Options for packages loaded elsewhere
 %DIF LATEXDIFF DIFFERENCE FILE
-%DIF DEL /var/folders/ph/r5fc9nzd1j38q4j50kgwd4cw0000gn/T/eSXPblfOHL/latexdiff-vc-4ba0ffb/alan.tex   Tue Jul 18 15:22:43 2023
-%DIF ADD alan.tex                                                                                    Tue Jul 18 17:24:30 2023
+%DIF DEL /tmp/EKQJhnlwyo/latexdiff-vc-1bae014/alan.tex   Wed Jul 12 15:48:36 2023
+%DIF ADD alan.tex                                        Thu Jul 20 10:58:50 2023
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
 \PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
@@ -245,7 +245,7 @@
 \DeclareRobustCommand{\DIFaddendFL}{\DIFOaddendFL \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
 \DeclareRobustCommand{\DIFdelbeginFL}{\DIFOdelbeginFL \let\includegraphics\DIFdelincludegraphics} %DIF PREAMBLE
 \DeclareRobustCommand{\DIFdelendFL}{\DIFOaddendFL \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
-%DIF COLORLISTINGS PREAMBLE %DIF PREAMBLE
+%DIF LISTINGS PREAMBLE %DIF PREAMBLE
 \RequirePackage{listings} %DIF PREAMBLE
 \RequirePackage{color} %DIF PREAMBLE
 \lstdefinelanguage{DIFcode}{ %DIF PREAMBLE
@@ -264,8 +264,8 @@
 %DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
 
 \begin{document}
-\ifdefined\Shaded\DIFdelbegin %DIFDELCMD < \renewenvironment{Shaded}{\begin{tcolorbox}[breakable, borderline west={3pt}{0pt}{shadecolor}, interior hidden, frame hidden, enhanced, boxrule=0pt, sharp corners]}{\end{tcolorbox}}%%%
-\DIFdelend \DIFaddbegin \renewenvironment{Shaded}{\begin{tcolorbox}[enhanced, interior hidden, borderline west={3pt}{0pt}{shadecolor}, frame hidden, sharp corners, breakable, boxrule=0pt]}{\end{tcolorbox}}\DIFaddend \fi
+\ifdefined\Shaded\DIFdelbegin %DIFDELCMD < \renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, frame hidden, interior hidden, enhanced, borderline west={3pt}{0pt}{shadecolor}, boxrule=0pt, breakable]}{\end{tcolorbox}}%%%
+\DIFdelend \DIFaddbegin \renewenvironment{Shaded}{\begin{tcolorbox}[breakable, borderline west={3pt}{0pt}{shadecolor}, sharp corners, enhanced, boxrule=0pt, frame hidden, interior hidden]}{\end{tcolorbox}}\DIFaddend \fi
 
 \textbf{Artificial light at night (ALAN) influences understory plant
 traits through ecological processes: a two-year experiment in a rubber
@@ -307,20 +307,20 @@ that influences organisms through multi-approach. Yet, assessing the
 impacts of artificial light at night on understory plants has little
 attention. We evaluated whether ALAN would affect LMA (leaf mass per
 area) of understory plants through a two-year field light experiment in
-a tropical rubber plantation in South China. We hypothesized that ALAN
+a tropical rubber plantation in South China. \DIFdelbegin \DIFdel{Our hypothesis was }\DIFdelend \DIFaddbegin \DIFadd{We hypothesized }\DIFaddend that ALAN
 could impact the understory in two ways: by directly supplementing light
-to aboveground plant parts (which increases LMA) and indirectly
-affecting soil nutrient composition by attracting insects (which
-decreases LMA). We selected two species: \emph{Colocasia gigantea},
-representing \DIFdelbegin \DIFdel{shade tolerant speceis}\DIFdelend \DIFaddbegin \DIFadd{shade-torelant species}\DIFaddend , and \emph{Melastoma candidum},
-representing \DIFdelbegin \DIFdel{light demanding }\DIFdelend \DIFaddbegin \DIFadd{light-demanding }\DIFaddend species. We measured canopy openness, LMA,
-soil nutrients, and individual distance away from light resource. We
+to aboveground plant parts \DIFaddbegin \DIFadd{(which increases LMA) }\DIFaddend and indirectly
+affecting soil nutrient composition \DIFdelbegin \DIFdel{underground }\DIFdelend by attracting insects \DIFaddbegin \DIFadd{(which
+decreases LMA)}\DIFaddend . We selected two species: \emph{Colocasia gigantea},
+representing \DIFdelbegin \DIFdel{shade }\DIFdelend \DIFaddbegin \DIFadd{shade-torelant }\DIFaddend species, and \emph{Melastoma candidum},
+representing \DIFdelbegin \DIFdel{sun }\DIFdelend \DIFaddbegin \DIFadd{light-demanding }\DIFaddend species. We measured canopy openness, LMA,
+soil nutrients, and individual distance away from \DIFdelbegin \DIFdel{ALAN}\DIFdelend \DIFaddbegin \DIFadd{light resource}\DIFaddend . We
 found a negative relationship between LMA and the strength of ALAN,
 indicating that ALAN may influence LMA more indirectly by enhancing soil
 nutrient availability rather than directly acting as a light source.
 This relationship was significant for \emph{Colocasia gigantea} but not
 for \emph{Melastoma candidum}. These results suggest that ALAN might
-have \DIFdelbegin \DIFdel{multifaceted and species dependency }\DIFdelend \DIFaddbegin \DIFadd{complex and species-specific }\DIFaddend impacts on the understory ecosystem.
+have complex and \DIFdelbegin \DIFdel{multifaceted }\DIFdelend \DIFaddbegin \DIFadd{species-specific }\DIFaddend impacts on the understory ecosystem.
 
 \textbf{KEY WORDS} \emph{Colocasia gigantea}, \emph{Melastoma candidum},
 artificial light at night, functional traits, leaf mass per area,
@@ -343,29 +343,30 @@ reflected from distant cities to direct illumination of urban and
 suburban vegetation (\protect\hyperlink{ref-Bennie2016}{Bennie et al.
 2016}), ALAN could influence the behaviour or physiology of broad ranges
 of taxonomic groups, including mammals, birds, reptiles, amphibians,
-fishes, invertebrates, and plants (\protect\hyperlink{ref-Rich2006}{Rich
-and Longcore 2006}, \protect\hyperlink{ref-Loss2014}{Loss et al. 2014},
-\protect\hyperlink{ref-Falcon2020}{Falcón et al. 2020},
-\protect\hyperlink{ref-Forsburg2021}{Forsburg et al. 2021}). It could
+fishes, invertebrates, and plants \DIFaddbegin \DIFadd{(}\protect\hyperlink{ref-Rich2006}{Rich
+and Longcore 2006}\DIFadd{, }\protect\hyperlink{ref-Loss2014}{Loss et al. 2014}\DIFadd{,
+}\protect\hyperlink{ref-Falcon2020}{Falcón et al. 2020}\DIFadd{,
+}\protect\hyperlink{ref-Forsburg2021}{Forsburg et al. 2021}\DIFadd{)}\DIFaddend . It could
 alter ecosystem functions (\protect\hyperlink{ref-Rich2006}{Rich and
-Longcore 2006}, \protect\hyperlink{ref-Falcon2020}{Falcón et al. 2020}).
+Longcore 2006}\DIFaddbegin \DIFadd{, }\protect\hyperlink{ref-Falcon2020}{Falcón et al. 2020}\DIFaddend ).
 For example, ALAN attracts insects interfering in movement, foraging,
 reproduction, and development, as an important bringer to driving insect
 population decline (\protect\hyperlink{ref-Owens2020}{Owens et al.
-2020}, \protect\hyperlink{ref-Boyes2021}{Boyes et al. 2021}). Many
-studies have focused on how ALAN changes the behaviour of animals
+2020}, \protect\hyperlink{ref-Boyes2021}{Boyes et al. 2021}\DIFaddbegin \DIFadd{,
+}\protect\hyperlink{ref-Yang2022}{Yang and Nakamura 2022}\DIFaddend ). Many studies
+have focused on how ALAN changes the behaviour of animals
 (\protect\hyperlink{ref-Russart2018}{Russart and Nelson 2018}). However,
 only a handful of studies have been published on the effect of ALAN on
 plants (\protect\hyperlink{ref-Bennie2016}{Bennie et al. 2016},
 \protect\hyperlink{ref-Speisser2021a}{Speißer et al. 2021},
 \protect\hyperlink{ref-Liu2022}{Liu et al. 2022}). Speißer et al.
 (\protect\hyperlink{ref-Speisser2021a}{2021}) conducted plant growth
-experiments with and without weak ALAN (28 lx: within the range of light
-intensities at ground level under street lights) and showed that ALAN
-increases the biomass of herbaceous plants. Their results suggest that
-even weak ALAN acts as a light resource for plant growth. However, few
-studies have examined the effects of ALAN on plant functional traits in
-conditions close to their natural environment.
+experiments with and without weak ALAN (28 \DIFdelbegin \DIFdel{lx}\DIFdelend \DIFaddbegin \DIFadd{lux}\DIFaddend : within the range of
+light intensities at ground level under street lights) and showed that
+ALAN increases the biomass of herbaceous plants. Their results suggest
+that even weak ALAN acts as a light resource for plant growth. However,
+few studies have examined the effects of ALAN on plant functional traits
+in conditions close to their natural environment.
 
 ALAN might, directly and indirectly, affect plant leaf functional
 traits. First, ALAN might directly affect plant leaf functional traits
@@ -394,7 +395,7 @@ average values of LMA significantly increased with increasing potential
 diurnal insolation (PDI).
 
 On the other hand, ALAN might indirectly affect plant leaf functional
-traits because ALAN has the potential to increase soil fertility by
+traits because ALAN has the potential to \DIFdelbegin \DIFdel{change }\DIFdelend \DIFaddbegin \DIFadd{increase }\DIFaddend soil fertility by
 attracting insects. Many insects orient themselves by maintaining a
 constant angle to light rays and are attracted by light
 (\protect\hyperlink{ref-Baker1978}{Baker and Sadovy 1978},
@@ -411,9 +412,10 @@ by ALAN could be important nutrient input for soil nutrients
 resources, especially N and P availability, are known to affect leaf
 mass per area (LAM) and leaf N and P contents
 (\protect\hyperlink{ref-Wright2004}{Wright et al. 2004},
-\protect\DIFaddbegin \hyperlink{ref-Katabuchi2012}{Katabuchi et al. 2012}\DIFadd{,
-}\protect\DIFaddend \hyperlink{ref-Riva2016}{Riva et al. 2016}), and those effects
-are known to be opposite to the effects of light
+\protect\DIFdelbegin %DIFDELCMD < \hyperlink{ref-Riva2016}{Riva et al. 2016}%%%
+\DIFdelend \DIFaddbegin \hyperlink{ref-Katabuchi2012}{Katabuchi et al. 2012}\DIFadd{,
+}\protect\hyperlink{ref-Riva2016}{de la Riva et al. 2016}\DIFaddend ), and those
+effects are known to be opposite to the effects of light
 (\protect\hyperlink{ref-Ackerly2002}{Ackerly et al. 2002},
 \protect\hyperlink{ref-Hernandez-Vargas2019}{Hernández-Vargas et al.
 2019}) (i.e., while strong light increases LMA but high levels of N
@@ -421,61 +423,66 @@ availability decrease LMA).
 
 Here, we investigated the relationship between LMA values of the
 understory and the effects of ALAN through a two-year experiment in a
-tropical rubber plant forest in south China. We selected two species as
-subjects of this experiment, each representing sun and \DIFdelbegin \DIFdel{shade tolerant
-speceis}\DIFdelend \DIFaddbegin \DIFadd{shade-torelant
-species}\DIFaddend , to discern differences in their responses to ALAN. Our
+tropical rubber plant forest in south China. \DIFaddbegin \DIFadd{A previous study conducted
+at the same site, with the same experimental setup, demonstrated that
+ALAN attracts ants (}\protect\hyperlink{ref-Yang2022}{Yang and Nakamura
+2022}\DIFadd{). }\DIFaddend We selected two \DIFaddbegin \DIFadd{understory }\DIFaddend species as subjects of this
+experiment, each representing \DIFdelbegin \DIFdel{sun and shade }\DIFdelend \DIFaddbegin \DIFadd{light-demanding and shade-torelant
+}\DIFaddend species, to discern differences in their responses to ALAN. Our
 hypothesis proposes that ALAN would influence the understory via two
 distinct pathways: one directly, as a supplementary light source for the
-aboveground portions of plants (increase in LMA), and the other
+aboveground portions of plants \DIFaddbegin \DIFadd{(increase in LMA)}\DIFaddend , and the other
 indirectly, improving soil nutrient availability for the belowground
-parts (decrease in LMA). Based on our hypothesis, we anticipate two key
+parts \DIFaddbegin \DIFadd{(decrease in LMA)}\DIFaddend . Based on our hypothesis, we anticipate two key
 outcomes: (a) an increase in the influence of ALAN would correspond with
-a decrease or increase in the LMA value of the understory plants, but
-(b) the extent of canopy openness and its interaction with ALAN would
+a decrease \DIFaddbegin \DIFadd{or increase }\DIFaddend in the LMA value of the understory \DIFdelbegin \DIFdel{, and
+}\DIFdelend \DIFaddbegin \DIFadd{plants, but
+}\DIFaddend (b) the extent of canopy openness and its interaction with ALAN would
 have a minor impact on the results of this experiment.
 
 \hypertarget{materials-and-methods}{%
 \section{MATERIALS AND METHODS}\label{materials-and-methods}}
 
 \emph{Experimental setup}
+\DIFdelbegin \DIFdel{(}\textbf{\DIFdel{We need to add light intensity}}%DIFAUXCMD
+\DIFdel{)
+}\DIFdelend 
 
 ALAN field experiments were located within the Xishuangbanna Tropical
-Botanical Garden (XTBG), China, in \DIFdelbegin \DIFdel{rubber tree forests }\DIFdelend \DIFaddbegin \DIFadd{a rubber tree forest }\DIFaddend (N21°54'
+Botanical Garden (XTBG), China, in a rubber tree forest (N21°54'
 E101°16') where we set 5 plots and selected two plots for this
-experiment based on the natural distribution of the target plant
-species. In the study area, the average yearly temperature is recorded
-at 21.7 °C, accompanied by an average annual precipitation of 1557 mm.
-No fertilizer was used in the study area. LED lights (10W) were used to
+experiment \DIFdelbegin \DIFdel{after field investigation}\DIFdelend \DIFaddbegin \DIFadd{based on the natural distribution of the target plant
+species}\DIFaddend . In the study area, the average yearly temperature is recorded
+at 21.7 °C, accompanied by an average annual precipitation of 1557 mm.
+No fertilizer was used in the study area. LED lights (\DIFdelbegin \DIFdel{10w}\DIFdelend \DIFaddbegin \DIFadd{10W}\DIFaddend ) were used to
 create an artificial light environment in all plots at night
-(Fig.~\ref{fig-alan}). The \DIFdelbegin \DIFdel{light intensity of LED lights vertically
-decreased from 300 lux at the luminous place to 100 lux at a height of
-1.3 metres to 12 lux at the ground, and horizontally mainly concentrated
-within }\DIFdelend \DIFaddbegin \DIFadd{LED system was programmed to function
-automatically from 8 pm to }\DIFaddend 5 \DIFdelbegin \DIFdel{m (6 lux) according to the density of the bush. The LED system included six components. A metal box with an opening served as a
-rainproof protector. This box was attached to a tree around 1.2m from the ground}\DIFdelend \DIFaddbegin \DIFadd{am daily}\DIFaddend . A rechargeable lithium battery
-(12V/30Ah) and an electric timer controlled the timing and duration of
+(Fig.~\ref{fig-alan}). The LED system \DIFdelbegin \DIFdel{included six components. A metal box with an opening served as a
+rainproof protector. This box was attached to a tree around 1.2m from the ground}\DIFdelend \DIFaddbegin \DIFadd{was programmed to function
+automatically from 8 pm to 5 am daily}\DIFaddend . A rechargeable lithium battery
+(\DIFdelbegin \DIFdel{12v}\DIFdelend \DIFaddbegin \DIFadd{12V}\DIFaddend /30Ah) and an electric timer controlled the timing and duration of
 the LED operation at night. \DIFdelbegin \DIFdel{An electric wire connected the battery and LED, hanging }\DIFdelend \DIFaddbegin \DIFadd{The battery and LEDs were connected by
 electric wire and hung }\DIFaddend from a tree branch with a lampshade approximately
 2 m from the ground. The \DIFdelbegin \DIFdel{LED
-system was programmed to function automatically from 8 pm to 5 am daily. The }\DIFdelend \DIFaddbegin \DIFadd{light intensity of LED lights at the light
-sources was xxx ± xxx (mean ± SE) lux. The light intensity decreased
-with distance: xxx ± xxx lux at a radius of 1 m, xxx ± xxx lux at a
-radius of 2 m, and xxx ± xxx lux at a radius of 4 m. The light intensity
-was almost undetectable at 0 lux beyond xxx m The }\DIFaddend experiment was set up
+system was programmed to function automatically from 8 pm to 5 am daily}\DIFdelend \DIFaddbegin \DIFadd{light intensity of LED lights at the light
+sources was 372.8 ± 66.6 (mean ± SE) lux. The light intensity decreased
+with distance: 190.2 ± 26.5 lux at a radius of 1 m, 62.0 ± 4.9 lux at a
+radius of 2 m, and 9.9 ± 0.7 lux at a radius of 4 m. The light intensity
+was almost undetectable at 0 lux beyond 10 m}\DIFaddend . The experiment was set up
 in November 2019, and leaf disc samples were collected two years later,
 in November 2021.
 
 \emph{Species Selection}
 
-We considered the understory conditions to select species, ensuring that
-at least 15 mature individuals \DIFaddbegin \DIFadd{were }\DIFaddend present from the light source to 10
-m away from it. Essential criteria also included the species being part
+We considered the understory conditions to select species, \DIFdelbegin \DIFdel{including
+numbers of mature individuals and distributions of individuals within
+each plot}\DIFdelend \DIFaddbegin \DIFadd{ensuring that
+at least 15 mature individuals were present from the light source to 10
+m away from it}\DIFaddend . Essential criteria also included the species being part
 of functional groups, specifically evergreen species, and not belonging
 to nitrogen-fixing families such as Leguminosae. As a result, we chose
 two species, each from a different plot\DIFaddbegin \DIFadd{, }\DIFaddend for our study: \emph{Colocasia
-gigantea}, representing \DIFdelbegin \DIFdel{shade tolerant speceis}\DIFdelend \DIFaddbegin \DIFadd{shade-torelant species}\DIFaddend , and \emph{Melastoma
-candidum} representing \DIFdelbegin \DIFdel{light demanding }\DIFdelend \DIFaddbegin \DIFadd{light-demanding }\DIFaddend species.
+gigantea}, representing \DIFdelbegin \DIFdel{shade }\DIFdelend \DIFaddbegin \DIFadd{shade-torelant }\DIFaddend species, and \emph{Melastoma
+candidum} representing \DIFdelbegin \DIFdel{sun }\DIFdelend \DIFaddbegin \DIFadd{light-demanding }\DIFaddend species.
 
 \emph{Measurements}
 
@@ -484,48 +491,49 @@ individual away from the LED using a tape measure representing the
 relative effects of ALAN. The canopy openness of each individual was on
 behalf of individual daylight interception, which was photographed by
 Nikon COOLPIX4500 with a fish-eye lens (Nikon FC-e8) and then measured
-using the R package \emph{LeafArea}
+using \DIFaddbegin \DIFadd{the }\DIFaddend R package \emph{LeafArea}
 (\protect\hyperlink{ref-Katabuchi2015}{Katabuchi 2015}).
 \DIFaddbegin 
 
 \DIFaddend For leaf mass per area (LMA), we used \DIFaddbegin \DIFadd{a }\DIFaddend 1.0‐cm‐diameter \DIFdelbegin \DIFdel{leaf disc punched from leaf
-}\DIFdelend \DIFaddbegin \DIFadd{puncher,
-}\DIFaddend avoiding vein and leaf margin instead of \DIFaddbegin \DIFadd{using }\DIFaddend whole-leaf \DIFdelbegin \DIFdel{to calculate
-individual mean }\DIFdelend LMA value
-(\protect\hyperlink{ref-Maenpuen2022}{Maenpuen et al. 2022}). We chose
-five healthy leaves \DIFdelbegin \DIFdel{, then five leaf discs, each leaf on species }\DIFdelend \DIFaddbegin \DIFadd{from each individual }\DIFaddend \emph{M. candidum} \DIFdelbegin \DIFdel{, and }\DIFdelend \DIFaddbegin \DIFadd{plant, and
-between }\DIFaddend three to five \DIFdelbegin \DIFdel{leaves, then }\DIFdelend \DIFaddbegin \DIFadd{healthy leaves from each individual }\emph{\DIFadd{C.
-gigantea}} \DIFadd{plant. We then punched five leaf discs from each }\emph{\DIFadd{M.
-candidum}} \DIFadd{leaf, and }\DIFaddend seven leaf discs \DIFdelbegin \DIFdel{on species }\DIFdelend \DIFaddbegin \DIFadd{from each leaf of }\DIFaddend \emph{C.
+avoiding vein and leaf margin instead
+of }\DIFdelend \DIFaddbegin \DIFadd{puncher instead
+of using }\DIFaddend whole-leaf \DIFdelbegin \DIFdel{to calculate
+individual mean LMA value }\DIFdelend \DIFaddbegin \DIFadd{LMA values, avoiding veins and leaf margins
+}\DIFaddend (\protect\hyperlink{ref-Maenpuen2022}{Maenpuen et al. 2022}). We chose
+five healthy leaves \DIFdelbegin \DIFdel{, then }\DIFdelend \DIFaddbegin \DIFadd{from each individual }\emph{\DIFadd{M. candidum}} \DIFadd{plant, and
+between three to five healthy leaves from each individual }\emph{\DIFadd{C.
+gigantea}} \DIFadd{plant. We then punched }\DIFaddend five leaf discs \DIFdelbegin \DIFdel{, each leaf on species }\DIFdelend \DIFaddbegin \DIFadd{from each }\DIFaddend \emph{M.
+candidum} \DIFdelbegin \DIFdel{, and round five leaves, then }\DIFdelend \DIFaddbegin \DIFadd{leaf, and }\DIFaddend seven leaf discs \DIFdelbegin \DIFdel{on species }\DIFdelend \DIFaddbegin \DIFadd{from each leaf of }\DIFaddend \emph{C.
 gigantea}.
 
 For soil nutrients (N, C, P), we collected surface soil samples (0-10 cm
-depths) in five plots in June 2019 and June 2022 to investigate the
+depths) in five plots in June 2019 and June \DIFdelbegin \DIFdel{2022. }\DIFdelend \DIFaddbegin \DIFadd{2022 to investigate the
 general trends in soil nutrients. Detailed analysis of soil nutrients
-was conducted in \DIFaddbegin \DIFadd{the }\DIFaddend two selected plots. We took three replicates at the
-place under ALAN and 10m away from ALAN separately from each plot. After
-sampling, the soils were air-dried at room temperature for one week,
-then sieved through 0.85-mm and 0.15-mm mesh finally used for total N, C
-measurements by combustion using an elemental analyzer (Vario MAX CN,
-Elementar Analysensysteme GmbH, Germany) and total P measurement by
-inductively coupled plasma atomic-emission spectrometer (iCAP7400,
+was conducted in the two selected plots. }\DIFaddend We took three replicates at the
+place under ALAN and \DIFdelbegin \DIFdel{10m }\DIFdelend \DIFaddbegin \DIFadd{10 m }\DIFaddend away from ALAN separately from each plot.
+After sampling, the soils were air-dried at room temperature for one
+week, then sieved through 0.85\DIFdelbegin \DIFdel{mm }\DIFdelend \DIFaddbegin \DIFadd{-mm }\DIFaddend and 0.15\DIFdelbegin \DIFdel{mm }\DIFdelend \DIFaddbegin \DIFadd{-mm }\DIFaddend mesh finally used for
+total N, C measurements by combustion using an elemental analyzer (Vario
+MAX CN, Elementar Analysensysteme GmbH, Germany) and total P measurement
+by inductively coupled plasma atomic-emission spectrometer (iCAP7400,
 Thermo Fisher Scientific, USA). \DIFdelbegin \DIFdel{Then we }\DIFdelend \DIFaddbegin \DIFadd{We then }\DIFaddend calculated the relative
 percentage change of each nutrient between the value in 2019 and 2022 to
 compare the soil nutrient change with ALAN's effect (sampled under ALAN)
-and without ALAN's effect (sampled 10m away from ALAN).
+and without ALAN's effect (sampled \DIFdelbegin \DIFdel{10m }\DIFdelend \DIFaddbegin \DIFadd{10 m }\DIFaddend away from ALAN).
 
 \emph{Data Analysis}
 
-To analyze the effects of ALAN, daylight's effect, and their interaction
-on \emph{M. candidum} and \emph{C. gigantea}, we fitted a Bayesian
-linear mixed-effects model for each species. The leaf mass per area
-(LMA) of each leaf of each individual was modelled as a function of the
-distance from the ALAN source for each individual, the canopy openness
-of each individual, and the interaction between the distance from the
-ALAN source and the canopy openness. We transformed the distance from
-the ALAN source for each individual using a log and reciprocal function,
-as the intensity of ALAN diminish non-linearly with distance. Hereafter,
-we refer to the distance from the ALAN source for each individual as the
+To analyze the effects of ALAN, daylight \DIFdelbegin \DIFdel{'s effect, }\DIFdelend and their interaction on
+\emph{M. candidum} and \emph{C. gigantea}, we fitted a Bayesian linear
+mixed-effects model for each species. The leaf mass per area (LMA) of
+each leaf of each individual was modelled as a function of the distance
+from the ALAN source for each individual, the canopy openness of each
+individual, and the interaction between the distance from the ALAN
+source and the canopy openness. We transformed the distance from the
+ALAN source for each individual using a log and reciprocal function, as
+\DIFdelbegin \DIFdel{both the accumulation of insects and }\DIFdelend the intensity of ALAN diminish non-linearly with distance. Hereafter, we
+refer to the distance from the ALAN source for each individual as the
 ALAN effect and the canopy openness of each individual as the daylight
 effect. To account for non-independence among individuals of the same
 species, we included individuals as a random intercept in our models.
@@ -555,7 +563,7 @@ for \emph{Melastoma candidum}, these effects were not significant
 decrease in the average individual leaf mass per area (LMA) value (Table
 1, slope: -0.1052 {[}95\% CI: -0.15, -0.0613{]}). Although \emph{M.
 candidum} showed a similar decrease in LMA value in response to ALAN
-(Table 1, slope: -0.0434 {[}95\% CI: -0.1147, 0.0278{]}), this change
+(Table 1, slope: -0.0434 \DIFaddbegin {[}\DIFadd{95\% CI: -0.1147, 0.0278}{]}\DIFaddend ), this change
 was not statistically significant. The interaction of the effects of
 ALAN and daylight did not yield any significant results for both species
 (Table 1).
@@ -586,9 +594,8 @@ P\textsubscript{2022}/P\textsubscript{2019} = 0.742).
 Our findings support the hypothesis that artificial light at night
 (ALAN) can influence leaf mass per area (LMA) values in understory
 plants, but the response appears to vary among species. We observed a
-significant decrease in LMA in response to ALAN in \DIFdelbegin \DIFdel{shade tolerant
-speceis }\DIFdelend \DIFaddbegin \DIFadd{shade-torelant
-species }\DIFaddend \emph{Colocasia gigantea}, but not in \DIFdelbegin \DIFdel{light demanding }\DIFdelend \DIFaddbegin \DIFadd{light-demanding }\DIFaddend species
+significant decrease in LMA in response to ALAN in \DIFdelbegin \DIFdel{shade }\DIFdelend \DIFaddbegin \DIFadd{shade-torelant
+}\DIFaddend species \emph{Colocasia gigantea}, but not in \DIFdelbegin \DIFdel{sun }\DIFdelend \DIFaddbegin \DIFadd{light-demanding }\DIFaddend species
 \emph{Melastoma candidum}.
 
 We observed the apparent decline in soil nutrient content from 2019 to
@@ -608,8 +615,8 @@ nutrient inputs into the soil, such as N and P
 (\protect\hyperlink{ref-Minnaar2015}{Minnaar et al. 2015},
 \protect\hyperlink{ref-Owens2018}{Owens and Lewis 2018}). This
 ALAN-induced insect influx could help offset the nutrient depletion
-caused by the nutrient-intensive rubber trees, thereby helping to
-maintain soil nutrient levels under ALAN exposure.
+caused by the nutrient-intensive rubber trees, thereby helping \DIFaddbegin \DIFadd{to
+}\DIFaddend maintain soil nutrient levels under ALAN exposure.
 
 The significant decrease in LMA for \emph{C. gigantea} under ALAN could
 be predominantly driven by indirect effects mediated through changes in
@@ -639,23 +646,20 @@ structural tissue, leading to a decrease in LMA
 2019}).
 
 On the other hand, ALAN did not have a significant effect on LMA in the
-\DIFdelbegin \DIFdel{light demanding }\DIFdelend \DIFaddbegin \DIFadd{light-demanding }\DIFaddend species \emph{M. candidum}. \DIFdelbegin \DIFdel{light demanding }\DIFdelend \DIFaddbegin \DIFadd{light-demanding }\DIFaddend species
-receive stronger sunlight than \DIFdelbegin \DIFdel{shade tolerant speceis}\DIFdelend \DIFaddbegin \DIFadd{shade-torelant species}\DIFaddend , which might
+\DIFdelbegin \DIFdel{sun }\DIFdelend \DIFaddbegin \DIFadd{light-demanding }\DIFaddend species \emph{M. candidum}. \DIFdelbegin \DIFdel{Sun }\DIFdelend \DIFaddbegin \DIFadd{light-demanding }\DIFaddend species
+receive stronger sunlight than \DIFdelbegin \DIFdel{shade }\DIFdelend \DIFaddbegin \DIFadd{shade-torelant }\DIFaddend species, which might
 result in the small effect of ALAN on their LMA. Because the effect of
-daylight was not significant either, intraspecific trait variability
-(ITV) itself for \DIFdelbegin \DIFdel{light demanding }\DIFdelend \DIFaddbegin \DIFadd{light-demanding }\DIFaddend species may inherently be smaller than
-for \DIFdelbegin \DIFdel{shade tolerant speceis}\DIFdelend \DIFaddbegin \DIFadd{shade-torelant species}\DIFaddend . Although many studies have explored ITV
+daylight was not significant either, intraspecific \DIFaddbegin \DIFadd{trait }\DIFaddend variability
+(ITV) itself for \DIFdelbegin \DIFdel{sun }\DIFdelend \DIFaddbegin \DIFadd{light-demanding }\DIFaddend species may inherently be smaller than
+for \DIFdelbegin \DIFdel{shade }\DIFdelend \DIFaddbegin \DIFadd{shade-torelant }\DIFaddend species. Although many studies have explored ITV
 across different functional groups, such as herbs versus trees
 (\protect\hyperlink{ref-Siefert2015}{Siefert et al. 2015}), there needs
-to be more research into the ITV differences between \DIFdelbegin \DIFdel{light demanding
-species and shade tolerant speceis}\DIFdelend \DIFaddbegin \DIFadd{light-demanding
-species and shade-torelant species}\DIFaddend . Additionally, the less pronounced
+to be more research into the ITV differences between \DIFdelbegin \DIFdel{sun species and shade }\DIFdelend \DIFaddbegin \DIFadd{light-demanding
+species and shade-torelant }\DIFaddend species. Additionally, the less pronounced
 soil nutrient differences between ALAN-influenced and non-influenced
 areas in the plot with \emph{M. candidum} compared to the plot with
 \emph{C. gigantea} may explain the lack of significant change in LMA for
-\emph{M. candidum}. \DIFdelbegin \DIFdel{ALAN's attraction to insects might be spatially
-dependent, which leads to certain locations attracting fewer insects and
-consequently experiencing a diminished soil fertilization effect. }\DIFdelend The ALAN treatment was set up on a slope in this
+\emph{M. candidum}. The ALAN treatment was set up on a slope in this
 plot, and therefore, increased soil nutrients resulting from dead
 insects attracted by ALAN might be more likely to be washed off and not
 persist in the soil (\protect\hyperlink{ref-Zhao2013}{Zhao et al. 2013},
@@ -698,6 +702,9 @@ Cooperation and Exchanges (NSFC) of China (32161160324). MK was
 supported by a Xishuangbanna State Rainforest Talent Support Program, a
 CAS President's International Fellowship Initiative (2020FYB0003), and a
 ZiHui (Wisdom) Yunnan Program (202203AM140026).
+\DIFdelbegin \textbf{\DIFdel{anything else?}}
+%DIFAUXCMD
+\DIFdelend 
 
 \hypertarget{author-contributions}{%
 \section{AUTHOR CONTRIBUTIONS}\label{author-contributions}}
@@ -714,9 +721,12 @@ to revisions.
 \begin{CSLReferences}{1}{0}
 \leavevmode\vadjust pre{\hypertarget{ref-Ackerly2002}{}}%
 Ackerly, D., C. Knight, S. Weiss, K. Barton, and K. Starmer. 2002.
-\href{https://doi.org/10.1007/s004420100805}{Leaf size, specific leaf
+\DIFdelbegin %DIFDELCMD < \href{https://doi.org/10.1007/s004420100805}{Leaf size, specific leaf
+%DIFDELCMD < area and microhabitat distribution of chaparral woody plants:
+%DIFDELCMD < Contrasting patterns in species level and community level analyses}%%%
+\DIFdelend \DIFaddbegin \href{https://doi.org/10.1007/s004420100805}{Leaf size, specific leaf
 area and microhabitat distribution of chaparral woody plants:
-Contrasting patterns in species level and community level analyses}.
+{Contrasting} patterns in species level and community level analyses}\DIFaddend .
 Oecologia 130:449--457.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Asner2011}{}}%
@@ -761,7 +771,15 @@ Betancourt, M. Brubaker, J. Guo, P. Li, and A. Riddell. 2017.
 \href{https://doi.org/10.18637/jss.v076.i01}{Stan: {A Probabilistic
 Programming Language}}. Journal of Statistical Software 76:1--32.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Fagan2002}{}}%
+\leavevmode\vadjust pre{\DIFaddbegin \hypertarget{ref-Riva2016}{}}%DIF > 
+\DIFadd{de la Riva, E. G., M. Olmo, H. Poorter, J. L. Ubera, and R. Villar.
+2016. }\href{https://doi.org/10.1371/journal.pone.0148788}{Leaf {Mass}
+per {Area} ({LMA}) and {Its Relationship} with {Leaf Structure} and
+{Anatomy} in 34 {Mediterranean Woody Species} along a {Water
+Availability Gradient}}\DIFadd{. PLOS ONE 11:e0148788.
+}
+
+\leavevmode\vadjust \DIFadd{pre}{\DIFaddend \hypertarget{ref-Fagan2002}{}}%
 Fagan, W. F., E. Siemann, C. Mitter, R. F. Denno, A. F. Huberty, H. A.
 Woods, and J. J. Elser. 2002.
 \href{https://doi.org/10.1086/343879}{Nitrogen in {Insects}:
@@ -774,24 +792,28 @@ Baugh, B. A. Portnov, N. A. Rybnikova, and R. Furgoni. 2016.
 \href{https://doi.org/10.1126/sciadv.1600377}{The new world atlas of
 artificial night sky brightness}. Science Advances 2:e1600377.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Falcon2020}{}}%
-Falcón, J., A. Torriglia, D. Attia, F. Viénot, C. Gronfier, F.
-Behar-Cohen, C. Martinsons, and D. Hicks. 2020. Exposure to {Artificial
-Light} at {Night} and the {Consequences} for {Flora}, {Fauna}, and
-{Ecosystems}. Frontiers in Neuroscience 14.
+\leavevmode\vadjust pre{\DIFaddbegin \hypertarget{ref-Falcon2020}{}}%DIF > 
+\DIFadd{Falcón, J., A. Torriglia, D. Attia, F. Viénot, C. Gronfier, F.
+Behar-Cohen, C. Martinsons, and D. Hicks. 2020. Exposure to }{\DIFadd{Artificial
+Light}} \DIFadd{at }{\DIFadd{Night}} \DIFadd{and the }{\DIFadd{Consequences}} \DIFadd{for }{\DIFadd{Flora}}\DIFadd{, }{\DIFadd{Fauna}}\DIFadd{, and
+}{\DIFadd{Ecosystems}}\DIFadd{. Frontiers in Neuroscience 14.
+}
 
-\leavevmode\vadjust pre{\hypertarget{ref-Forsburg2021}{}}%
-Forsburg, Z. R., A. Guzman, and C. R. Gabor. 2021.
-\href{https://doi.org/10.1016/j.envpol.2021.116775}{Artificial light at
+\leavevmode\vadjust \DIFadd{pre}{\hypertarget{ref-Forsburg2021}{}}%DIF > 
+\DIFadd{Forsburg, Z. R., A. Guzman, and C. R. Gabor. 2021.
+}\href{https://doi.org/10.1016/j.envpol.2021.116775}{Artificial light at
 night ({ALAN}) affects the stress physiology but not the behavior or
-growth of {Rana} berlandieri and {Bufo} valliceps}. Environmental
+growth of {Rana} berlandieri and {Bufo} valliceps}\DIFadd{. Environmental
 Pollution 277:116775.
+}
 
-\leavevmode\vadjust pre{\hypertarget{ref-Gaston2013}{}}%
+\leavevmode\vadjust \DIFadd{pre}{\DIFaddend \hypertarget{ref-Gaston2013}{}}%
 Gaston, K. J., J. Bennie, T. W. Davies, and J. Hopkins. 2013.
-\href{https://doi.org/10.1111/brv.12036}{The ecological impacts of
-nighttime light pollution: A mechanistic appraisal}. Biological Reviews
-88:912--927.
+\DIFdelbegin %DIFDELCMD < \href{https://doi.org/10.1111/brv.12036}{The ecological impacts of
+%DIFDELCMD < nighttime light pollution: A mechanistic appraisal}%%%
+\DIFdelend \DIFaddbegin \href{https://doi.org/10.1111/brv.12036}{The ecological impacts of
+nighttime light pollution: {A} mechanistic appraisal}\DIFaddend . Biological
+Reviews 88:912--927.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Gelman2013}{}}%
 Gelman, A., J. B. Carlin, H. S. Stern, D. B. Dunson, A. Vehtari, and D.
@@ -812,15 +834,17 @@ tropical montane cloud forest}. Ecological Research 34:213--224.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Katabuchi2015}{}}%
 Katabuchi, M. 2015.
-\href{https://doi.org/10.1007/s11284-015-1307-x}{{LeafArea}: An {R}
-package for rapid digital image analysis of leaf area}. Ecological
+\DIFdelbegin %DIFDELCMD < \href{https://doi.org/10.1007/s11284-015-1307-x}{{LeafArea}: An {R}
+%DIFDELCMD < package for rapid digital image analysis of leaf area}%%%
+\DIFdelend \DIFaddbegin \href{https://doi.org/10.1007/s11284-015-1307-x}{{LeafArea}: {An R}
+package for rapid digital image analysis of leaf area}\DIFaddend . Ecological
 Research 30:1073--1077.
 
 \leavevmode\vadjust pre{\DIFaddbegin \hypertarget{ref-Katabuchi2012}{}}%DIF > 
 \DIFadd{Katabuchi, M., H. Kurokawa, S. J. Davies, S. Tan, and T. Nakashizuka.
-2012. }\href{https://doi.org/10.1111/j.1365-2745.2011.01937.x}{\DIFadd{Soil
+2012. }\href{https://doi.org/10.1111/j.1365-2745.2011.01937.x}{Soil
 resource availability shapes community trait structure in a species-rich
-dipterocarp forest}}\DIFadd{. Journal of Ecology 100:643--651.
+dipterocarp forest}\DIFadd{. Journal of Ecology 100:643--651.
 }
 
 \leavevmode\vadjust \DIFadd{pre}{\DIFaddend \hypertarget{ref-Landau2023}{}}%
@@ -839,13 +863,14 @@ Longcore, T., and C. Rich. 2004.
 \href{https://doi.org/10.1890/1540-9295(2004)002\%5B0191:ELP\%5D2.0.CO;2}{Ecological
 light pollution}. Frontiers in Ecology and the Environment 2:191--198.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Loss2014}{}}%
-Loss, S. R., T. Will, S. S. Loss, and P. P. Marra. 2014.
-\href{https://doi.org/10.1650/CONDOR-13-090.1}{Bird\textendash building
+\leavevmode\vadjust pre{\DIFaddbegin \hypertarget{ref-Loss2014}{}}%DIF > 
+\DIFadd{Loss, S. R., T. Will, S. S. Loss, and P. P. Marra. 2014.
+}\href{https://doi.org/10.1650/CONDOR-13-090.1}{Bird\textendash{{Building}}
 collisions in the {United States}: {Estimates} of annual mortality and
-species vulnerability}. The Condor 116:8--23.
+species vulnerability}\DIFadd{. The Condor 116:8--23.
+}
 
-\leavevmode\vadjust pre{\hypertarget{ref-Maenpuen2022}{}}%
+\leavevmode\vadjust \DIFadd{pre}{\DIFaddend \hypertarget{ref-Maenpuen2022}{}}%
 Maenpuen, P., M. Katabuchi, Y. Onoda, C. Zhou, J.-L. Zhang, and Y.-J.
 Chen. 2022. \href{https://doi.org/10.1002/ajb2.16038}{Sources and
 consequences of mismatch between leaf disc and whole-leaf leaf mass per
@@ -853,9 +878,12 @@ area ({LMA})}. American Journal of Botany 109:1242--1250.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Minnaar2015}{}}%
 Minnaar, C., J. G. Boyles, I. A. Minnaar, C. L. Sole, and A. E.
-McKechnie. 2015. \href{https://doi.org/10.1111/1365-2664.12381}{Stacking
-the odds: Light pollution may shift the balance in an ancient
-predator\textendash prey arms race}. Journal of Applied Ecology
+McKechnie. 2015. \DIFdelbegin %DIFDELCMD < \href{https://doi.org/10.1111/1365-2664.12381}{Stacking
+%DIFDELCMD < the odds: Light pollution may shift the balance in an ancient
+%DIFDELCMD < predator\textendash prey arms race}%%%
+\DIFdelend \DIFaddbegin \href{https://doi.org/10.1111/1365-2664.12381}{Stacking
+the odds: {Light} pollution may shift the balance in an ancient
+{Predator}\textendash{{Prey}} arms race}\DIFaddend . Journal of Applied Ecology
 52:522--531.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Niinemets2004}{}}%
@@ -905,14 +933,19 @@ Austria}.
 Rich, C., and T. Longcore. 2006. Ecological consequences of artificial
 night lighting.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Riva2016}{}}%
-Riva, E. G. de la, M. Olmo, H. Poorter, J. L. Ubera, and R. Villar.
-2016. \href{https://doi.org/10.1371/journal.pone.0148788}{Leaf {Mass}
-per {Area} ({LMA}) and {Its Relationship} with {Leaf Structure} and
-{Anatomy} in 34 {Mediterranean Woody Species} along a {Water
-Availability Gradient}}. PLOS ONE 11:e0148788.
+\leavevmode\vadjust pre{\DIFdelbegin %DIFDELCMD < \hypertarget{ref-Riva2016}{}}%%%
+%DIF < 
+\DIFdel{Riva, E. G. de la, M. Olmo, H. Poorter, J. L. Ubera, and R. Villar.
+2016. }%DIFDELCMD < \href{https://doi.org/10.1371/journal.pone.0148788}{Leaf {Mass}
+%DIFDELCMD < per {Area} ({LMA}) and {Its Relationship} with {Leaf Structure} and
+%DIFDELCMD < {Anatomy} in 34 {Mediterranean Woody Species} along a {Water
+%DIFDELCMD < Availability Gradient}}%%%
+\DIFdel{. PLOS ONE 11:e0148788.
+}%DIFDELCMD < 
 
-\leavevmode\vadjust pre{\hypertarget{ref-Russart2018}{}}%
+%DIFDELCMD < \leavevmode\vadjust %%%
+\DIFdel{pre}%DIFDELCMD < {%%%
+\DIFdelend \hypertarget{ref-Russart2018}{}}%
 Russart, K. L. G., and R. J. Nelson. 2018.
 \href{https://doi.org/10.1002/jez.2173}{Artificial light at night alters
 behavior in laboratory and wild animals}. Journal of Experimental
@@ -953,9 +986,12 @@ night}. Journal of Ecology 109:1819--1827.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Terashima2006}{}}%
 Terashima, I., Y. T. Hanba, Y. Tazoe, P. Vyas, and S. Yano. 2006.
-\href{https://doi.org/10.1093/jxb/erj014}{Irradiance and phenotype:
-Comparative eco-development of sun and shade leaves in relation to
-photosynthetic {CO2} diffusion}. Journal of Experimental Botany
+\DIFdelbegin %DIFDELCMD < \href{https://doi.org/10.1093/jxb/erj014}{Irradiance and phenotype:
+%DIFDELCMD < Comparative eco-development of sun and shade leaves in relation to
+%DIFDELCMD < photosynthetic {CO2} diffusion}%%%
+\DIFdelend \DIFaddbegin \href{https://doi.org/10.1093/jxb/erj014}{Irradiance and phenotype:
+{Comparative} eco-development of sun and shade leaves in relation to
+photosynthetic {CO2} diffusion}\DIFaddend . Journal of Experimental Botany
 57:343--354.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Vehtari2021}{}}%
@@ -992,7 +1028,13 @@ Yang, J., J. Huang, Q. Pan, J. Tang, and X. Han. 2004.
 land-use change on dynamics of tropical soil carbon and nitrogen pools}.
 Journal of Environmental Sciences (China) 16:256--261.
 
-\leavevmode\vadjust pre{\hypertarget{ref-Yi2018}{}}%
+\leavevmode\vadjust pre{\DIFaddbegin \hypertarget{ref-Yang2022}{}}%DIF > 
+\DIFadd{Yang, R., and A. Nakamura. 2022.
+}\href{https://doi.org/10.17520/biods.2022067}{{Cavity-dwelling ants tend
+to colonize close to artificial light.}} \DIFadd{Biodiversity Science 30.
+}
+
+\leavevmode\vadjust \DIFadd{pre}{\DIFaddend \hypertarget{ref-Yi2018}{}}%
 Yi, B., Q. Zhang, C. Gu, J. Li, T. Abbas, and H. Di. 2018.
 \href{https://doi.org/10.1007/s11368-018-1991-6}{Effects of different
 fertilization regimes on nitrogen and phosphorus losses by surface
@@ -1012,17 +1054,14 @@ Soil Research 51:50--58.
 
 \begin{figure}
 
-{\centering \DIFdelbeginFL %DIFDELCMD < \includegraphics{/home/cong/coding/light_project/figs/merge.png}
-%DIFDELCMD < %%%
-\DIFdelendFL \DIFaddbeginFL \includegraphics{/Users/mattocci/Dropbox/Reserach/MS/light_project/figs/merge.png}
-\DIFaddendFL 
+{\centering \includegraphics{/home/cong/coding/light_project/figs/merge.png}
 
 }
 
 \caption{\label{fig-alan}Photographs of the experimental setup during
 daytime (A) and nighttime (B) in a rubber tree forest within the
-Xishuangbanna Tropical Botanical Garden (XTBG), China. One of the target
-species, \emph{Colocasia gigantea}, is visible in both pictures.}
+Xishuangbanna Tropical Botanical Garden (XTBG), China. \DIFaddbeginFL \DIFaddFL{One of the target
+species, }\emph{\DIFaddFL{Colocasia gigantea}}\DIFaddFL{, is visible in both pictures.}\DIFaddendFL }
 
 \end{figure}
 
@@ -1030,9 +1069,9 @@ species, \emph{Colocasia gigantea}, is visible in both pictures.}
 
 \begin{figure}
 
-{\centering \DIFdelbeginFL %DIFDELCMD < \includegraphics{/home/cong/coding/light_project/figs/lma_map.png}
+{\centering \DIFdelbeginFL %DIFDELCMD < \includegraphics{/home/cong/coding/light_project/figs/lma_map.pngs}
 %DIFDELCMD < %%%
-\DIFdelendFL \DIFaddbeginFL \includegraphics{/Users/mattocci/Dropbox/Reserach/MS/light_project/figs/lma_map.png}
+\DIFdelendFL \DIFaddbeginFL \includegraphics{/home/cong/coding/light_project/figs/lma_map.png}
 \DIFaddendFL 
 
 }
@@ -1053,10 +1092,7 @@ their interaction on leaf mass per area (LMA) values. Posterior means
 and 95\% credible intervals (CI) are shown. Intervals that do not
 include zero are highlighted in bold.
 
-\DIFdelbegin %DIFDELCMD < \includegraphics[width=3.125in,height=\textheight]{/home/cong/coding/light_project/figs/Table1.png}
-%DIFDELCMD < %%%
-\DIFdelend \DIFaddbegin \includegraphics[width=3.125in,height=\textheight]{/Users/mattocci/Dropbox/Reserach/MS/light_project/figs/Table1.png}
-\DIFaddend 
+\includegraphics[width=3.125in,height=\textheight]{/home/cong/coding/light_project/figs/Table1.png}
 
 
 
