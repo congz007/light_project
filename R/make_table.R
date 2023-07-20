@@ -12,7 +12,7 @@ table_summary <- function(summary_stan){
   parameters <- rep(c("ALAN",
                    "Daylight",
                    "ALAN \u00D7 Daylight"),2)
-  quantile_interval <-  paste0("[",round(summary_stan$q2.5,4),", ",  round(summary_stan$q97.5,4),"]")
+  quantile_interval <-  paste0("[",format(round(summary_stan$q2.5,4),nsmall = 4),", ",  round(summary_stan$q97.5,4),"]")
   mean <- round(summary_stan$mean,4)
 
   tibble(parameters, mean, quantile_interval) |> 
