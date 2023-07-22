@@ -91,6 +91,7 @@ Masatoshi Katabuchi:
 <https://orcid.org/0000-0001-9900-9029>
 
 
+\newpage
 # ABSTRACT
 
 Artificial light at night (ALAN) demonstrated a new ecological factor that influences organisms through multi-approach.
@@ -247,18 +248,24 @@ Controlled experiments potentially underestimate species interactions and unpred
 Thus, robust tests of the ALAN effects on the understory will require more experimental work under field conditions.
 Further investigations into the intricate relationships between ALAN, plant functional traits, and soil nutrient dynamics are warranted to enable the development of comprehensive forest management strategies that consider the broad implications of artificial lighting.
 
+
 # ACKNOWLEDGEMENTS
 
 We thank Nuo Ai, Nuojiao Ai and Guangfeng Yi for assistance with fieldwork.
 Content determination of soil nutrients was accomplished by Institutional Center for Shared Technologies and Facilities of XTBG, CAS.
-This work was funded in part by grants to Projects of International Cooperation and Exchanges (NSFC) of China (32161160324).
-MK was supported by
-a Xishuangbanna State Rainforest Talent Support Program,
-a CAS President's International Fellowship Initiative (2020FYB0003), and
-a ZiHui (Wisdom) Yunnan Program (202203AM140026).
 
 
-# AUTHOR CONTRIBUTIONS
+# DECLARATIONS
+
+## ETHICAL APPROVAL 
+
+not applicable
+
+## COMPETING INTERESTS 
+
+The authors declare no conflict of interest.
+
+## AUTHOR CONTRIBUTIONS
 
 C.Z. and M.K. conceived the study;
 A.N. and X.S. set up the ALAN expreiment;
@@ -266,6 +273,19 @@ C.Z. and X.S. collected data;
 C.Z. performed the analysis;
 C.Z. and M.K. led the writing of the paper;
 and all authors contributed to revisions.
+
+## FUNDING 
+
+This work was funded in part by grants to Projects of International Cooperation and Exchanges (NSFC) of China (32161160324).
+MK was supported by
+a Xishuangbanna State Rainforest Talent Support Program,
+a CAS President's International Fellowship Initiative (2020FYB0003), and
+a ZiHui (Wisdom) Yunnan Program (202203AM140026).
+ 
+## Availability of data and materials 
+
+The data that support the findings of this study are openly available at https://github.com/congz007/light_project.
+
 
 # LITERATURE CITED
 
