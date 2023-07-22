@@ -284,7 +284,7 @@ a ZiHui (Wisdom) Yunnan Program (202203AM140026).
  
 ## Availability of data and materials 
 
-The data that support the findings of this study are openly available at https://github.com/congz007/light_project.
+The data that support the findings of this study are publicly available at https://github.com/congz007/light_project.
 
 
 # LITERATURE CITED
