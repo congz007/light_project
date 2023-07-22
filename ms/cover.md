@@ -1,4 +1,4 @@
-July 20, 2023
+July 21, 2023
 
 Dear Editor,
 
@@ -13,8 +13,8 @@ Our research provides a fresh perspective on how ALAN, an increasingly prevalent
 The complexities suggested by this study could have substantial implications for developing comprehensive forest management strategies, which we believe would be of significant interest to broad readers.
 
 This work has not previously been published and is not under consideration for publication elsewhere.
-A preprint is available at https://doi.org/xxxx.
-Codes are available at https://github.com/congz007/light_project.
+Data and Codes are available at https://github.com/congz007/light_project. 
+Upon acceptance, all data and code necessary to replicate analyses will be made publicly accessible on Zendo.
 
 Sincerely,
 
