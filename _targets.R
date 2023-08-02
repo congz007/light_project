@@ -56,7 +56,7 @@ mapped <- tar_map(
         mean = ~mean(.x),
         sd = ~sd(.x),
         mad = ~mad(.x),
-        ~posterior::quantile2(.x, probs = c(0.025, 0.05, 0.25, 0.5, 0.75, 0.95, 0.975)),
+        ~posterior::quantile2(.x, probs = c(0.025, 0.05, 0.25, 0.5, 0.75,0.8,0.85,0.9, 0.95, 0.975)),
         posterior::default_convergence_measures()
       )
     ),
